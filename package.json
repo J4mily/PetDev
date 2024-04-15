@@ -1,0 +1,29 @@
+{
+  "name": "petdev",
+  "version": "1.0.0",
+  "description": "Este repositório é um componente essencial de um projeto dedicado à educação e ao aprendizado sobre cuidados, comportamento e curiosidades relacionadas aos animais.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J4mily/PetDev.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J4mily/PetDev/issues"
+  },
+  "homepage": "https://github.com/J4mily/PetDev#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
