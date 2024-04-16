@@ -16,7 +16,7 @@ function Navbar() {
             </div>
           </Link>
         </div>
-        <div>
+        
           <ul className={styles.list}>
             <li className={styles.item}>
               <Link to="/animais">Animais</Link>
@@ -32,7 +32,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
+      
     </nav>
 
   )
