@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
 
-function Home(){
+export const  Home = () => {
     return(
     <div>className={styles.container}
         
@@ -10,7 +10,7 @@ function Home(){
                 Explore exatamente o que você deseja saber!<br />Clique no botão "Saiba Mais" para descobrir<br />
             mais detalhes sobre a vida do seu pet.</p>
         </div>
-        
+
     </div>
     )
 }

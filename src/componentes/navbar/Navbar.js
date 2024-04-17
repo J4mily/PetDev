@@ -9,7 +9,7 @@ function Navbar() {
           <Link to="/">
             <div>
               <img src= "./imagens/logo.png"
-                alt="logo"
+                alt="O logo do PetDev"
                 data-testid="navbar-item-logo"
                 className={styles.logo}
               />
