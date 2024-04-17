@@ -1,0 +1,16 @@
+* {
+    background-color: black;
+}
+
+.titulo_home{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-left: 5em;
+    color: #fff;
+}
+
+.texto_home {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #b3b3b3;
+}
