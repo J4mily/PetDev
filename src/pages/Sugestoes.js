@@ -1,4 +1,4 @@
-function Sugestao(){
+function Sugestoes(){
     return(
         <div>
             <h1>Sugestões</h1>
@@ -7,4 +7,4 @@ function Sugestao(){
     )
 }
 
-export default Sugestao;
+export default Sugestoes;
