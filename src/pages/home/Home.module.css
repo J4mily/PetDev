@@ -1,5 +1,6 @@
-* {
-    background-color: black;
+body {
+    background-color: #000;
+    
 }
 
 .titulo_home{
@@ -7,6 +8,7 @@
     font-weight: 200;
     margin-left: 5em;
     color: #fff;
+    
 }
 
 .texto_home {

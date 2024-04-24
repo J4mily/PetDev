@@ -7,12 +7,14 @@ import Sugestao from './pages/Sugestoes';
 import Navbar from './componentes/navbar/Navbar';
 import Footer from './componentes/footer/Footer';
 
+
 function App() {
   return (
 
 
     <Router>
       <Navbar />
+      
 
       <Routes>
         <Route path="/" element={<Home />} />

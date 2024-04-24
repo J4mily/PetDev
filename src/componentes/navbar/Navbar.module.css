@@ -1,3 +1,13 @@
+.animal {
+    display: flex;
+    height: 18%;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em;
+    align-items: center;
+    max-width: 100%;
+    
+}
 
 .list {
     display: flex;
@@ -22,18 +32,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-      
-    
-}
-.animal {
-    display: flex;
-    height: 18%;
-    justify-content: space-between;
-    background-color: black;
-    padding: 1em;
-    align-items: center;
-    max-width: 100%;
-    
+     
 }
 
 .logo {
