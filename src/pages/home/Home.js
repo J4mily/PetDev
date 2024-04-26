@@ -19,7 +19,7 @@ export const Home = () => {
               mais detalhes sobre a vida do seu pet.
             </p>
           </div>
-         <Button />
+         <Button texto="SAIBA MAIS" />
         </section>
      
     

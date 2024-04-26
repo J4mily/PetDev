@@ -1,4 +1,4 @@
-.botao_saibamais {
+.button {
     background-color: #664400;
     height: 50px;
     width: 120px;
@@ -6,12 +6,12 @@
     margin-left: 6em;
     margin-top: 2em;
     cursor: pointer;
-    
-}
-
-
-.texto_botao{
     color: #fff;
     font-weight: bold;
     
 }
+
+.button:hover {
+    background-color: #de9a11ac;
+}
+
