@@ -11,8 +11,7 @@ import Breadcrumb from './componentes/breadcrumb/Breadcrumb';
 
 function App() {
   return (
-
-
+   
     <Router>
       
       <Navbar />
@@ -27,10 +26,6 @@ function App() {
       
       <Footer />
     </Router>
-
-
-
   );
 }
-
 export default App;

@@ -1,6 +1,10 @@
-body {
+.body_home {
     background-color: #000;
-    
+}
+
+.container {
+    background-color: #000;
+
 }
 
 .titulo_home{

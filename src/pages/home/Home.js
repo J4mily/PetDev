@@ -2,8 +2,8 @@ import styles from "./Home.module.css";
 
 export const Home = () => {
   return (
-    <body>
-      <section> 
+    
+      <section className= {styles.body_home}>
          <div className={styles.titulo_home}>
             <h1>
               Qual é a sua maior curiosidade
@@ -18,9 +18,9 @@ export const Home = () => {
               mais detalhes sobre a vida do seu pet.
             </p>
           </div>
-        
-      </section>
-    </body>
+        </section>
+     
+    
   );
 };
 

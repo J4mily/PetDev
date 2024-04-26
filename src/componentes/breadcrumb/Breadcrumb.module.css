@@ -1,0 +1,25 @@
+.crumb {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.breadcrumb >*{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumb .crumb:after{
+    content: '>';
+    margin-left: 10px;
+}
+
+.breadcrumb .crumb:last-child:after{
+    display: none;
+}
+
+.breadcrumb .crumb a {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #000;
+
+}
