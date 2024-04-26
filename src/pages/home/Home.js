@@ -1,9 +1,10 @@
+import Button from "../../componentes/botao/Button";
 import styles from "./Home.module.css";
 
 export const Home = () => {
   return (
     
-      <section className= {styles.body_home}>
+      <section className= {styles.section_home}>
          <div className={styles.titulo_home}>
             <h1>
               Qual é a sua maior curiosidade
@@ -18,6 +19,7 @@ export const Home = () => {
               mais detalhes sobre a vida do seu pet.
             </p>
           </div>
+         <Button />
         </section>
      
     

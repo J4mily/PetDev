@@ -1,11 +1,9 @@
-.body_home {
-    background-color: #000;
+.section_home{
+    background-color:black;
+    height: 15em;
+    
 }
 
-.container {
-    background-color: #000;
-
-}
 
 .titulo_home{
     font-family: "Poppins", sans-serif;
