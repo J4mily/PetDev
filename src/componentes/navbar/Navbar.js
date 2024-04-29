@@ -20,19 +20,16 @@ function Navbar() {
 
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/animais">Animais</Link>
+            <Link to="/Animais">Animais</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/quiz">Quiz</Link>
+            <Link to="/Quiz">Quiz</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/sobre">Sobre</Link>
+            <Link to="/Sobre">Sobre</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/sugestao">Sugestões</Link>
-          </li>
-          <li className={styles.item}>
-            <Link to="/depoimentos">Depoimentos</Link>
+            <Link to="/Sugestões">Sugestões</Link>
           </li>
         </ul>
       </div>

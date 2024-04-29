@@ -12,7 +12,8 @@
 .list {
     display: flex;
     list-style: none;
-    text-decoration: none;    
+    text-decoration: none;  
+    margin-right: 10em;  
 }
 
 .item {
@@ -33,6 +34,6 @@
 }
 
 .logo {
-    margin-left: 40px; 
+    margin-left: 5em; 
 }
 

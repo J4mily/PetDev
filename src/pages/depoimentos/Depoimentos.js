@@ -1,4 +1,4 @@
-import styles from "./Depoimentos.module.css";
+/*import styles from "./Depoimentos.module.css";
 import logoPetlove from "../../assets/petlove.png";
 import card1 from "../../assets/card1.png";
 
@@ -37,4 +37,4 @@ function ClientesParceiros({ cliente, logo }) {
   );
 }
 
-export { Depoimentos };
+export { Depoimentos };*/
