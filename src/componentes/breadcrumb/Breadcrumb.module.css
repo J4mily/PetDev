@@ -1,7 +1,9 @@
-.crumb * {
-    max-width: 1200px;
-    margin-left: 50px;
-    ;
+.crumb a {
+    font-family: "Roboto";
+    max-width: 100%;
+    margin-left: 8em;
+    color:#000;
+    font-weight: 400;
 }
 
 .breadcrumb >*{

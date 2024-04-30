@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import styles from './Breadcrumb.module.css';
 
 export default function Breadcrumb(){
     const location = useLocation();
@@ -11,7 +12,7 @@ export default function Breadcrumb(){
         linkAtual += `/${crumb}`
 
         return (
-            <div className ="crumb" key={crumb}>
+            <div className ={styles.crumb} key={crumb}>
                 <Link to={linkAtual}>{crumb}</Link>
             </div>
         )
