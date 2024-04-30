@@ -6,23 +6,17 @@
     font-weight: 400;
 }
 
-.breadcrumb >*{
+.crumb >*{
     display: inline-block;
     margin-right: 10px;
 }
 
-.breadcrumb .crumb:after{
+.crumb:after{
     content: '>';
     margin-left: 10px;
 }
 
-.breadcrumb .crumb:last-child:after{
+.crumb:last-child:after{
     display: none;
 }
 
-.breadcrumb .crumb a {
-    font-family: "Roboto";
-    font-weight: 400;
-    color: #000;
-
-}
