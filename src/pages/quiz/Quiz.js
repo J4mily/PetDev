@@ -1,10 +1,10 @@
-export const Animais = () => {
+export const Quiz = () => {
     return(
         <div>
-            <h1>Animais</h1>
+            <h1>Quiz</h1>
             <p>Conteúdo da página</p>
         </div>
     )
 }
 
-export default Animais;
+export default Quiz;

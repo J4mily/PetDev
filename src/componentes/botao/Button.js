@@ -1,20 +1,12 @@
-import { Link } from "react-router-dom";
 import styles from "./Button.module.css";
-import Animais from "../../pages/animais/Animais";
-
+import { Link } from "react-router-dom";
 
 const Button = (props) => {
-    return(
-        <button className={styles.button}>
-            
-        {props.texto}
-        <a href="./Animais"></a>
-        </button>
-        
-        
-    )
-}
+  return (
+    <Link to="/Animais">
+      <button className={styles.button}>{props.texto}</button>
+    </Link>
+  );
+};
 
 export default Button;
-
-
