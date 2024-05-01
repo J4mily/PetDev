@@ -1,4 +1,5 @@
 .section_home{
+    display:grid;
     background-color:black;
     height: 20em;
     
@@ -8,8 +9,17 @@
 .titulo_home{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
+    margin-top: 10px;
     margin-left: 8em;
     color: #fff;
+    
+}
+
+.imagem_cao {
+    float: right;
+    margin-right: 5em;
+    height: 500px;
+    padding-right: 20px;
     
 }
 
@@ -17,4 +27,21 @@
     font-family: "Roboto";
     font-weight: 400;
     color: #b3b3b3;
+}
+
+.secundario_home{
+    display: flex;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 10em;   
+    margin: 8em;
+}
+
+.lista{
+    display: flex;
+}
+
+.lista_pets{
+    margin-right: 5em;
 }
