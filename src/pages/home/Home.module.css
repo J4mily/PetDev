@@ -1,47 +1,29 @@
-.section_home{
-    display:grid;
-    background-color:black;
-    height: 20em;
-    
-}
-
-
 .titulo_home{
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    margin-top: 10px;
-    margin-left: 8em;
-    color: #fff;
-    
+    display: grid;
+    background-color: black;
+    height: 20em;
 }
 
-.imagem_cao {
-    float: right;
-    margin-right: 5em;
-    height: 500px;
-    padding-right: 20px;
-    
-}
-
-.texto_home {
-    font-family: "Roboto";
-    font-weight: 400;
-    color: #b3b3b3;
-}
-
-.secundario_home{
-    display: flex;
-    background-color: #fff;
+.h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    height: 10em;   
-    margin: 8em;
+    font-style: normal;
+    color: white;
+    margin-top: 10px;
+    margin-left: 108px;
+    
 }
 
-.lista{
-    display: flex;
+.p { font-family: "Roboto";
+    font-weight: 400;
+    color: #b3b3b3;
+    margin-left: 108px;
+    
 }
 
-.lista_pets{
-    margin-right: 5em;
+.cachorro {
+    margin-left: 45em;
+    position: relative;
+    bottom: 16em;  
+    
 }

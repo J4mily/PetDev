@@ -4,38 +4,27 @@ import styles from "./Home.module.css";
 export const Home = () => {
   return (
     
-      <><section className={styles.section_home}>
-      <div className={styles.titulo_home}>
-        <div>
-            <img src="https://lh3.googleusercontent.com/fife/ALs6j_Gyy7nIy-FSTMpk-6f5u8ymD-K_J8QDeF2hzbphsCEIVbFxWhdgwnaXo2F7z5zhD5JAEQtR1i9GB1zFPo79wxa0LHABAc4Y0q81MT0lKR5iRo3xQYZ4k_TRFEi7HswUiYonzELqs728zo0bm99DncSuuOFA0ZfSczv5iylajLfK4ZhUqwCrWSj0Bxpag2vN65UkmSsoCciDhpI2ovNBW_GICQBygWhN-jP3ERfbt8sY5tldL6jtcOdjc3Hbu_BK01_5dcBwQx2RifNl5vCqapyfk-wfdo6z0OpoRIiOeftimOMdMGZ7RfSiIevaug5bIu-sg_Lk3auEHMtlG9nwK8uCYfmyihDMP0934kLm-KwOuFwodFjeYgNg-7jX6jy3_PdTMeSQKUuP_E9bOZ_M2FWKHOB7O-pMSeorGaLSv_Egu48z8KF-c3vu1Pnu5b4tNOEEDx7l7wZ4qoRu2CGj7ilu8Zkb8slLnipzsmrgowHhyr4cih81duHpzfKr9dhRsSn8yZohY8nyRGZybCMv5IB1mJwtbGjvk6iPi-rNKcevOg7zXQSj-tNSsSo5EISOFSmr8WGPBH6KQuAVV1EZOwY2ULmYeJ25H5L__TfFCG8Sazo3Yk2tZrsrCYP73U1yynnaZ4a_FzvYUdlmip2ks9UNyTqTWJ9xHpMIXJH0NANKdGPwqt6LMvHVG9B0y15SqAC9wbLb-f2BGivgfbEY2ikPswneXbkVXmNmcsZ-PDLZtq2uVQ1TKU0xxm8X0fuBAAm3U193TvvZvdz9xs8ekwAgoOL_TkLDr3jyoR1zZnf3SuxFmw_ZJvJ9aMkSnaHFu8Er2WRoZHCeb79fQrwF1rZ-lXEgNUyuNYagQcKxsuRxWHa9E1ixR0YFlkAbmAAxeES6H2lT3bZ3XINqrXU-G9T_wZRZPSd5M_nNNe4Jf0xVAKcG0IDGo16rLUunt6RD3FV_tFMo7ntmR_iBsMp993Kcg9D2FrLMBRcMv35FLsV0HXQLmfm0rIaAvn39z5l5KSsQxaJSrmHG4VpWIC5d2JrGC3y-dNcQ3j43pEuhW0uVxis38qx0WTEuCLBWHM2jSgYlzk56JBZd1hNhZ0_RqeXa2VzfsbYy4Ok9nAb_FPk6G5GbfnaeNa9Et6B6jPwE2kYDQHjdIhtJ3u48_D36uUQ8qd-w03mCk9nkp7lApZDdWmgLeczvwUugWt8qndKHNPkZqsEaiVCy_bijyuqAIsW25Qz1K5eq_Fq-Uo28MOkscHTCs8RoCOcukhrOGgPDr41NO45gQ-gYEdlQ4x5_GnD81-RpSL_7HrSgMgF41SHeAuGr8-oxliXOMHTZtsD07rQWjQIcBGk4mU8SkgVj_IBbGj606NUsTV0laxgFDIrrpEBnqNuErdYJVHf2ZHM2bmLmGyjLRbfU0S1BF-EUtn9XxN2Lt7qawmCRdRKGKRae9Kq4xNUzb_Hbd526Ys34RD6gC6WCC-kvc4clY9uXlCGYQbL4DOtMdcVzLphnIAVIAxUaisKlomj-nImAnN3cXeW-rI1GfIBmn_j2mcxdu0vkpv4y7xAitAMvhfFQ52KYFiiXzGzVCmL-9vZqgBInnO3_Xoi49r_PVzv1bw=w1920-h868"
+    <div className={styles.titulo_home}>
+      <h1 className={styles.h1}>
+        Qual é a sua maior curiosidade
+        <br />
+        sobre o seu animal favorito?
+      </h1>
+      <p className={styles.p}>
+        Explore exatamente o que você deseja saber!
+        <br />
+        Clique no botão "Saiba Mais" para descobrir
+        <br />
+        mais detalhes sobre a vida do seu pet.
+      </p>
+      <div><Button texto="SAIBA MAIS" />
+      <div className={styles.cachorro}>
+      <img src="https://lh3.googleusercontent.com/fife/ALs6j_Gyy7nIy-FSTMpk-6f5u8ymD-K_J8QDeF2hzbphsCEIVbFxWhdgwnaXo2F7z5zhD5JAEQtR1i9GB1zFPo79wxa0LHABAc4Y0q81MT0lKR5iRo3xQYZ4k_TRFEi7HswUiYonzELqs728zo0bm99DncSuuOFA0ZfSczv5iylajLfK4ZhUqwCrWSj0Bxpag2vN65UkmSsoCciDhpI2ovNBW_GICQBygWhN-jP3ERfbt8sY5tldL6jtcOdjc3Hbu_BK01_5dcBwQx2RifNl5vCqapyfk-wfdo6z0OpoRIiOeftimOMdMGZ7RfSiIevaug5bIu-sg_Lk3auEHMtlG9nwK8uCYfmyihDMP0934kLm-KwOuFwodFjeYgNg-7jX6jy3_PdTMeSQKUuP_E9bOZ_M2FWKHOB7O-pMSeorGaLSv_Egu48z8KF-c3vu1Pnu5b4tNOEEDx7l7wZ4qoRu2CGj7ilu8Zkb8slLnipzsmrgowHhyr4cih81duHpzfKr9dhRsSn8yZohY8nyRGZybCMv5IB1mJwtbGjvk6iPi-rNKcevOg7zXQSj-tNSsSo5EISOFSmr8WGPBH6KQuAVV1EZOwY2ULmYeJ25H5L__TfFCG8Sazo3Yk2tZrsrCYP73U1yynnaZ4a_FzvYUdlmip2ks9UNyTqTWJ9xHpMIXJH0NANKdGPwqt6LMvHVG9B0y15SqAC9wbLb-f2BGivgfbEY2ikPswneXbkVXmNmcsZ-PDLZtq2uVQ1TKU0xxm8X0fuBAAm3U193TvvZvdz9xs8ekwAgoOL_TkLDr3jyoR1zZnf3SuxFmw_ZJvJ9aMkSnaHFu8Er2WRoZHCeb79fQrwF1rZ-lXEgNUyuNYagQcKxsuRxWHa9E1ixR0YFlkAbmAAxeES6H2lT3bZ3XINqrXU-G9T_wZRZPSd5M_nNNe4Jf0xVAKcG0IDGo16rLUunt6RD3FV_tFMo7ntmR_iBsMp993Kcg9D2FrLMBRcMv35FLsV0HXQLmfm0rIaAvn39z5l5KSsQxaJSrmHG4VpWIC5d2JrGC3y-dNcQ3j43pEuhW0uVxis38qx0WTEuCLBWHM2jSgYlzk56JBZd1hNhZ0_RqeXa2VzfsbYy4Ok9nAb_FPk6G5GbfnaeNa9Et6B6jPwE2kYDQHjdIhtJ3u48_D36uUQ8qd-w03mCk9nkp7lApZDdWmgLeczvwUugWt8qndKHNPkZqsEaiVCy_bijyuqAIsW25Qz1K5eq_Fq-Uo28MOkscHTCs8RoCOcukhrOGgPDr41NO45gQ-gYEdlQ4x5_GnD81-RpSL_7HrSgMgF41SHeAuGr8-oxliXOMHTZtsD07rQWjQIcBGk4mU8SkgVj_IBbGj606NUsTV0laxgFDIrrpEBnqNuErdYJVHf2ZHM2bmLmGyjLRbfU0S1BF-EUtn9XxN2Lt7qawmCRdRKGKRae9Kq4xNUzb_Hbd526Ys34RD6gC6WCC-kvc4clY9uXlCGYQbL4DOtMdcVzLphnIAVIAxUaisKlomj-nImAnN3cXeW-rI1GfIBmn_j2mcxdu0vkpv4y7xAitAMvhfFQ52KYFiiXzGzVCmL-9vZqgBInnO3_Xoi49r_PVzv1bw=w1920-h868"
             alt="Cachorro da tela home"
-            data-testid="cachorro-home"
-            className={styles.imagem_cao}
-            />
-        </div>
-      <h1>
-          Qual é a sua maior curiosidade
-          <br />
-          sobre o seu animal favorito?
-        </h1>
-        
-        
-        <p className={styles.texto_home}>
-          Explore exatamente o que você deseja saber!
-          <br />
-          Clique no botão "Saiba Mais" para descobrir
-          <br />
-          mais detalhes sobre a vida do seu pet.
-        </p>
-        <Button texto="SAIBA MAIS" />
-        
-        
+            data-testid="cachorro-home" />
       </div>
-      
-      
-    </section>
-    <section className={styles.secundario_home}>
-    <div>
+      <div className={styles.pet}>
+      <div>
       <h2>E aí, qual o seu pet?</h2>
         <ul className={styles.lista}>
           < img src="https://lh3.googleusercontent.com/fife/ALs6j_Hac0RLebaQBa5reRmiPJ78LD-HCDZ4waaE7QfX72sG8-qLnmUPt6vZBbj9-FycZSKj67iywIzlQklobADnZGzjbSc8FYaDvw3xfl1BwbhMzcBvt36Qt_NTqH6iglJ3dfyN8sLhe6gaVEelSFV-IfFM2XvWO9Mg1Qnii9CjNESZSWQBdVPva7FBoZR6hekQa3jBZQnDzPTNJikwlY9xSqBZehjYCZI50Giow52Q4gaOboSBnbtBghVBoHyHy0Kqk9VCnVUqeCTj1fsZ5ysgoOpYmnCgM_yyE1vDezEj91nOCBvoZUddkWM6LSc-sbLrZSLPM8lkbLfM4CcwIVi2yJG54b3KkiqsFq__gORvJnLWsHdheyjYOG_IsuBGtiXMiB6Eom5Gka3q7xcDqn0F4kUt4Ms-vgLixuSVC4lMOnwdRqw9ymJSEvrD3hKHVBQK63Fnj3ZO2JT4NFJJA_y1ucGvzDkpxfx3mqj7GFBSF2Q2HTu0O3XbUvZZPGA23vvR9PyTrs1klJljbWWzgb13-lYgf0iMql2r0hHjTVscMyxtZza-JMUefIBLpIw4KcZ1bp7-P6vEx1IS2QnMnVwdtOXLdVMfuMqRuQRwgVoEk1Nk9484_pkdnXzTc6seXxcmN3ee0OtjKsFdPzsZRQHhhtsOnXqNrgEQalUEC2HUbkiOXlBYB6-sGLURYRS7D7XAax4fQTKr5Acdw_g8AbhmKUeAhr5vuRFfxt4XDqBAleOVvNAFt-ti8MnV219iAWieyBmSDEL6CDGDJpgfc3smhtfetwEsUqVZmhyLbmfOYdFI4dq0KVfv8OSOA467KuCSgKF06Un7W74iJyYyC-FTdj8zQGxdthqS1YfvoyoSZWokirOT7kUi6AEQftyPpO5gSqqFFtBdWjTOvSW7T785UBwELLeOUxwe4CvLN7KQfVh5pje4ezEUK-CDV8Se4IxtCtNnCmbvPO2ejqIqGO3oVZeIDCPvvZGOjE86Pq47s5G88O4icN7otX9ZqQwIV-miSWjdqqAtJW9P64TFHYbSn_SkIUxdIZbUGIlehxtgmDNU2Comjg1ki6gSkb8cq2L2SHiquuTfw2SZ6M6IbL30XnWqgqRUX9omFSjYqicDh2BbshMBMVLaOw-a0jHbbzaQjZM1g7T_f7cc9bF5TsCqVLx7smsOfkRg3XQtZQo0l_Q_j-2uUCE-r_RsjS5SPUy3u78VYKOCUb47ssAVdb-lsNlBwhq5w08I4M6Xb-ksIx9WA9jxgZXMbqTmcskhaMD2q25SrQSioim-muJMZsrQJvXJb6F_J60Hm9MuRRVCY4V8XzwUcOiSMfjeXI7NGmT3tMmq-mjSIn-_6pzk7el7M3BKn5RGZ_fv2pk-UgFQvbGwhT6MLsh9sILBE3xs7cLQo6psIa5T0wwo-YZLXxd6Rpo4T_UtSSU0FAdSqCaqUg8--cD4ZWqCA6DV28ToomVi_5CHER8G2kTHpFC17FEGR3-m0M7vfPPlvvIg5tAGb3OVc1yc9blQ58aWtvDazK801pkXq5q51d4CMYRsMVr1AWhc32q_PK--kLrR1gcG55XfmVZVVg1HOfATbNsMACzBGfR6Y1spsfbkk5xTsw=w1920-h868"
@@ -75,10 +64,18 @@ export const Home = () => {
          />
        </ul>
       </div>
-       
-      </section></>
-     
+      </div>
+      
+     </div>  
+      
+      
+    </div>
+
     
+    
+  
+
+
   );
 };
 
