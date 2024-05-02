@@ -18,11 +18,6 @@ export const Home = () => {
         mais detalhes sobre a vida do seu pet.
       </p>
       <div><Button texto="SAIBA MAIS" />
-      <div className={styles.cachorro}>
-      <img src="https://lh3.googleusercontent.com/fife/ALs6j_Gyy7nIy-FSTMpk-6f5u8ymD-K_J8QDeF2hzbphsCEIVbFxWhdgwnaXo2F7z5zhD5JAEQtR1i9GB1zFPo79wxa0LHABAc4Y0q81MT0lKR5iRo3xQYZ4k_TRFEi7HswUiYonzELqs728zo0bm99DncSuuOFA0ZfSczv5iylajLfK4ZhUqwCrWSj0Bxpag2vN65UkmSsoCciDhpI2ovNBW_GICQBygWhN-jP3ERfbt8sY5tldL6jtcOdjc3Hbu_BK01_5dcBwQx2RifNl5vCqapyfk-wfdo6z0OpoRIiOeftimOMdMGZ7RfSiIevaug5bIu-sg_Lk3auEHMtlG9nwK8uCYfmyihDMP0934kLm-KwOuFwodFjeYgNg-7jX6jy3_PdTMeSQKUuP_E9bOZ_M2FWKHOB7O-pMSeorGaLSv_Egu48z8KF-c3vu1Pnu5b4tNOEEDx7l7wZ4qoRu2CGj7ilu8Zkb8slLnipzsmrgowHhyr4cih81duHpzfKr9dhRsSn8yZohY8nyRGZybCMv5IB1mJwtbGjvk6iPi-rNKcevOg7zXQSj-tNSsSo5EISOFSmr8WGPBH6KQuAVV1EZOwY2ULmYeJ25H5L__TfFCG8Sazo3Yk2tZrsrCYP73U1yynnaZ4a_FzvYUdlmip2ks9UNyTqTWJ9xHpMIXJH0NANKdGPwqt6LMvHVG9B0y15SqAC9wbLb-f2BGivgfbEY2ikPswneXbkVXmNmcsZ-PDLZtq2uVQ1TKU0xxm8X0fuBAAm3U193TvvZvdz9xs8ekwAgoOL_TkLDr3jyoR1zZnf3SuxFmw_ZJvJ9aMkSnaHFu8Er2WRoZHCeb79fQrwF1rZ-lXEgNUyuNYagQcKxsuRxWHa9E1ixR0YFlkAbmAAxeES6H2lT3bZ3XINqrXU-G9T_wZRZPSd5M_nNNe4Jf0xVAKcG0IDGo16rLUunt6RD3FV_tFMo7ntmR_iBsMp993Kcg9D2FrLMBRcMv35FLsV0HXQLmfm0rIaAvn39z5l5KSsQxaJSrmHG4VpWIC5d2JrGC3y-dNcQ3j43pEuhW0uVxis38qx0WTEuCLBWHM2jSgYlzk56JBZd1hNhZ0_RqeXa2VzfsbYy4Ok9nAb_FPk6G5GbfnaeNa9Et6B6jPwE2kYDQHjdIhtJ3u48_D36uUQ8qd-w03mCk9nkp7lApZDdWmgLeczvwUugWt8qndKHNPkZqsEaiVCy_bijyuqAIsW25Qz1K5eq_Fq-Uo28MOkscHTCs8RoCOcukhrOGgPDr41NO45gQ-gYEdlQ4x5_GnD81-RpSL_7HrSgMgF41SHeAuGr8-oxliXOMHTZtsD07rQWjQIcBGk4mU8SkgVj_IBbGj606NUsTV0laxgFDIrrpEBnqNuErdYJVHf2ZHM2bmLmGyjLRbfU0S1BF-EUtn9XxN2Lt7qawmCRdRKGKRae9Kq4xNUzb_Hbd526Ys34RD6gC6WCC-kvc4clY9uXlCGYQbL4DOtMdcVzLphnIAVIAxUaisKlomj-nImAnN3cXeW-rI1GfIBmn_j2mcxdu0vkpv4y7xAitAMvhfFQ52KYFiiXzGzVCmL-9vZqgBInnO3_Xoi49r_PVzv1bw=w1920-h868"
-            alt="Cachorro da tela home"
-            data-testid="cachorro-home" />
-      </div>
       <div className={styles.pet}>
       <div>
       <h2>E aí, qual o seu pet?</h2>
@@ -64,6 +59,12 @@ export const Home = () => {
          />
        </ul>
       </div>
+      <div className={styles.cachorro}>
+      <img src="https://lh3.googleusercontent.com/fife/ALs6j_Gyy7nIy-FSTMpk-6f5u8ymD-K_J8QDeF2hzbphsCEIVbFxWhdgwnaXo2F7z5zhD5JAEQtR1i9GB1zFPo79wxa0LHABAc4Y0q81MT0lKR5iRo3xQYZ4k_TRFEi7HswUiYonzELqs728zo0bm99DncSuuOFA0ZfSczv5iylajLfK4ZhUqwCrWSj0Bxpag2vN65UkmSsoCciDhpI2ovNBW_GICQBygWhN-jP3ERfbt8sY5tldL6jtcOdjc3Hbu_BK01_5dcBwQx2RifNl5vCqapyfk-wfdo6z0OpoRIiOeftimOMdMGZ7RfSiIevaug5bIu-sg_Lk3auEHMtlG9nwK8uCYfmyihDMP0934kLm-KwOuFwodFjeYgNg-7jX6jy3_PdTMeSQKUuP_E9bOZ_M2FWKHOB7O-pMSeorGaLSv_Egu48z8KF-c3vu1Pnu5b4tNOEEDx7l7wZ4qoRu2CGj7ilu8Zkb8slLnipzsmrgowHhyr4cih81duHpzfKr9dhRsSn8yZohY8nyRGZybCMv5IB1mJwtbGjvk6iPi-rNKcevOg7zXQSj-tNSsSo5EISOFSmr8WGPBH6KQuAVV1EZOwY2ULmYeJ25H5L__TfFCG8Sazo3Yk2tZrsrCYP73U1yynnaZ4a_FzvYUdlmip2ks9UNyTqTWJ9xHpMIXJH0NANKdGPwqt6LMvHVG9B0y15SqAC9wbLb-f2BGivgfbEY2ikPswneXbkVXmNmcsZ-PDLZtq2uVQ1TKU0xxm8X0fuBAAm3U193TvvZvdz9xs8ekwAgoOL_TkLDr3jyoR1zZnf3SuxFmw_ZJvJ9aMkSnaHFu8Er2WRoZHCeb79fQrwF1rZ-lXEgNUyuNYagQcKxsuRxWHa9E1ixR0YFlkAbmAAxeES6H2lT3bZ3XINqrXU-G9T_wZRZPSd5M_nNNe4Jf0xVAKcG0IDGo16rLUunt6RD3FV_tFMo7ntmR_iBsMp993Kcg9D2FrLMBRcMv35FLsV0HXQLmfm0rIaAvn39z5l5KSsQxaJSrmHG4VpWIC5d2JrGC3y-dNcQ3j43pEuhW0uVxis38qx0WTEuCLBWHM2jSgYlzk56JBZd1hNhZ0_RqeXa2VzfsbYy4Ok9nAb_FPk6G5GbfnaeNa9Et6B6jPwE2kYDQHjdIhtJ3u48_D36uUQ8qd-w03mCk9nkp7lApZDdWmgLeczvwUugWt8qndKHNPkZqsEaiVCy_bijyuqAIsW25Qz1K5eq_Fq-Uo28MOkscHTCs8RoCOcukhrOGgPDr41NO45gQ-gYEdlQ4x5_GnD81-RpSL_7HrSgMgF41SHeAuGr8-oxliXOMHTZtsD07rQWjQIcBGk4mU8SkgVj_IBbGj606NUsTV0laxgFDIrrpEBnqNuErdYJVHf2ZHM2bmLmGyjLRbfU0S1BF-EUtn9XxN2Lt7qawmCRdRKGKRae9Kq4xNUzb_Hbd526Ys34RD6gC6WCC-kvc4clY9uXlCGYQbL4DOtMdcVzLphnIAVIAxUaisKlomj-nImAnN3cXeW-rI1GfIBmn_j2mcxdu0vkpv4y7xAitAMvhfFQ52KYFiiXzGzVCmL-9vZqgBInnO3_Xoi49r_PVzv1bw=w1920-h868"
+            alt="Cachorro da tela home"
+            data-testid="cachorro-home" />
+      </div>
+      
       </div>
       
      </div>  
