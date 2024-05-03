@@ -6,7 +6,7 @@ import Sobre from "./pages/sobre";
 import Sugestao from "./pages/sugestoes";
 import Depoimentos from "./pages/depoimentos";
 import Navbar from "./componentes/navbar";
-import Footer from "./componentes/footer/Footer";
+import Footer from "./componentes/footer";
 import Breadcrumb from "./componentes/breadcrumb/Breadcrumb";
 
 
