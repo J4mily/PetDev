@@ -1,20 +1,147 @@
-.section_home{
-    background-color:black;
-    height: 20em;
-    
+.container {
+  display: grid;
+  background-color: black;
+  height: 20em;
+  max-width: 100%;
+}
+
+.container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.container p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3b3b3;
+  margin-left: 120px;
+  line-height: 28px;
+}
+
+.cachorro {
+  height: 600px;
+  width: 500px;  
+  position: relative;
+  bottom: 18em;
+  left: 60em;
+}
+
+.pets {
+  display: flex;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  height: 5em;
+  margin: 8em;
+  margin-top: 12em;
+}
+
+.lista {
+  display: flex;
+  margin-top: 10px;
+}
+
+.lista_pets {
+  margin-right: 5em;
+  cursor: pointer;
+}
+
+.quizAmizade {
+
+height: 25em;
+background-color: black;
 }
 
 
-.titulo_home{
+
+.quizAmizade h3 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3b3b3;
+  margin-left: 120px;
+  padding-top: 70px;
+  line-height: 28px;
+}
+
+  
+.quizAmizade h1{
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    margin-left: 8em;
-    color: #fff;
-    
-}
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 120px;
+}      
 
-.texto_home {
+
+.quizAmizade p {
     font-family: "Roboto";
     font-weight: 400;
+    font-size: 20px;
     color: #b3b3b3;
-}
+    margin-left: 120px;
+    padding-top: 20px;
+    line-height: 28px;
+  }
+
+  .quizAmizade h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .clientes {
+    background-color: white;
+    height: 35em;
+  }
+
+  .clientes h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-top: 20px;
+  }
+
+  .textoCliente {
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30em;
+    padding-top: 20px;
+  }
+
+  .imgCliente {
+    height: 470px;
+    width: 350px;
+    position: relative;
+    bottom: 16em;
+    left: 7em;
+  }
+
+  .clientes h2{
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-left: 25em;
+    padding-top: 20px;
+   
+
+  }

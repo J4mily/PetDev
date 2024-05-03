@@ -1,0 +1,45 @@
+.sobre{   
+    color:#000000;
+    background-color: #FFFFFF;
+    padding-left: 224px;
+    padding-right: 224px;
+    padding-top: 61px;
+    padding-bottom: 29px;
+}
+.letraBranca{   
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-left: 224px;
+    padding-right: 224px;
+    padding-top: 28px;
+    padding-bottom: 281px;
+}
+
+.letraPreta{  
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-left: 224px;
+    padding-right: 224px;
+    padding-top: 28px;
+    padding-bottom: 218px;
+
+}
+
+.h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.h2{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+}

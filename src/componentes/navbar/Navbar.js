@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
-function Navbar() {
+export const Navbar= () => {
   return (
     <nav>
       <div className={styles.animal}>
