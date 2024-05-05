@@ -1,0 +1,86 @@
+.pagQuiz {
+  margin-top: 35px;
+}
+
+.spaceQuestionsQuiz {
+  background-color: #EDEDED;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.spaceQuestionsQuiz button {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 240px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #664400;
+  color: white;
+  border: none;
+  font-size: 16px;
+  width: 165px;
+
+}
+
+.button:hover {
+  background-color: #A66E00;
+  color: white;
+}
+
+.button.hovered {
+  background-color: #A66E00;
+  color: white;
+}
+
+.questionsQuiz {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.questionsQuiz > div {
+  margin-bottom: 20px;
+}
+
+.radioInput {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.radioInput::before {
+  width: 18px;
+  height: 18px;
+}
+
+.titleQuiz {
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  font-size: 20px;
+}
+
+.titleQuiz img {
+  margin-left: 30px; 
+  width: 149px;
+}
