@@ -25,11 +25,12 @@
 }
 
 .cachorro {
+  display: block;
   height: 600px;
   width: 500px;  
   position: relative;
   bottom: 19em;
-  left: 50em;
+  left: 58em;
 }
 
 .pets {
@@ -48,7 +49,7 @@
 }
 
 .lista_pets {
-  margin-right: 4em;
+  margin-right: 5em;
   cursor: pointer;
 }
 
@@ -131,10 +132,10 @@ background-color: black;
 
   .imgCliente {
     height: 389px;
-    width: 300px;
+    width: 320px;
     position: relative;
     bottom: 16em;
-    left: 7em;
+    left: 8em;
   }
 
   .clientes h2{
