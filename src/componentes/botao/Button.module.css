@@ -3,19 +3,15 @@
     height: 50px;
     width: 120px;
     border-radius: 5px;
-    margin-left: 120px;  
-    margin-top: 20px;
+    margin-left: 9.5em;
+    margin-top: 2em;
     cursor: pointer;
     color: #fff;
     font-weight: bold;
     border: none;
-       
-    
 }
-
-@media (hover:hover) and (pointer: fine) {
+@media (hover:hover) and (pointer: fine){
     .button:hover {
         background-color: #de9a11ac;
- 
-    }
-}   
+ }
+}

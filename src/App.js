@@ -6,7 +6,7 @@ import Sobre from "./pages/sobre/Sobre";
 import Sugestao from "./pages/sugestoes/Sugestoes";
 import Depoimentos from "./pages/depoimentos";
 import Navbar from "./componentes/navbar";
-import Footer from "./componentes/footer/Footer";
+import Footer from "./componentes/footer";
 import Breadcrumb from "./componentes/breadcrumb/Breadcrumb";
 import QuizBetta from "./pages/quiz/QuizBetta";
 

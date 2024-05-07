@@ -1,0 +1,33 @@
+.rodape {
+    background-color: #000;
+    height: 20em;
+}
+
+.logo {
+    margin-left: 6em; 
+}
+
+.list {
+    display: grid;
+    list-style: none;
+    text-decoration: none;  
+    margin-right: 10em; 
+    text-align: right; 
+}
+
+.item {
+    margin-right: 1em;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+     
+}

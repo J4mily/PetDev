@@ -34,7 +34,7 @@ export const Home = () => {
 
       <section className={styles.pets}>
         <div>
-          <h2 class>E aí, qual o seu pet?</h2>
+          <h2>E aí, qual o seu pet?</h2>
           <ul className={styles.lista}>
             <img
               src="https://lh3.googleusercontent.com/fife/ALs6j_Hac0RLebaQBa5reRmiPJ78LD-HCDZ4waaE7QfX72sG8-qLnmUPt6vZBbj9-FycZSKj67iywIzlQklobADnZGzjbSc8FYaDvw3xfl1BwbhMzcBvt36Qt_NTqH6iglJ3dfyN8sLhe6gaVEelSFV-IfFM2XvWO9Mg1Qnii9CjNESZSWQBdVPva7FBoZR6hekQa3jBZQnDzPTNJikwlY9xSqBZehjYCZI50Giow52Q4gaOboSBnbtBghVBoHyHy0Kqk9VCnVUqeCTj1fsZ5ysgoOpYmnCgM_yyE1vDezEj91nOCBvoZUddkWM6LSc-sbLrZSLPM8lkbLfM4CcwIVi2yJG54b3KkiqsFq__gORvJnLWsHdheyjYOG_IsuBGtiXMiB6Eom5Gka3q7xcDqn0F4kUt4Ms-vgLixuSVC4lMOnwdRqw9ymJSEvrD3hKHVBQK63Fnj3ZO2JT4NFJJA_y1ucGvzDkpxfx3mqj7GFBSF2Q2HTu0O3XbUvZZPGA23vvR9PyTrs1klJljbWWzgb13-lYgf0iMql2r0hHjTVscMyxtZza-JMUefIBLpIw4KcZ1bp7-P6vEx1IS2QnMnVwdtOXLdVMfuMqRuQRwgVoEk1Nk9484_pkdnXzTc6seXxcmN3ee0OtjKsFdPzsZRQHhhtsOnXqNrgEQalUEC2HUbkiOXlBYB6-sGLURYRS7D7XAax4fQTKr5Acdw_g8AbhmKUeAhr5vuRFfxt4XDqBAleOVvNAFt-ti8MnV219iAWieyBmSDEL6CDGDJpgfc3smhtfetwEsUqVZmhyLbmfOYdFI4dq0KVfv8OSOA467KuCSgKF06Un7W74iJyYyC-FTdj8zQGxdthqS1YfvoyoSZWokirOT7kUi6AEQftyPpO5gSqqFFtBdWjTOvSW7T785UBwELLeOUxwe4CvLN7KQfVh5pje4ezEUK-CDV8Se4IxtCtNnCmbvPO2ejqIqGO3oVZeIDCPvvZGOjE86Pq47s5G88O4icN7otX9ZqQwIV-miSWjdqqAtJW9P64TFHYbSn_SkIUxdIZbUGIlehxtgmDNU2Comjg1ki6gSkb8cq2L2SHiquuTfw2SZ6M6IbL30XnWqgqRUX9omFSjYqicDh2BbshMBMVLaOw-a0jHbbzaQjZM1g7T_f7cc9bF5TsCqVLx7smsOfkRg3XQtZQo0l_Q_j-2uUCE-r_RsjS5SPUy3u78VYKOCUb47ssAVdb-lsNlBwhq5w08I4M6Xb-ksIx9WA9jxgZXMbqTmcskhaMD2q25SrQSioim-muJMZsrQJvXJb6F_J60Hm9MuRRVCY4V8XzwUcOiSMfjeXI7NGmT3tMmq-mjSIn-_6pzk7el7M3BKn5RGZ_fv2pk-UgFQvbGwhT6MLsh9sILBE3xs7cLQo6psIa5T0wwo-YZLXxd6Rpo4T_UtSSU0FAdSqCaqUg8--cD4ZWqCA6DV28ToomVi_5CHER8G2kTHpFC17FEGR3-m0M7vfPPlvvIg5tAGb3OVc1yc9blQ58aWtvDazK801pkXq5q51d4CMYRsMVr1AWhc32q_PK--kLrR1gcG55XfmVZVVg1HOfATbNsMACzBGfR6Y1spsfbkk5xTsw=w1920-h868"
@@ -102,39 +102,29 @@ export const Home = () => {
       <section className={styles.clientes}>
         <h1>CLIENTES</h1>
         <p className={styles.textoCliente}>
-          
-            “Gostaria imensamente de expressar minha gratidão pelo
-            <br />
-            valioso conteúdo
-            <br />
-            encontrado neste portal sobre cuidados com cachorros.
-            <br />
-            Desde que comecei a seguir as dicas e orientações aqui
-            <br />
-            compartilhadas,
-            <br />
-            tenho visto uma melhoria significativa na saúde e felicidade
-            <br />
-            do meu querido amigo de quatro patas.”
-          </p>
-          <h2>Ryan Mill</h2>
-          <p className={styles.textoCliente}>
-            Engenheiro de dados
-          </p>
-          <img src="https://lh3.googleusercontent.com/fife/ALs6j_H3GCcfOj3nZluGiZdzkMrL4URp-sL1wAJQ-wkajEnE0Y2MJ1uplrUNKASmoIwDvWPto_l9iTeNa94fmWcTE7clfWImWKMX-UVJOx5R8mt5_qy-tsqHZiACXHfj-ZvtASGPZvwFgdHsgeDnD3N7I5oS_OfaSOXjQlnHdYfGb5tXZWzmdnnHvMLqZ2_Mqqgxue7KasSObTfOLkV47NX9wpfQSO8nxVSA1wN7Yrra2dZwdG73L5sNIRn9TSAkYc1oUs5nNc5sxQeVoC5SSpkcPaQ08ULBRTFgN7ZyYwvVeLu-X_OHlcmxjUCmmGtilQVY8J5ndJevs-MOOVHXK3yaHVgLJ94FJa6g8ruFFt--CHOuYd9GxtI7JgzGiSNQx07oAS5oqwPf8DmTbEHovad-WOOYp-zjECGmNifvRxAdhR3ss0SCfny85MnacCt2oUAlyaCwcccWAaHx3yAaiMcSCjm9gAu9qrazVDXu3WefoTqsXBerSbZc1xeKa2e7VvybxpFxlUMfNPt7j2TyYJRWP9mxIU1zQFiltv5QrIFCKWyTT1BHda97XXrccUQEDHAiuhU_qYn3dVhh1o2yXq6dSMPLrHloGf2fgnUg8QCr-g6FFnq8JinVSU4IuBkg0vyCRDIUSFCz5r7FJ2tRCJtyzetZmvAuXoL7xNkiKw_ih5otmFrJo5hv5aOkVzEZffNyZuBnMBoBO-99gj-LejgCdRVtRxMY-f1uO8MClcQ62lLDglkWe8pu4MaPb2usHj-sPJkn97hdTpj7YyqVVdMsDJxxBi6T2Ap1rIX4IUA7MvwDaK6KeJhGCXV0QMo7PtrmrM93WLTk-ovDL4hsYjpDeWLOcOb36r5XD020kdp2WhRmebAUU8gzjap48yoFGMKerkIEZw9dg7aptbYGFsRk25HXIKehHyiAAqrpvCmUhTgPBUlknctXexopUjPkyJH3kaSnj5FDg6lw-2YD97gSWB85EdZ1m2I8rSX7M9duJa_wo-FoWraJjQ2cUfaGm7oUHgFTIewEOh_-4zfJUSE1Ap0jjy4-8T5_npL5Qph2zOC8_iiriZLTy8YE5L-s4nBFZS7qIlnJZ3VEZO0wL3xteXPjRqgCsrdhTgYI0vQ3biIL8HCx0KdDqelNkKqisPPYWynuWjGsu0gJ1AH7zPJbSnCo0raSLPSiI7cjudTvIr1UdoiHm23Bb-DZWbY-qmJxOZp5lVRA7LHNk6syAqTFvn5KvHuP7N8HL7ACOJ3vWVH5DhLfp6z8M-itOjHTyFTQTEDtx4TBG2AKmfHKuqiczit_TmrcEKhQI7XaMJ3uCiv5qjFZm1kn5wJJ2wdVjQSrEmk5plInP3frq7AQs0yrcC0XICAn25Lj0c5rh1PiJG56VMmBWsLKPiycf0g8_4eg9OspZaTiQSbk7HNAi2VCPBuPef1D0x2myls7XlgWje7hvw7374cNVd14tCnULUDUfNcyNRSCr-yDX4BYC_IVlRA8o0qf5ujd5er0ctecb3nAiQX-jRlFW3Wo2L8-qjb04Ogh_f_ZEmgYaJl3FSHXjkaeeo9Zfq6D9EU-s_cI4kKxFs4-S1j7_xwZCQlGUS97wxU0yvH0SDQrFERR1Q=w1920-h868"
-         alt="Homem segurando seu cachorro"
-         data-testid="Homem-e-cao"
-         className={styles.imgCliente}
-
+          “Gostaria imensamente de expressar minha gratidão pelo
+          <br />
+          valioso conteúdo
+          <br />
+          encontrado neste portal sobre cuidados com cachorros.
+          <br />
+          Desde que comecei a seguir as dicas e orientações aqui
+          <br />
+          compartilhadas,
+          <br />
+          tenho visto uma melhoria significativa na saúde e felicidade
+          <br />
+          do meu querido amigo de quatro patas.”
+        </p>
+        <h2>Ryan Mill</h2>
+        <p className={styles.textoCliente}>Engenheiro de dados</p>
+        <img
+          src="https://lh3.googleusercontent.com/fife/ALs6j_H3GCcfOj3nZluGiZdzkMrL4URp-sL1wAJQ-wkajEnE0Y2MJ1uplrUNKASmoIwDvWPto_l9iTeNa94fmWcTE7clfWImWKMX-UVJOx5R8mt5_qy-tsqHZiACXHfj-ZvtASGPZvwFgdHsgeDnD3N7I5oS_OfaSOXjQlnHdYfGb5tXZWzmdnnHvMLqZ2_Mqqgxue7KasSObTfOLkV47NX9wpfQSO8nxVSA1wN7Yrra2dZwdG73L5sNIRn9TSAkYc1oUs5nNc5sxQeVoC5SSpkcPaQ08ULBRTFgN7ZyYwvVeLu-X_OHlcmxjUCmmGtilQVY8J5ndJevs-MOOVHXK3yaHVgLJ94FJa6g8ruFFt--CHOuYd9GxtI7JgzGiSNQx07oAS5oqwPf8DmTbEHovad-WOOYp-zjECGmNifvRxAdhR3ss0SCfny85MnacCt2oUAlyaCwcccWAaHx3yAaiMcSCjm9gAu9qrazVDXu3WefoTqsXBerSbZc1xeKa2e7VvybxpFxlUMfNPt7j2TyYJRWP9mxIU1zQFiltv5QrIFCKWyTT1BHda97XXrccUQEDHAiuhU_qYn3dVhh1o2yXq6dSMPLrHloGf2fgnUg8QCr-g6FFnq8JinVSU4IuBkg0vyCRDIUSFCz5r7FJ2tRCJtyzetZmvAuXoL7xNkiKw_ih5otmFrJo5hv5aOkVzEZffNyZuBnMBoBO-99gj-LejgCdRVtRxMY-f1uO8MClcQ62lLDglkWe8pu4MaPb2usHj-sPJkn97hdTpj7YyqVVdMsDJxxBi6T2Ap1rIX4IUA7MvwDaK6KeJhGCXV0QMo7PtrmrM93WLTk-ovDL4hsYjpDeWLOcOb36r5XD020kdp2WhRmebAUU8gzjap48yoFGMKerkIEZw9dg7aptbYGFsRk25HXIKehHyiAAqrpvCmUhTgPBUlknctXexopUjPkyJH3kaSnj5FDg6lw-2YD97gSWB85EdZ1m2I8rSX7M9duJa_wo-FoWraJjQ2cUfaGm7oUHgFTIewEOh_-4zfJUSE1Ap0jjy4-8T5_npL5Qph2zOC8_iiriZLTy8YE5L-s4nBFZS7qIlnJZ3VEZO0wL3xteXPjRqgCsrdhTgYI0vQ3biIL8HCx0KdDqelNkKqisPPYWynuWjGsu0gJ1AH7zPJbSnCo0raSLPSiI7cjudTvIr1UdoiHm23Bb-DZWbY-qmJxOZp5lVRA7LHNk6syAqTFvn5KvHuP7N8HL7ACOJ3vWVH5DhLfp6z8M-itOjHTyFTQTEDtx4TBG2AKmfHKuqiczit_TmrcEKhQI7XaMJ3uCiv5qjFZm1kn5wJJ2wdVjQSrEmk5plInP3frq7AQs0yrcC0XICAn25Lj0c5rh1PiJG56VMmBWsLKPiycf0g8_4eg9OspZaTiQSbk7HNAi2VCPBuPef1D0x2myls7XlgWje7hvw7374cNVd14tCnULUDUfNcyNRSCr-yDX4BYC_IVlRA8o0qf5ujd5er0ctecb3nAiQX-jRlFW3Wo2L8-qjb04Ogh_f_ZEmgYaJl3FSHXjkaeeo9Zfq6D9EU-s_cI4kKxFs4-S1j7_xwZCQlGUS97wxU0yvH0SDQrFERR1Q=w1920-h868"
+          alt="Homem segurando seu cachorro"
+          data-testid="Homem-e-cao"
+          className={styles.imgCliente}
         />
-</section>
-
-      
-      
-        
-        
-        
-      
+      </section>
     </>
   );
 };

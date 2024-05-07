@@ -25,11 +25,12 @@
 }
 
 .cachorro {
+  display: block;
   height: 600px;
   width: 500px;  
   position: relative;
-  bottom: 18em;
-  left: 60em;
+  bottom: 19em;
+  left: 58em;
 }
 
 .pets {
@@ -107,7 +108,7 @@ background-color: black;
 
   .clientes {
     background-color: white;
-    height: 35em;
+    height: 30em;
   }
 
   .clientes h1{
@@ -130,11 +131,11 @@ background-color: black;
   }
 
   .imgCliente {
-    height: 470px;
-    width: 350px;
+    height: 389px;
+    width: 320px;
     position: relative;
     bottom: 16em;
-    left: 7em;
+    left: 8em;
   }
 
   .clientes h2{
