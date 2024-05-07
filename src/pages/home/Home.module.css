@@ -25,12 +25,14 @@
 }
 
 .cachorro {
+  
+  max-width: fit-content;
   display: block;
   height: 600px;
   width: 500px;  
   position: relative;
   bottom: 19em;
-  left: 58em;
+  left: 55em;
 }
 
 .pets {
@@ -49,7 +51,7 @@
 }
 
 .lista_pets {
-  margin-right: 5em;
+  margin-right: 4em;
   cursor: pointer;
 }
 
