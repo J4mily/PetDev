@@ -21,16 +21,16 @@ export const Navbar = () => {
 
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/Animais">Animais</Link>
+            <Link to="/Home/Animais">Animais</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/Quiz">Quiz</Link>
+            <Link to="Home/Quiz">Quiz</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/Sobre">Sobre</Link>
+            <Link to="Home/Sobre">Sobre</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/Sugestões">Sugestões</Link>
+            <Link to="/Home/Sugestões">Sugestões</Link>
           </li>
         </ul>
       </div>

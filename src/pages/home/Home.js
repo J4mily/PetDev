@@ -94,7 +94,7 @@ export const Home = () => {
           quatro patas. Prepare-se para se surpreender e se encantar com o que
           você aprenderá sobre o seu pet!
         </p>
-        <Link to="/Quiz">
+        <Link to="/Home/Quiz">
           <h2>Vamos lá?</h2>
         </Link>
       </section>

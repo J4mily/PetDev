@@ -14,11 +14,11 @@ const NQuiz = ({ imageUrl, text1, text2, text3 }) => {
 
   const handleStartClick = (text3) => {
     if (text3 === "Betta") {
-      window.location.href = "/QuizBetta";
+      window.location.href = "/Home/Quiz/QuizBetta";
     } else if (text3 === "Hamster") {
-      window.location.href = "/QuizHamster";
+      window.location.href = "/Home/Quiz/QuizHamster";
     } else if (text3 === "Sagui") {
-      window.location.href = "/QuizSagui";
+      window.location.href = "/Home/Quiz/QuizSagui";
     }
   };
 
