@@ -19,19 +19,19 @@ export const Footer = () => {
       <h3 className={styles.informacoes}>Informações</h3>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <Link to="/Home/Animais">Animais</Link>
+          <Link to="/Animais">Animais</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/Home/Quiz">Quiz</Link>
+          <Link to="/Quiz">Quiz</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/Home/Sobre">Sobre</Link>
+          <Link to="/Sobre">Sobre</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/Home/Sugestões">Sugestões</Link>
+          <Link to="/Sugestões">Sugestões</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/Home/Depoimentos">Depoimentos</Link>
+          <Link to="/Depoimentos">Depoimentos</Link>
         </li>
       </ul>
     </div>

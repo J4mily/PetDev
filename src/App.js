@@ -19,12 +19,12 @@ function App() {
       <Breadcrumb />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Home/Animais" element={<Animais />} />
-        <Route path="/Home/Quiz" element={<Quiz />} />
-        <Route path="/Home/Sobre" element={<Sobre />} />
-        <Route path="/Home/Sugestões" element={<Sugestao />} />
-        <Route path="/Home/Depoimentos" element={<Depoimentos />} />
-        <Route path="Home/Quiz/QuizBetta" element={<QuizBetta/>} />
+        <Route path="/Animais" element={<Animais />} />
+        <Route path="/Quiz" element={<Quiz />} />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Sugestões" element={<Sugestao />} />
+        <Route path="/Depoimentos" element={<Depoimentos />} />
+        <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
       </Routes>
 
       <Footer />
