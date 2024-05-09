@@ -12,10 +12,14 @@ export const Footer = () => {
           className={styles.logo}
         />
       </div>
-      <h3 className={styles.contato}>Contato</h3>
-      <p className={styles.contato}>31 2199-3515</p>
-      <p className={styles.contato}>contato@petdev.com</p>
-      
+      <h3 className={styles.contato}>
+        Contato
+        <br />
+        31 2199-3515
+        <br />
+        contato@petdev.com
+      </h3>
+
       <h3 className={styles.informacoes}>Informações</h3>
       <ul className={styles.list}>
         <li className={styles.item}>
