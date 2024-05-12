@@ -1,5 +1,7 @@
-import Navegacao from "../../componentes/sites parceiros/Sites";
+import Carrossel from "../../componentes/carrossel/Carrossel";
+import slides from '../depoimentos/mock.json';
 import styles from "./Depoimentos.module.css";
+
 
 export const Depoimentos = () => {
   return (
@@ -9,18 +11,12 @@ export const Depoimentos = () => {
         <br />
         CLIENTES
       </h1>
-
-      <img
-        className={styles.card}
-        src="https://lh3.googleusercontent.com/fife/ALs6j_HgsksLF8msLDWCmgxj58VYorCiTMOXUB61tpwN6n-52Wekz33Ui3882V3cROPaJ0SMbXEpb7FLVe8DWZKZlX8H0IiH2-tpGPk3_hWQ4oMnn0URN3AWlbLlZ1RtWYzJpYwkWlLklI1yXFmaWkeT2cRKOFeFWQ2UXFgAVBeZ7CiHN7JAEbMg84ZnHIVZJiL0oC-weSszdDp3dEt9nRmbr9l6HtN9ryyD_LHW_OppnDphrtxP1u-7mqbjimgu21U3IoISDD707EMVqQQzgurMvIo5CS5A8m_lhXNL-WC9jqXqkiu58Xg-I98oA_s9gqya6K_M8PGwfwAojZUMOVj3KjvPgXzGQ5WXOWruEHs30h9Yl02f8ypZJ3vhxChQ9pN9tmbsd6cZISoKs77YgLHri3nDQoyPYvHfufpK0Fs1wgyNr4o-jxXBX9Ocx2XpybmehDUT3Wyqmdy06_04zGAv6Xs3Ubp4jLfEy6vDqA1iIsrmFSM4ZllqtxGr5z-_ElMn_NXH8Nlm_RGblw3SpAkRgIaeYvVMagwkg-h5bp8ZlrPp-UtAXEsBncuSMixeEcd51CRThwebGVgOrV_w7ZfgF_5qM7C0-gLnuLsNPWYIwdri4ZQ4bQJXJ0tT654QSdrB2Dh0gzFFdWecl93yHyLD1ZZpNcOHnXc-eJft249p93NprgDB6-MVaIv_dbxfBGciew0XY317axQOqo2aGlREsa7bZP0ZhoCzym8JGjY0cFhfq_-0b2Qa-KByKqbejjwKCYRHGTRn_xgY1ulJlDeZHOIfLzoO2DfpenpaCEm2WI7kbAaVid4FWt3U8JtdAop3kkYg-p6-YXVxcy4YcBNdCy-i9VQOlUpbgxBb5h-An4pk1V6yJsv4__ZjkceJBj6Ff73tBp947ckHE1zs7PfuAR66gsF0z3ZoLilzpOVDbqlo1cnD1U7R_ocZAGU6lRSBYdxvFKG2-4livrHnrXnvdAT3ifslltxpHFBthDSJgNsrD2s8f--GtyBT1SbZahGq2sHMHJ1aWCGRiea7TYM4n6a3yjhMgG4xpZasI4zbBLhqkhkUbH3tCz3kByF2Do2qWKwdjF-_3ZXCR-He-4In6NOmB9PNaSV5uUxoLnSYcBHBqIoOxe4fOagdZXSoJBHdsHiV5gAYan6BLaImxVLN7YGtjEK8dmRK4iysriHVkaxe7b00x_Mpd_4O9K1ATHoNTp9vx4y42NqNqfydZNjwqStIV2_j7CX2MRZQjDAuMQ6zoEh-NkW4ayr1J20d8EVaxA-gbfgnvRNYEih0Hxs5q5MHN4NCrJANMuWLPYbLVLp0_Jd0n46g5f5j9lIG3Koav2GwH8cNEbckTYJNPVvUSyl2K_YOVgm6nDqxfSV4487bmjB8e99bkqwxJ_sQgGoiHZhhNkBoKf_lwb2FDac-nbuGfH2AaXxfCtvsQ8GxaMGGn7kcl7o6z5Iivr0IPvQJQI-uUZZGqyaFZE_FmW3T9pVGobYg89fwUVLBKx07v-nQwo0fimftJBaLwJtlbDQ3fuGFSoItzkdPFDahAormhSnPofypnPKex5waWMR9qTynRFSYAZv8DR81h1t35GD8786vv38oZQR_zg=w1358-h646"
-        alt="Card de depoimento"
-        data-testid="depoimento"
-        
-      />
-
+      <div className={styles.carrossel}>
+      <Carrossel slides={slides} />
+    </div>
       <ul className={styles.parceiros}>
         
-        <Navegacao img 
+        <img 
           src="https://lh3.googleusercontent.com/fife/ALs6j_Ha6MsascnlfyI2v1c0yLu396_O_ViL54aph33bPzqX5qxu1-hAfqZV4wC9aCBzhd-rX8AMAAaLCPKxUUpQcx6sOx2bIV5FZE0QpkC3bJHAVSU0ivkeLSfAo1avxTmfqfZNSyYHz6WC8-f4gQnIyJGPjTRsq29OUduMdidcEWuuFSo0DwuHA9FKYoZV7o9pHW-LYK-PFoKLGgtMs9wbRgCi5g-b8ePV1TQyFbJBZyU_WxN50U6tSfyKgjmJN1s50_T4nGP8mtWn8Hu0t_hYK5kgLoc8asQe1geEBYUu2gEy28Q17bQQgjMQe29RYSc7E4rI77EOLdnux46VWI6oLMxU7R1ReFogbhjNKyrwt1qAvFqa1L8szq_YyN7AyJsR722dBWBUKgJ9mM5RFYkSzokGSJnCc6Xa09zscnqV9W5ma-TyHMTJEDZl8_2ht7nNXKJJyw-FiVLTaG957aiUmlDy4XLAfkG-f0iBhaI7RuhBp6U4oUkul51JjqeESjFcxaZxQRhVOsgBalBKnla9WnrRakP_Rhz0-9Au4Xe2FvzCL3qBaFqcHufF-OEQoXxytPpzoQZi4fcxIDahKkV7FkZEhdOqasSWzkAWpk6Wq_Af4ShKa3o4bBKPdbMmijl1Y_xyVHFlfIMfpJAb_WOfrxkcGUMSgWfyK02caMRcCYPz6-5VUf9MCq_5KsXmg2N1QLEabdt8m5bXv1uMSa2vrTxIcxO_tlXa9FvbCmE8evlT2rJv3NGPm-Xo6awxch3I1hjksDVU6vu1NTod_VfhHbr_-cSazXnf9zBMKGJe1JkZxa02yZp_60XArmshhhyKRE4NuRZjBsoEVQUpqIZ9z2YCXFtb07W48ckAIL07Z3rGgNlAgOQU7D9F1ppoY84KWGT1HFrkXMELaNKMEZcjdFDo2wKIqxzn9TGgJEwCcgHwuqhUzUaJugZUNmPM1WQVDGwpcWWewZiO_YRuRB7wpn8N35L6Jozko7sOpiqK-2SJq-t9JBqPLWKrynGcUOYDTltB3lJUgjHsmSgszhlAY4Bv7_GzB0PDwr6KFiEkwc1K4tkoicZRfd0QCbUj2d3UCUnp1kD4MAgS3n0cr_oh2UlT4Ul6xRo0e55rIcF2sAYMwf4rG5OJ6G9hjYXAZByXMeIvJwyaZKGc1Sg2xj4sVukk0blpSLbbF1CrKSaTBFvNSOC_-Wc53yAqpmH3V_JbfERe5Hm3K1Oor8WPiE8dkCMSziIMcGyCQVrYZnvLIVemlWP9T_js5FJCmMrfmhwaogjFP0WfAnFk_X9Vo9JKVosPC80_6vcaUnUFNFQvPqYxlNllSk__KCiEG-OfEmGhg_ouJXugTJ9yf0yuhQ_WbRRzhFVVDMukPverafaamJHDD9tJXZ-dURGiLG0SmgSJgHgKAK_zMpOaEgeJAqw3iWGbMq3p05GQa-c6QZJI6ja9Pg0ojlQ1JhMpP0cbeTm9C_lJ0pMaLFFpcEt--UniXRIH4p_-PtpgGFozd5pa5pC2LhBoHhwZMMzv84_QuBMLY_XcaLKTs9Kv9567iZSHldJj7uqlchlVJUYlCac7sAxT-PYCE_Wh4E9gUc_zzWRR-RKAkGqqCwlo=w1358-h646"
           alt="Logo da PetLove"
           data-testid="icone-petlove"

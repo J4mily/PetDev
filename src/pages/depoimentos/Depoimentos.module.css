@@ -15,16 +15,19 @@
     font-size: 40px;
 }
 
-.card {
+.carrossel img {
+    width: 50%;
     position: relative;
-    left: 10em;
+    left: 25%;
     
 }
 
 
+
+
 .parceiros {
     display: flex;
-    margin-left: 12em;
+    margin-left: 17%;
     min-width: 1024px;
     padding: 3em;
 }
