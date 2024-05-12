@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "next": "^13.1.6",
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -37,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Este repositório é um componente essencial de um projeto dedicado à educação e ao aprendizado sobre cuidados, comportamento e curiosidades relacionadas aos animais. Nosso objetivo é oferecer recursos educacionais de alta qualidade e acessíveis para ajudar as pessoas a aprimorarem suas habilidades na criação e no cuidado dos animais. 🐾",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

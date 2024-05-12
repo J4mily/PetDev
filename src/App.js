@@ -9,6 +9,7 @@ import Navbar from "./componentes/navbar";
 import Footer from "./componentes/footer";
 import Breadcrumb from "./componentes/breadcrumb/Breadcrumb";
 import QuizBetta from "./pages/quiz/QuizBetta";
+import Siames from "./componentes/Gatos/siames";
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
         <Route path="/Sugestões" element={<Sugestao />} />
         <Route path="/Depoimentos" element={<Depoimentos />} />
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
+        <Route path="/siames" element={<Siames/>} />
       </Routes>
-
+    
       <Footer />
     </Router>
   );
