@@ -7,15 +7,6 @@
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #A66E00;
-  color: white;
-}
-
-.button.hovered {
-  background-color: #A66E00;
-  color: white;
-}
 
 .text {
   padding-right: 200px;
@@ -38,15 +29,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.button:hover {
-  background-color: #A66E00;
-  color: white;
-}
-
-.button.hovered {
-  background-color: #A66E00;
-  color: white;
-}
 
 .nQuizContainer {
   display: flex;
@@ -55,15 +37,4 @@
   padding: 1rem;
 }
 
-.button {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #664400;
-  color: white;
-  border: none;
-  font-size: 16px;
-  width: 165px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+

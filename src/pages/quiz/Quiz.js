@@ -1,6 +1,6 @@
 import NQuiz from "../../componentes/tiposQuiz/Quiz";
 
-function Quiz() {
+export const Quiz = () => {
   return (
     <div>
       <NQuiz

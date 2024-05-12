@@ -1,40 +1,54 @@
-/*import styles from "./Depoimentos.module.css";
-import logoPetlove from "../../assets/petlove.png";
-import card1 from "../../assets/card1.png";
+import Navegacao from "../../componentes/sites parceiros/Sites";
+import styles from "./Depoimentos.module.css";
 
-function Depoimentos() {
+export const Depoimentos = () => {
   return (
-    <div className={styles.background}>
-      <div className={styles.container}>
-        <div className={styles.container_titulo}>
-          <h1 className={styles.titulo}>Nossos</h1>
-          <h1 className={styles.titulo}>Clientes</h1>
-        </div>
+    <div className={styles.container}>
+      <h1>
+        NOSSOS
+        <br />
+        CLIENTES
+      </h1>
 
-        <div className={styles.card}>
-          <div className={styles.card_conteudo}>
-            <img src={card1} alt="depoimentos" />
-          </div>
-        </div>
+      <img
+        className={styles.card}
+        src="https://lh3.googleusercontent.com/fife/ALs6j_HgsksLF8msLDWCmgxj58VYorCiTMOXUB61tpwN6n-52Wekz33Ui3882V3cROPaJ0SMbXEpb7FLVe8DWZKZlX8H0IiH2-tpGPk3_hWQ4oMnn0URN3AWlbLlZ1RtWYzJpYwkWlLklI1yXFmaWkeT2cRKOFeFWQ2UXFgAVBeZ7CiHN7JAEbMg84ZnHIVZJiL0oC-weSszdDp3dEt9nRmbr9l6HtN9ryyD_LHW_OppnDphrtxP1u-7mqbjimgu21U3IoISDD707EMVqQQzgurMvIo5CS5A8m_lhXNL-WC9jqXqkiu58Xg-I98oA_s9gqya6K_M8PGwfwAojZUMOVj3KjvPgXzGQ5WXOWruEHs30h9Yl02f8ypZJ3vhxChQ9pN9tmbsd6cZISoKs77YgLHri3nDQoyPYvHfufpK0Fs1wgyNr4o-jxXBX9Ocx2XpybmehDUT3Wyqmdy06_04zGAv6Xs3Ubp4jLfEy6vDqA1iIsrmFSM4ZllqtxGr5z-_ElMn_NXH8Nlm_RGblw3SpAkRgIaeYvVMagwkg-h5bp8ZlrPp-UtAXEsBncuSMixeEcd51CRThwebGVgOrV_w7ZfgF_5qM7C0-gLnuLsNPWYIwdri4ZQ4bQJXJ0tT654QSdrB2Dh0gzFFdWecl93yHyLD1ZZpNcOHnXc-eJft249p93NprgDB6-MVaIv_dbxfBGciew0XY317axQOqo2aGlREsa7bZP0ZhoCzym8JGjY0cFhfq_-0b2Qa-KByKqbejjwKCYRHGTRn_xgY1ulJlDeZHOIfLzoO2DfpenpaCEm2WI7kbAaVid4FWt3U8JtdAop3kkYg-p6-YXVxcy4YcBNdCy-i9VQOlUpbgxBb5h-An4pk1V6yJsv4__ZjkceJBj6Ff73tBp947ckHE1zs7PfuAR66gsF0z3ZoLilzpOVDbqlo1cnD1U7R_ocZAGU6lRSBYdxvFKG2-4livrHnrXnvdAT3ifslltxpHFBthDSJgNsrD2s8f--GtyBT1SbZahGq2sHMHJ1aWCGRiea7TYM4n6a3yjhMgG4xpZasI4zbBLhqkhkUbH3tCz3kByF2Do2qWKwdjF-_3ZXCR-He-4In6NOmB9PNaSV5uUxoLnSYcBHBqIoOxe4fOagdZXSoJBHdsHiV5gAYan6BLaImxVLN7YGtjEK8dmRK4iysriHVkaxe7b00x_Mpd_4O9K1ATHoNTp9vx4y42NqNqfydZNjwqStIV2_j7CX2MRZQjDAuMQ6zoEh-NkW4ayr1J20d8EVaxA-gbfgnvRNYEih0Hxs5q5MHN4NCrJANMuWLPYbLVLp0_Jd0n46g5f5j9lIG3Koav2GwH8cNEbckTYJNPVvUSyl2K_YOVgm6nDqxfSV4487bmjB8e99bkqwxJ_sQgGoiHZhhNkBoKf_lwb2FDac-nbuGfH2AaXxfCtvsQ8GxaMGGn7kcl7o6z5Iivr0IPvQJQI-uUZZGqyaFZE_FmW3T9pVGobYg89fwUVLBKx07v-nQwo0fimftJBaLwJtlbDQ3fuGFSoItzkdPFDahAormhSnPofypnPKex5waWMR9qTynRFSYAZv8DR81h1t35GD8786vv38oZQR_zg=w1358-h646"
+        alt="Card de depoimento"
+        data-testid="depoimento"
+        
+      />
 
-        <div className={styles.clientes_parceiros}>
-          <ClientesParceiros cliente="PetLove" logo={logoPetlove} />
-          <ClientesParceiros cliente="Cobasi" logo={logoPetlove} />
-          <ClientesParceiros cliente="PetShop" logo={logoPetlove} />
-          <ClientesParceiros cliente="Petz" logo={logoPetlove} />
-        </div>
-      </div>
+      <ul className={styles.parceiros}>
+        
+        <Navegacao img 
+          src="https://lh3.googleusercontent.com/fife/ALs6j_Ha6MsascnlfyI2v1c0yLu396_O_ViL54aph33bPzqX5qxu1-hAfqZV4wC9aCBzhd-rX8AMAAaLCPKxUUpQcx6sOx2bIV5FZE0QpkC3bJHAVSU0ivkeLSfAo1avxTmfqfZNSyYHz6WC8-f4gQnIyJGPjTRsq29OUduMdidcEWuuFSo0DwuHA9FKYoZV7o9pHW-LYK-PFoKLGgtMs9wbRgCi5g-b8ePV1TQyFbJBZyU_WxN50U6tSfyKgjmJN1s50_T4nGP8mtWn8Hu0t_hYK5kgLoc8asQe1geEBYUu2gEy28Q17bQQgjMQe29RYSc7E4rI77EOLdnux46VWI6oLMxU7R1ReFogbhjNKyrwt1qAvFqa1L8szq_YyN7AyJsR722dBWBUKgJ9mM5RFYkSzokGSJnCc6Xa09zscnqV9W5ma-TyHMTJEDZl8_2ht7nNXKJJyw-FiVLTaG957aiUmlDy4XLAfkG-f0iBhaI7RuhBp6U4oUkul51JjqeESjFcxaZxQRhVOsgBalBKnla9WnrRakP_Rhz0-9Au4Xe2FvzCL3qBaFqcHufF-OEQoXxytPpzoQZi4fcxIDahKkV7FkZEhdOqasSWzkAWpk6Wq_Af4ShKa3o4bBKPdbMmijl1Y_xyVHFlfIMfpJAb_WOfrxkcGUMSgWfyK02caMRcCYPz6-5VUf9MCq_5KsXmg2N1QLEabdt8m5bXv1uMSa2vrTxIcxO_tlXa9FvbCmE8evlT2rJv3NGPm-Xo6awxch3I1hjksDVU6vu1NTod_VfhHbr_-cSazXnf9zBMKGJe1JkZxa02yZp_60XArmshhhyKRE4NuRZjBsoEVQUpqIZ9z2YCXFtb07W48ckAIL07Z3rGgNlAgOQU7D9F1ppoY84KWGT1HFrkXMELaNKMEZcjdFDo2wKIqxzn9TGgJEwCcgHwuqhUzUaJugZUNmPM1WQVDGwpcWWewZiO_YRuRB7wpn8N35L6Jozko7sOpiqK-2SJq-t9JBqPLWKrynGcUOYDTltB3lJUgjHsmSgszhlAY4Bv7_GzB0PDwr6KFiEkwc1K4tkoicZRfd0QCbUj2d3UCUnp1kD4MAgS3n0cr_oh2UlT4Ul6xRo0e55rIcF2sAYMwf4rG5OJ6G9hjYXAZByXMeIvJwyaZKGc1Sg2xj4sVukk0blpSLbbF1CrKSaTBFvNSOC_-Wc53yAqpmH3V_JbfERe5Hm3K1Oor8WPiE8dkCMSziIMcGyCQVrYZnvLIVemlWP9T_js5FJCmMrfmhwaogjFP0WfAnFk_X9Vo9JKVosPC80_6vcaUnUFNFQvPqYxlNllSk__KCiEG-OfEmGhg_ouJXugTJ9yf0yuhQ_WbRRzhFVVDMukPverafaamJHDD9tJXZ-dURGiLG0SmgSJgHgKAK_zMpOaEgeJAqw3iWGbMq3p05GQa-c6QZJI6ja9Pg0ojlQ1JhMpP0cbeTm9C_lJ0pMaLFFpcEt--UniXRIH4p_-PtpgGFozd5pa5pC2LhBoHhwZMMzv84_QuBMLY_XcaLKTs9Kv9567iZSHldJj7uqlchlVJUYlCac7sAxT-PYCE_Wh4E9gUc_zzWRR-RKAkGqqCwlo=w1358-h646"
+          alt="Logo da PetLove"
+          data-testid="icone-petlove"
+          className={styles.lista_parceiros}
+          />
+        
+       
+        <img
+          src="https://lh3.googleusercontent.com/fife/ALs6j_G4UNr802dd4jD0oWKRFTCAxvq_p7xvTsNHg-EjCFkQ60KprUZ1ft6fYZE0SQIWLFWDX_Jt0DgAH-Yy9SYxC1spXibcp87J37baygMmTmY_dRsTqB8Js8yuByGwKk69ojp7KQm24QG34H-8R8dij-ZvrgywkussR4wVFwujYbBYFhJgMn8ZeJWLASFoCUX3tsAY4E0es6U3v-Cz8LJKyHzE4jZXlfLt6EQ4hN4cHXvYEJb_D5h4oZibrb8mTrXRkDlpDLpATwqy0v7xddwiKbRvb_CGxwr11mmd7JjsGGuW-Gx2e4K8O-D3c5_owxDwUhJiG6tWiqzaJ5G-2HexxzQBGpaStlYuT3sn6_KK7wpvikDY86yOqocIlJafP9HkDluHWY4i77By31sX_By5MSQiwvIBQ1lgfJTaM0sghknicEjGtv42MH6Tf7d7eQeRCNHg4Kh9qri0CspJII5DXx47aQ1g4874sv4m6T6OxV9Kf3A7TOdGrXlxscie1j3GG46YXjgLypHZ7yrRXdeEouB7Slfa5x_SLw9Ge94J8h6J6ZrUCG72mByVmzG-SB5l5Wt37NckjV6j8aUvgLg3K7G94BP1q6W-3V-etEpqjIPQOOswCtJiPxz1rOFI_8qK9zIZcWTP0KQKC5tDA37xrNerUzRUSw8o544j2Es7r32W5lDB_xjtJyob8l_H8mM4Y_0e9vi9kA4TqRnj-KWf2Az2TEkFe9Yxvzg123S5en8p1qdHRmHwIXw71v_x4_XRVihjAdzHTLyyvzLOxxB2fCv-AVgQAKPQLypXMX06G63DoQCgDldM_4gWn4f3U8i8fbBSOB6FHBDy1xOHXeJ4P_9vsnA464hZhiTOFXuMmzm54Bw_EA2oPfHzlIv4NPQLQmQnKLyYAgwsPdgR9465zLYgnyZy7YvE6cSxAwXKkY6Xq-P68KwcNldKGaQqJiAT6a5R_FMRyDhPxMXjIDWxZfM32V22V1rAaHkTIE6gu4E8qfhavlWUuULYz46b30o-2JicIL8hFWjEW3lgIPslTI-WI-CjzJ2ccNimk1yHX7CRsULQHIqomqvvO3fzsvVgQXxNHSE2DlgR1gn169UrOr_KD3XjwGnXaz_4V_5LLHA4O7c-zinG8PemgXYqX2oZv6XzMEULDlPNtBb0_MENUrRZR336qq0j4I64JHXALcB5OXv1rdA4ZNJUz-FfgC-7ekf6fbKsAf27SckxjR3-9KfUr4uK966Kr7qJ8eAGnnASddln0dhUt-i2oWzHSz_MZp9jmxYw8ZOcuzYJrELaLiWS6ZB_3E_tlvqjhuF7ave2CZ3qV-C98s8vGCG9xBIq-GRLr3YIRDFs8S-BHzapYCbUy4VVQTfuHrSiSnXHwSQcMtH5pVVti32cvEBeFseffOnZnzz1u_4JH3uZPo1Uzf79gSumz6sPONgnECY3K3_BWHziM57ND9nBAnHVXRVkxdjzP68LaPbHEI0AoxpspwcFYR1ZHOsJVZtphaDEayG2GW2Qg5j5Y1mJ-I1gwQ-39Ol1L8UN78zHRhDkD0ngNZqrBb1HTF7b7-QsqWtzlezpwS8Bn3xgTvUw7Opdg6mPXuKDKwfd4nV2=w1358-h646"
+          alt="Logo da Cobasi"
+          data-testid="icone-cobasi"
+          className={styles.lista_parceiros}
+        />
+        <img
+          src="https://lh3.googleusercontent.com/fife/ALs6j_H6bpjz5QP-6ZkeBEkMgQFcRqS929H8UTBMH1F3TsnFBp_dchFHpzbS4jdvSHBg8G-mabBPF3lk67ylMO2-ez4fJ9Xuy2uEXP_zB10N78RBzenykGSOwPNuR1lb4_zVRUcbrnVmgNkZ9yLJHLBJ2Z2F1YLH7EYrtQoZODVxWHcWDURAsrITNPuXL1fmsUHY126UgoFOhiegUGy7odyPAitF37wDB9lsUNCgkl5DYbmKjS8BrvePc2gTpL-Tnn075Jot89Y8nQz7NovC4G4Bk4W-ghgrNaz0NwxWtoKzV9iwM974LTbkkOW7amO0nFq7FMxPztwZxHrWnUaXhHd_tbDU-g2f76rUsF2vn_5CAJ2-S7wlELoJ8EsNDkgiZ18PuPuUcH9-sydOeZvBwq2regn_I5E53mO1AEM_hp54nr9IRvfavL0JebrMTWdsr19O-xNWY66aiEwj8b4vtOnQy6-0k9Ktcgc_PpabWR4oYwkAazLR7En2DeKI7YrsKPz3gOWdudvh7cHA7_N8oYIyE8XljpfkPCm1mtrv-XZ9E5KwCqANZnmouhWfaGB3QyVxkXRFSQhyCwgwUoUwOXJmXLQb52O4eygVC4mOZM4QYYMk35kNShgBNIUzOU4nCGn8qjwd5QQW6--EcshcsHlWjFm17vD0Eo4UwnlnnNzVkqXajVvsFVcyppVj88T1miWHOLQ1RpoMQsQKgUBg0mf9oy6x47MgwcSIX8GQJG2dm8N7DES7zv_TsJYFdO7gQJmSpUZnvCSyLPJkaf3hKGD6x7ibgMO91o-cOT9-0DJMNJXTEylEq8RXHbUzF3xEdVJyFG5Todf6CdMA40RBD9AFRRlAPc2GANDOvrpOKRKna69Uj76mSKqueTXQlzQ-eJyKpfdrVyhsVpWpMqkCAqGHwvonVR5XGw4c70Ta1xUlQx-d1HZ3Um-HEV3pJ6YDRpbzyv-EygJgXw_52daLmV52o09HLcQtNdQAufTDz1ueyyfXVTOPb6k5gifLLUHnxmtpuwFZl78N5ejg6ea1zWPLxC0CdIF9le4eZg1qz3Oa_Ptvxo3dV-wpQ6pUj_4BtHGDK0bexsSSDgZcBf6zTJHGLyVW0FfvWqT3YGBLPtMunhN-LCBcPoaVp7dZKq4yzxBBLumgJMR8MA4MaGX_iIIWDbWmIDnYHSWN6gH5MZ9X7INRDBf74fl6Gi0RHa_b4GfEzmiWFnsayoeSx5g5xn5K5MIodbh8B4_EEmq1XMvv6-0JCXP5h8HGRMRuiZMA1qrsVxI23YDvsWXT2C-ZaE7l5qtQwX1tRjtPDrG44JWvM-rcq0YXyJlkS2ltUWarenu_tuxbKdYrVwBZydyHL_PTdcc1kI_ZOxK5Aoipblf9rDSv6nCZh838vPLOSvE_xY7FVveyDCJpuaU-XuBQA-BtW4eMmh4fxW_47042fuUqJo-z0jFBNZ8yzSZPxhfEmMmj1r7idE6B-8nIt68ygD9O83qc4whoG58SOTsA3lQZRe6ap7JNIAZ9VHcmT11_0M_GEVjPtvuTSatvo2w5fRxCnCjUA4gi7q5itZjvJH3BdcAgURzAgK0V8BujanI-focoHCFnw5rFvAvnnQ=w1358-h646"
+          alt="Logo da PetShop"
+          data-testid="icone-petshop"
+          className={styles.lista_parceiros}
+        />
+        <img
+          src="https://lh3.googleusercontent.com/fife/ALs6j_EwkoQOWxHrpODjYw9Ue89vS9CmizOIuvq46eTYATcCJ99jcFxoWwbkF27JArjmRpzqPOXWU9S49TQ2brRnN1jUSqsF3YWV33mBvNMU04SERY27vqC0TZBAKiowsyMGKG8GESTj4Q5nFGgv_fiboUdNA-7g_RRNIjZTF39TCrGYSqdfYMZWwaEXxbrwsVZotstFCiarW_FcRYCRS7SXe4-Nmmpua_LmiEaLqgR63Dln5kk0IKYwW1Ywl-EqpAtN8uNZkPBp-q_7VsVHiUK9qXxNGmf_TWAot-MY0TEd8CjL4UaZ_Vw8apTj7zsZFJp3OupgtzgvJR-Fsh49aBGUgddx2ozfoTY5H2u59hEZDYLzJmSwaUvoDlaPL5rnjuYfOMdmiXC-r1qbghteU27h_IFontNamgQAVQHO5GtTqK4fFX8KZN0DGWzLPwZ_qe4zTmhcYShZE5brQeLtdguNWYNcvlNjRnAgK5ZhwbyrRhqIpzLmAejU6d710K751CV-jJhr5Le9YIKR7ZS9LJwTAGBhkLKJYstZAYkzQWwjONj4WruF8nm5oXvmQxdYiAg_xdgie3nilxtRh0mhth6Unibfj7IQ6qpAEaIQb-2wozaKceRmHQEmM_9CxGgDrwYaZuRzNJwX9882nPR2TysCwjjURl8PN_VDYZ1MLoYhfsQaEPgmNHO-9GUneh34u-u7UDBVoa5_tWopsQUlV3OsvwM0yS-XEtlBDNcdyXZ5PQevSOCZOJ-IiV6pVKfZFpug1h5RWsMN6R8CBawactJ5tWELjpZj-0gzjNPR4j6OE33Txfru7O_xfs-5P3oVSXVQIl2bSB0mFmjLWpwMdhIcYyrlYre7i9onCAJ9d58tyq7ZWllpW-IqvLc8zXhn9o4pMM3AsSovHiOH9aLTj5wlMZN9cUUu9PZMPYT_4lZr43KslJLdVT8jgSi4OL_toGUSYBVWIUfk3qiTvDZfii6TEHdtNfeXGPtBVONpxxo6zg_QOkrWgbar_j-qjHBR2RlYucqTTRFLtWefEyWCfqHbATJhS0zHY5znp9lqEwDzRdS3cVffDUiOYKiiQrKm2J1aG5isWruwYzykglE95tMEhjPgUTUX6GisoaU-7SpswLih2-0mgNGtYlZI_AbieRyu77Y6FvJ3wCNxsxOQsGonRULOWSD0OII9X1itPAZhJ2WYkHeYOuXKUVcW5787miAmFCLLqFW9floDj3A78_DGizx6p0TiUpOJrb9Z5dwYYnKTpnXXwJX5kt4JUKG-gSP-M8JhWBoXEpiDl13MKgrQs6CBjZE7b-7yakgNTo9I5EmZRqRoKsQa32w6GZonMlFHpOhkTvb9C1gIbLo8XaaMq6ys-q36fR8Nz9I-aRHWWD7JAWRq51ssLskcmhwnFCYfxYeaOv4hrByC53nAbl1yT_aK6LEjGsRsM9IjmPVVQyetg6XVtXu54tT3c659gkFIkGJR_Ozhy5TgPQ07cAvd8dh3pAAvZk7Q0SODt6uvw_JXw90Qzha7GyEWIW1B6f6ArJx6aEgHFTTheKg-MSAkP-zEowioKSazDEOl8MHQkyU9yDE6FxAozegHLBz6SexPr5GEJ1qDkrNzRA=w1358-h646"
+          alt="Logo da Petz"
+          data-testid="icone-petz"
+          className={styles.lista_parceiros}
+        />
+      </ul>
     </div>
   );
-}
+};
 
-function ClientesParceiros({ cliente, logo }) {
-  return (
-    <div className={styles.container_cliente}>
-      <img className={styles.image_logo} src={logo} alt="Logo do cliente" />
-      <p className={styles.cliente_name}>{cliente}</p>
-    </div>
-  );
-}
-
-export { Depoimentos };*/
+export default Depoimentos;

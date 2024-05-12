@@ -1,62 +1,38 @@
-.background{
-    background-image: url("../../assets/background.png");
+.container {
+    background-image: url("https://lh3.googleusercontent.com/fife/ALs6j_HzkmHI3Zg_YkyL-TvxPNJsX1Jv6cpzOZrOS_3lghRtUl-nHOjCpdE9ewTCjeps3r9Dr2dWzcLA9CRpoUvLIoMl-cq1yCTK9ry9YIczotwdv3dE9Yyw3Ycv5XrzuRBWNg2vJb9jg6pd8JkE40hQ6dunLcy0ECGoY5lwPSAOI_C8U7rcC1gT_fdv19OAmDydTE0hgSHWKFQCEUXeCzX7UHdxv-map0kvgSXU-d5h6o8eFZkNo8NpXZQVijN6O2GVuALtGs4bYasMgG14AfgTLWVPv0dtphTzajTyKFC64M9nZy5lBm7ZZMX_QK5lEaIrUJReZUl5Fry6ALIemv_V0nM6zt1oZtNkP8-Dd14Ji_rnkYRiN-KpkLTa1gcSZhfS99x6BudqtfjpWhJwjo2-nf29F5bIroAQoF_Wj5SMkQz7dlOBUl85Q6L05hWSy-bzmL9KOjEfxUTiw6DwuPX-xhAg9El-Fz0am17_vm10x6QQNkxz5KEw2WCUPVMNfm5fiIsGhh-ZMxKitr3s1JfgJhKda18ZiUCaehs7sYMsKllYQ6CGQdND0eCs7H28YGhMUhMQiATQuCKVoy5sn7fIQ7NHTHnAb1uOT0BVmet6uh8e0-Vqpnx590Yw9EqVROnz1FcOGza4QXp6xsXvrWUHbgYz4Rd6Xi0rxcbRMsEHK0E7net7S_Tiort-WOAY9gydAPRjnbKuz1WqJqU7FWCcA2jVZnX5OxxXeonHcMDuhg60X_4jmAcp_dIbNtKVGUVIkBzx1pGFYJsVOO-tK5lJJJbv3ebt7UeT9PUlxrze4M5ttUzZPu2xXy3840PY81-p8WEoiYst0P7b3RIMzLGr2iMqsfnMd_nHVADaLWL5y3p8w8gbe3CreJiwJmC5QDUIS6tzg7T_vPj_7TQb6pr-5iP4x-ulSA634XedAg1Ked1_aMU-DdQzyyOd_3wYO0D8cA_LRadFeIzDdD9XaWdCS3LZLzqZtT1UCccpPe7lYLoQxSlcgtPDhJgAZfXyXNTUajZP_G0QSCwIwY0YzW7XxYoSUz5TfKPi97dyWoIz0V7NvF7kMrjPM-HMeC2-IMoz0kys2rkleXvRbZvpDz_Y_A7MiIhocs2Rv25rjx6ODsDHqEVnwy0TP4Xkk2LAFBmpLNcl4Ftp-9cQEZfr8HABtVO8DbWPn2tiDKPdvuKE42uN29L_apNe2gjp5mjsPmg8CgvP-LABfrxykn5h3OjZrIPVcRpePh4LmbWzKd6Uv-cT6j6BDOm9wHPta8-7FUVUfd7tQ5CYE0Az26snzmiL00S_0gBQyk4_sBQHtLKG-83OaWxOKS3--40WLcT2vxPibGO4TB3Sd45MF1T8EsW2IeacK4G3jb_99ZvTdS6C7egdNuPJHlL8B7I9PPEeayInGYZxGZA-YzzujR07XEIJ0z05HQpXfAAZUq318X-4YCwkzwBDCpumzQFPxtG5eU1hRzLPd1ev_Umg0qWR2s_QtL-0JUiW6x-FxF-iU-yDiyTDAMHyfmlQbqUmFYnaBRS7-1l6d35JzoKrfkMNEdMR1Vj3jgoHwBnm7L_NAoRDCWrZtIjHbArTg0waHME1ar58PGh0SkDAuPSsS8jFk_6f-QYCZwUrg0d7uqNQ6uCGZZ-buUga4FTd=w1366-h599");
+    height: 50em;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.container_titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    margin-bottom: 2rem;
-}
-
-.titulo {
+.container h1 {
     font-size: 3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    left: 10em;
+    
 }
 
-.card_conteudo {
-    width: 1024px;
-    max-width: 1440px;
 
-    height: auto;
-}
-
-.clientes_parceiros {
+.parceiros {
     display: flex;
-    justify-content: space-between;
+    margin-left: 12em;
     min-width: 1024px;
+    padding: 3em;
 }
 
-.container_cliente {
-    display: flex;
-    align-items: center;
+.lista_parceiros {
+    padding: 10px;
+    cursor: pointer;
 }
 
-.image_logo {
-    width: 75px;
-    height: 80px;
-}
 
-.cliente_name {
-    font-size: 1.7rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    color: #000;
-}
+

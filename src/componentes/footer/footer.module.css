@@ -1,0 +1,67 @@
+.rodape {
+    background-color: #000;
+    height: 20em;
+}
+
+.logo {
+    margin-left: 6em; 
+}
+
+.list {
+    display: grid;
+    list-style: none;
+    text-decoration: none;  
+    margin-right: 10em; 
+    justify-content: right;
+    position: relative;
+    bottom: 10em;
+    right: 3.5em;
+}
+
+.item {
+    margin-right: 1em;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+     
+}
+
+.informacoes {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 9.1em;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 8em;
+    right: 3em;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 9.1em;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 2.5em;
+    right: 3em;
+}
