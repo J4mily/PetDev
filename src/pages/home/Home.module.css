@@ -25,11 +25,10 @@
 }
 
 .cachorro {
-  
-  max-width: fit-content;
+  max-width: 100%;
   display: block;
   height: 600px;
-  width: 500px;  
+  width: 500px;
   position: relative;
   bottom: 19em;
   left: 55em;
@@ -56,12 +55,9 @@
 }
 
 .quizAmizade {
-
-height: 25em;
-background-color: black;
+  height: 25em;
+  background-color: black;
 }
-
-
 
 .quizAmizade h3 {
   font-family: "Roboto";
@@ -73,78 +69,75 @@ background-color: black;
   line-height: 28px;
 }
 
-  
-.quizAmizade h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 40px;
-    color: white;
-    margin-top: 10px;
-    margin-left: 120px;
-}      
-
+.quizAmizade h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 120px;
+}
 
 .quizAmizade p {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 20px;
-    color: #b3b3b3;
-    margin-left: 120px;
-    padding-top: 20px;
-    line-height: 28px;
-  }
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3b3b3;
+  margin-left: 120px;
+  padding-top: 20px;
+  line-height: 28px;
+}
 
-  .quizAmizade h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #fff;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 120px;
-    padding-top: 20px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
+.quizAmizade h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 120px;
+  padding-top: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
-  .clientes {
-    background-color: white;
-    height: 30em;
-  }
+.clientes {
+  background-color: white;
+  height: 30em;
+}
 
-  .clientes h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 30px;
-    color: #000;
-    margin-top: 10px;
-    margin-left: 120px;
-    padding-top: 20px;
-  }
+.clientes h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 120px;
+  padding-top: 20px;
+}
 
-  .textoCliente {
-    font-family: "Roboto";
-    font-size: 20px;
-    text-align: left;
-    margin-left: 30em;
-    padding-top: 20px;
-  }
+.textoCliente {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: left;
+  margin-left: 30em;
+  padding-top: 20px;
+}
 
-  .imgCliente {
-    height: 389px;
-    width: 320px;
-    position: relative;
-    bottom: 16em;
-    left: 8em;
-  }
+.imgCliente {
+  
+  height: 389px;
+  width: 320px;
+  position: relative;
+  bottom: 16em;
+  left: 8em;
+}
 
-  .clientes h2{
-    font-family: "Roboto";
-    font-size: 24px;
-    margin-left: 25em;
-    padding-top: 20px;
-   
-
-  }
+.clientes h2 {
+  font-family: "Roboto";
+  font-size: 24px;
+  margin-left: 25em;
+  padding-top: 20px;
+}
