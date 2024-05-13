@@ -14,7 +14,7 @@ const cachorroPitbullObj = {
     physicalCharacteristics: `Pelagem densa e curta.`,
     necessaryCareText: `Pitbulls são cães atléticos e precisam de exercícios diários para manter sua saúde física e mental. Passeios longos, corridas e brincadeiras ao ar livre são essenciais para que ele gaste energia de maneira positiva.
 
-    Além do exercício físico, seu Pitbull também precisa de estímulo mental. Brinquedos interativos, jogos de busca e treinamento de truques são ótimas maneiras de mantê-lo mentalmente engajado.
+    Além do exercício físico, seu Pitbull também precisa de estímulo mental. Brinquedos interativos, jogos de busca e treinamento de truques são ótimas maneiras de mantê-lo mentalmente engajado. 
     
     ofereça ao seu Pitbull muito amor, carinho e paciência. Como qualquer cão, ele é um membro da família e merece ser tratado com respeito e cuidado.
     
