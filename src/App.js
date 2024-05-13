@@ -10,6 +10,8 @@ import Footer from "./componentes/footer";
 import Breadcrumb from "./componentes/breadcrumb/Breadcrumb";
 import QuizBetta from "./pages/quiz/QuizBetta";
 import Siames from "./pages/animais/Gatos/siames";
+import Angora from "./pages/animais/Gatos/angora";
+import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/Depoimentos" element={<Depoimentos />} />
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Animais/Siames" element={<Siames/>} />
+        <Route path="/Animais/Angora" element={<Angora/>} />
+        <Route path="/Animais/bordercollie" element={<BorderCollie/>} />
       </Routes>
     
       <Footer />

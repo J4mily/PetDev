@@ -1,0 +1,1 @@
+import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";

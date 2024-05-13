@@ -12,16 +12,16 @@ export const Animais = () =>{
         href: '/Siames'
     },
     {
-        specie_id: 'siames',
-        name: 'Siamês',
-        img_link: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZLtu_HS-kKMEScauynlfNmxPmF4yL1_6kMNJxgb2xN7dA-f5MX0Ubd6HMKJ3Tp3F92vo_aX6qZ-_sNqVQ5xAyCftrrkxRklgQ=w1872-h923',
-        href: '/Siames'
+        specie_id: 'angora',
+        name: 'Angorá',
+        img_link: 'https://lh3.google.com/u/0/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc=w1365-h911-iv2',
+        href: '/Angora'
     },        
     {
-        specie_id: 'siames',
-        name: 'Siamês',
-        img_link: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZLtu_HS-kKMEScauynlfNmxPmF4yL1_6kMNJxgb2xN7dA-f5MX0Ubd6HMKJ3Tp3F92vo_aX6qZ-_sNqVQ5xAyCftrrkxRklgQ=w1872-h923',
-        href: '/Siames'
+        specie_id: 'bordercollie',
+        name: 'Border Collie',
+        img_link: 'https://lh3.google.com/u/0/d/1Ccei3lUis9fxrl8D9PVpz5AvsyoRAeI7=w1920-h911-iv2',
+        href: '/BorderCollie'
     }
 ]
 
