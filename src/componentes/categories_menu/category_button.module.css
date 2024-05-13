@@ -1,13 +1,53 @@
-.categoryButton {
-    /* Estilos para o botão */
-    background-color: #fff;
-    border: 1px solid #ccc;
-    color: #333;
-    padding: 10px 20px;
-    cursor: pointer;
+.name {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(15px, 1.3vw, 40px);
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.categoryButton:hover {
-    /* Estilos quando o botão é passado o mouse por cima */
-    background-color: #f0f0f0;
+.image {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    min-width: 300px; /* Define o tamanho mínimo da largura da imagem */
+}
+
+.button {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    margin: 10%;
+}
+
+/* category_button.module.css */
+.speciesContainer {
+    /* Adiciona uma transição suave para a altura e opacidade */
+    opacity: 1;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.slideEnter {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.slideEnterActive {
+    max-height: 500px; /* ou o valor que você quiser para a altura máxima */
+    transition: max-height 300ms ease-in;
+}
+
+.slideExit {
+    max-height: 500px; /* ou o valor que você definiu em slideEnterActive */
+    overflow: hidden;
+}
+
+.slideExitActive {
+    max-height: 0;
+    transition: max-height 300ms ease-out;
 }

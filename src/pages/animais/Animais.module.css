@@ -1,0 +1,12 @@
+.mainConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category {
+    width: calc(25% - 10px); /* 25% do espaço menos 10px de margem entre os componentes */
+    margin-bottom: 20px; /* Espaçamento inferior entre os componentes */
+  }
+  
+  /* Estilos adicionais conforme necessário para o seu componente */
