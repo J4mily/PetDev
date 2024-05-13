@@ -51,6 +51,13 @@ npm install react@18.2.0
 npm install react-dom@18.2.0
 ```
 
+- Instale react-transition-group
+
+```bash
+npm install react-transition-group
+```
+
+
 - Instale o Prettier para padronização de códigos:
 
 ```bash
