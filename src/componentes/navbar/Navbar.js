@@ -30,7 +30,7 @@ export const Navbar = () => {
             <Link to="/Sobre">Sobre</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/Sugestões">Sugestões</Link>
+            <Link to="/Sugestoes">Sugestões</Link>
           </li>
         </ul>
       </div>

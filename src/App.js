@@ -26,7 +26,7 @@ function App() {
         <Route path="/Animais" element={<Animais />} />
         <Route path="/Quiz" element={<Quiz />} />
         <Route path="/Sobre" element={<Sobre />} />
-        <Route path="/Sugestões" element={<Sugestao />} />
+        <Route path="/Sugestoes" element={<Sugestao />} />
         <Route path="/Depoimentos" element={<Depoimentos />} />
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Animais/Siames" element={<Siames/>} />
