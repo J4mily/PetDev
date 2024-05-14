@@ -21,7 +21,7 @@ const cachorroPitbullObj = {
     É crucial socializar seu Pitbull desde filhote. Exponha-o a uma variedade de pessoas, animais, ambientes e situações para que ele aprenda a se comportar adequadamente em diferentes contextos.`,
     imgProduct1: "https://lh3.google.com/u/0/d/1FhC7dNrWt3IOBL3WM_JBxcDeFsJMMdag=w1365-h911-iv2",
     altImgProduct1: "Origens Raças espcíficas",
-    textImageProduct1: `Origens Raças espcíficas`,
+    textImageProduct1: `Origens Raças específicas`,
     imgProduct2: "https://lh3.google.com/u/0/d/1uHgc_uygJ13bt03Z73fzPrK8HbRx4l4B=w1365-h911-iv2",
     altImgProduct2: "Golden Power Training",
     textImageProduct2: `Golden Power Training`,

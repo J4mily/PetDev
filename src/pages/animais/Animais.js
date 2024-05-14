@@ -22,6 +22,12 @@ export const Animais = () =>{
         name: 'Border Collie',
         img_link: 'https://lh3.google.com/u/0/d/1Ccei3lUis9fxrl8D9PVpz5AvsyoRAeI7=w1920-h911-iv2',
         href: '/BorderCollie'
+    },
+    {
+        specie_id: 'pitbull',
+        name: 'Pitbull',
+        img_link: 'https://lh3.google.com/u/0/d/1KGCJ0v1_uvjnAW3sCXS9SiNqR8jwoKen=w1365-h911-iv2',
+        href: '/Pitbull',
     }
 ]
 

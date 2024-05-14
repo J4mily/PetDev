@@ -12,6 +12,7 @@ import QuizBetta from "./pages/quiz/QuizBetta";
 import Siames from "./pages/animais/Gatos/siames";
 import Angora from "./pages/animais/Gatos/angora";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
+import Pitbull from "./pages/animais/Cachorros/pitbull";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/Animais/Siames" element={<Siames/>} />
         <Route path="/Animais/Angora" element={<Angora/>} />
         <Route path="/Animais/bordercollie" element={<BorderCollie/>} />
+        <Route path="/Animais/Pitbull" element={<Pitbull/>} />
       </Routes>
     
       <Footer />
