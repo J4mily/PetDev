@@ -57,11 +57,15 @@ npm install react-dom@18.2.0
 npm install react-transition-group
 ```
 
-
 - Instale o Prettier para padronização de códigos:
 
 ```bash
 npm install prettier
+```
+- Instale o Swiper
+
+```bash
+npm install swiper
 ```
 
 ## Extensões
