@@ -13,15 +13,18 @@ import Siames from "./pages/animais/Gatos/siames";
 import Angora from "./pages/animais/Gatos/angora";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
+import ScrollTop from "./componentes/scrollTop/ScrollTop";
 
 
 function App() {
   return (
     <Router>
+      <ScrollTop />
       <Navbar />
-
+      
       <Breadcrumb />
       <Routes>
+      
         <Route path="/" element={<Home />} />
         <Route path="/Animais" element={<Animais />} />
         <Route path="/Quiz" element={<Quiz />} />
