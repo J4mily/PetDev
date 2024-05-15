@@ -1,15 +1,13 @@
 import { useLayoutEffect } from "react";
-import { useLocation } from "react-router-dom"
-import { Autoplay } from "swiper/modules";
+import { useLocation } from "react-router-dom";
 
 export const ScrollTop = () => {
-    const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-    useLayoutEffect(() => {
-        window.scrollTo(0,0);
-}, [pathname]
-);
-    return null;
-} 
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+};
 
 export default ScrollTop;
