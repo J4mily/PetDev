@@ -33,13 +33,13 @@ export const Animais = () =>{
                         <CategoryButton
                         category_image_link={birds.imgCategory}
                         category_name={birds.nameCategory}
-                        speciesList={birds.catSpecies}/>
+                        speciesList={birds.birdSpecies}/>
                     </div>
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={monkeys.imgCategory}
                         category_name={monkeys.nameCategory}
-                        speciesList={monkeys.catSpecies}/>
+                        speciesList={monkeys.monkeySpecies}/>
                     </div>
 
 
@@ -47,14 +47,14 @@ export const Animais = () =>{
                         <CategoryButton
                         category_image_link={fish.imgCategory}
                         category_name={fish.nameCategory}
-                        speciesList={fish.catSpecies}/>
+                        speciesList={fish.fishSpecies}/>
                     </div>
 
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={snakes.imgCategory}
                         category_name={snakes.nameCategory}
-                        speciesList={snakes.catSpecies}/>
+                        speciesList={snakes.snakeSpecies}/>
                     </div>
 
 
@@ -62,7 +62,7 @@ export const Animais = () =>{
                         <CategoryButton
                         category_image_link={rodents.imgCategory}
                         category_name={rodents.nameCategory}
-                        speciesList={rodents.catSpecies}/>
+                        speciesList={rodents.rodentSpecies}/>
                     </div>
 
             </div>

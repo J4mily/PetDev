@@ -13,7 +13,9 @@ import Siames from "./pages/animais/Gatos/siames";
 import Angora from "./pages/animais/Gatos/angora";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
+import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
+
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
         <Route path="/Animais/Angora" element={<Angora/>} />
         <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
+        <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
+
       </Routes>
     
       <Footer />

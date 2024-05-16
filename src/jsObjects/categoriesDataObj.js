@@ -36,18 +36,13 @@ const categoriesData = {
     },
 
     birds: {
-        nameCategory: "Gatos",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        catSpecies:[
+        nameCategory: "Passaros",
+        imgCategory: getImage("https://drive.google.com/file/d/1QyI--PluQTS2CmtG-w-Nz95O666p95b4/view?usp=drive_link"),
+        birdSpecies:[
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
-            },
-            {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
+                name: "Canário Belga",
+                img: getImage("https://drive.google.com/file/d/1r_Z_fnYH7vSitlI8rlZFowlI5PhZPy_6/view?usp=drive_link"),
+                link_to:"/CanarioBelga"
             }
         ]
 
@@ -56,7 +51,7 @@ const categoriesData = {
     rodents: {
         nameCategory: "Gatos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        catSpecies:[
+        rodentSpecies:[
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
@@ -73,7 +68,7 @@ const categoriesData = {
     monkeys: {
         nameCategory: "Gatos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        catSpecies:[
+        monkeySpecies:[
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
@@ -90,7 +85,7 @@ const categoriesData = {
     snakes: {
         nameCategory: "Gatos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        catSpecies:[
+        snakeSpecies:[
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
@@ -107,7 +102,7 @@ const categoriesData = {
     fish: {
         nameCategory: "Gatos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        catSpecies:[
+        fishSpecies:[
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
