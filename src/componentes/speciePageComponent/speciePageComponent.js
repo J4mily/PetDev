@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./speciePage.module.css";
+import getImage from "../../utilities/getImageLink";
 
 function SpeciePageComponent({specieObject}){
     return(
@@ -32,26 +33,26 @@ function SpeciePageComponent({specieObject}){
               </div>
               <div className={styles.contentItem}>
                 <div className={styles.characteristics}>
-                  <img src="https://lh3.google.com/u/0/d/1otRHLtid0LaxJqQkeF4A3ZWP4IxVJDvB=w1872-h923-iv1" alt="Icon tempo estimado de vida"></img>
+                  <img src={getImage("https://drive.google.com/file/d/1otRHLtid0LaxJqQkeF4A3ZWP4IxVJDvB/view?usp=drive_link")} alt="Icon tempo estimado de vida"></img>
                   <span className={styles.text}>{specieObject.lifetimeText}</span>
                 </div>
 
                 <div className={styles.characteristics}>
-                  <img src="https://lh3.google.com/u/0/d/1Rn7Kn1aEZREgOoD47JKxGJguUt_e2gjX=w1872-h923-iv1" alt="Icon valor"></img>
+                  <img src={getImage("https://drive.google.com/file/d/1Rn7Kn1aEZREgOoD47JKxGJguUt_e2gjX/view?usp=drive_link")} alt="Icon valor"></img>
                   <span className={styles.text}>{specieObject.estimatedPrice}</span>
                 </div>
                 
                 <div className={styles.characteristics}>
-                  <img src="https://lh3.google.com/u/0/d/1gqKe2DYCYFk-CjiYrA94j8OiixepDzgb=w1265-h923-iv1" alt="Icon personalidade"></img>
+                  <img src={getImage("https://drive.google.com/file/d/1gqKe2DYCYFk-CjiYrA94j8OiixepDzgb/view?usp=drive_link")} alt="Icon personalidade"></img>
                   <span className={styles.text}>{specieObject.personality}</span>
                 </div>
                   
                 <div className={styles.characteristics}>
-                  <img src="https://lh3.google.com/u/0/d/1F4-jJ3sU_UFnSnjDTmrwl09h_TWmroFi=w1265-h923-iv1" alt="Icon adaptacao com os humanos"></img>
+                  <img src={getImage("https://drive.google.com/file/d/1F4-jJ3sU_UFnSnjDTmrwl09h_TWmroFi/view?usp=drive_link")} alt="Icon adaptacao com os humanos"></img>
                   <span className={styles.text}>{specieObject.adaptationWithHumans}</span>
                 </div>
                 <div className={styles.characteristics}>
-                  <img src="https://lh3.google.com/u/0/d/1qE-Q-4PtERI7_isj4xmzmS3XSVAUU6ir=w1265-h923-iv1" alt="Icon características fisicas"></img>
+                  <img src={getImage("https://drive.google.com/file/d/1qE-Q-4PtERI7_isj4xmzmS3XSVAUU6ir/view?usp=drive_link")} alt="Icon características fisicas"></img>
                   <span className={styles.text}>{specieObject.physicalCharacteristics}</span>
 
                 </div>

@@ -6,9 +6,9 @@ function SpeciesListComponent({ speciesList }) {
   return (
     <div>
       {speciesList.map((species, index) => (
-        <Link to={"/Animais"+species.href}> 
+        <Link to={"/Animais"+species.link_to}> 
         <div key={index}>
-          <img src={species.img_link} alt={species.name} />
+          <img src={species.img} alt={species.name} />
           <p>{species.name}</p>
           </div>
           </ Link>

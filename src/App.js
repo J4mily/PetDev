@@ -34,7 +34,7 @@ function App() {
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Animais/Siames" element={<Siames/>} />
         <Route path="/Animais/Angora" element={<Angora/>} />
-        <Route path="/Animais/bordercollie" element={<BorderCollie/>} />
+        <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
       </Routes>
     
