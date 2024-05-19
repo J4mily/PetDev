@@ -67,7 +67,11 @@ npm install prettier
 ```bash
 npm install swiper
 ```
+- Instale a biblioteca 'react-modal' para o Quiz:
 
+```bash
+ npm install react-modal
+```
 ## Extensões
 
 - Prettier - Code formatter
