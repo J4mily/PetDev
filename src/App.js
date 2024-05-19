@@ -16,8 +16,6 @@ import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
 
-
-
 function App() {
   return (
     <Router>
