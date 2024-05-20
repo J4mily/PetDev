@@ -27,8 +27,8 @@
 .cachorro {
   max-width: 100%;
   display: block;
-  height: 600px;
-  width: 500px;
+  height: 100%;
+  width: 30%;
   position: relative;
   bottom: 19em;
   left: 55em;
