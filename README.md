@@ -36,7 +36,7 @@ npm install next@13.1.6
 - Instale o Node Js versão 20.11.1:
 
 ```bash
-npm install 20.11.1
+npm install node@20.11.1
 ```
 
 - Instale o React versão 18.2.0:
