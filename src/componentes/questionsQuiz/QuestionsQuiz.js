@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./PerguntasQuiz.module.css";
+import styles from "./QuestionsQuiz.module.css";
 import Resolucao from "../../pages/quiz/Resolucao";
 
 const RadioButton = ({ name, value, label, onChange }) => {
@@ -18,7 +18,7 @@ const RadioButton = ({ name, value, label, onChange }) => {
   );
 };
 
-const PerguntasQuiz = ({ imageUrl, text1, text2, questions }) => {
+const PerguntasQuiz = ({ imageUrl, imageStyle, text1, text2, questions, correctAnswers }) => {
   const [hovered, setHovered] = useState(false);
   const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
@@ -45,15 +45,6 @@ const PerguntasQuiz = ({ imageUrl, text1, text2, questions }) => {
   const checkAnswers = (answers) => {
     let correctCount = 0;
 
-    const correctAnswers = [
-      "Betta splendens",
-      "Eles podem ser agressivos com outros peixes",
-      "25-27°C",
-      "Verde-oliva",
-      "Para impressionar outros peixes",
-      "BRASIL"
-    ];
-
     for (let i = 0; i < correctAnswers.length; i++) {
       if (answers[i] === correctAnswers[i]) {
         correctCount++;
@@ -64,6 +55,13 @@ const PerguntasQuiz = ({ imageUrl, text1, text2, questions }) => {
   };
 
   const handleConfirm = () => {
+    const allQuestionsAnswered = questions.every((_, index) => selectedAnswers[index] !== undefined);
+
+    if (!allQuestionsAnswered) {
+      alert("Falta questões a serem respondidas!");
+      return;
+    }
+
     setModalIsOpen(true);
   };
 
@@ -75,7 +73,7 @@ const PerguntasQuiz = ({ imageUrl, text1, text2, questions }) => {
     <div className={styles.pagQuiz}>
       <div className={styles.titleQuiz}>
         <h1>{text1}</h1>
-        <img src={imageUrl} alt={`Imagem quiz ${text2}`} />
+        <img src={imageUrl} alt={`Imagem quiz ${text2}`} style={imageStyle} />
       </div>
       <div className={styles.spaceQuestionsQuiz}>
         <div className={styles.questionsQuiz}>
