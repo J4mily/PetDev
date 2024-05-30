@@ -19,7 +19,7 @@ const GatoAngoraObj = {
     
     Também é importante ressaltar que, devido aos pelos longos, esses gatos precisam de banhos quinzenais - e que é importante secá-los bem para evitar proliferação de fungos.
     
-    Apesar de ser um gato caseiro e viver bem em apartamentos e lugares pequenos, o Angorá também é curioso e explorador e dispõe de uma energia muito grande. Por isso, é preciso distraí-lo e comprar brinquedos ou montar peças - como aqueles arranhadores de mais de um andar - para que ele possa escalar e usar toda essa disposição.`,
+    Apesar de ser um gato caseiro e viver bem em apartamentos e lugares pequenos, o  Angorá também é curioso e explorador e dispõe de uma energia muito grande. Por isso, é preciso distraí-lo e comprar brinquedos ou montar peças - como aqueles arranhadores de mais de um andar - para que ele possa escalar e usar toda essa disposição.`,
     imgProduct1: "https://lh3.google.com/u/0/d/1wmMGcKkkp7BsGswQSexvHTxnA_qVrTKs=w1920-h911-iv2",
     altImgProduct1: "Ração Úmida N&D Lata Para Gatos Adultos Sabor Atum e Salmão - 70g",
     textImageProduct1: `Ração Úmida N&D Lata Para Gatos Adultos Sabor Atum e Salmão - 70g`,
