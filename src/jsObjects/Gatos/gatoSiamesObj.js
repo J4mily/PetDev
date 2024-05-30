@@ -1,4 +1,4 @@
-import { getImage } from "../utilities/getImageLink";
+import { getImage } from "../../utilities/getImageLink";
 
 const siamesObj = {
     imgIntro: getImage("https://drive.google.com/file/d/1bydbPx_i-myAF4_QYk0LWV-M2UyvNt5W/view?usp=drive_link"),

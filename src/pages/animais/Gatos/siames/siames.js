@@ -1,5 +1,5 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import siamesObj from "../../../../jsObjects/gatoSiamesObj";
+import siamesObj from "../../../../jsObjects/Gatos/gatoSiamesObj";
 
 export const Siames = ( ) =>{
     return(

@@ -31,6 +31,11 @@ const categoriesData = {
                 name: "Angorá",
                 img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
                 link_to:"/Angora"
+            },
+            {
+                name: "Persa",
+                img: getImage("https://drive.google.com/file/d/1AhvmF1sKbQE_mGEQoChby0T2Lre3h-mY/view?usp=drive_link"),
+                link_to:"/Persa"
             }
         ]
     },

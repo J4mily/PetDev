@@ -10,6 +10,7 @@ import Footer from "./componentes/footer";
 import Breadcrumb from "./componentes/breadcrumb/Breadcrumb";
 import Siames from "./pages/animais/Gatos/siames";
 import Angora from "./pages/animais/Gatos/angora";
+import Persa from "./pages/animais/Gatos/persa";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Depoimentos" element={<Depoimentos />} />
         <Route path="/Animais/Siames" element={<Siames/>} />
         <Route path="/Animais/Angora" element={<Angora/>} />
+        <Route path="/Animais/Persa" element={<Persa/>} />
         <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />

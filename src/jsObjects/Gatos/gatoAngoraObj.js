@@ -34,7 +34,7 @@ const GatoAngoraObj = {
     curiosityTittle2: `FAMOSO`,
     curiosityText2: `Um Angorá muito conhecido, especialmente entre as crianças, é o lindo gatinho branco da Magali da série de quadrinhos Turma da Mônica. Muito travesso e carinhoso, o bichano pensa que é o dono da casa, característica marcante da raça.`,
     curiosityTittle3: `CRIAÇÃO`,
-    curiosityText3: `O Angorá gato é considerado o primeiro felino de pelo longo existente. Por muito tempo foi criado apenas em zoológicos na Turquia, o que possibilitou a preservação da raça. Isso aconteceu por ele ter sido praticamente esquecido devido ao surgimento dos gatos Persas.`,
+    curiosityText3: `O Angorá gato é considerado o primeiro felino de pelo longo existente. Por muito tempo foi criado apenas em zoológicos na Turquia, o que possibilitou a preservação da raça. Isso aconteceu por ele ter sido praticamente esquecido devido ao surgimento dos gatos Persas.`,
     curiosityTittle4: `ORIGEM`,
     curiosityText4: `O Angorá surgiu na Turquia, porém, os historiadores não sabem ao certo como a raça se originou. Uma possibilidade é ter nascido do cruzamento entre um gato selvagem africano e o gato Pallas.`,
 }

@@ -1,13 +1,13 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import GatoAngoraObj from "../../../../jsObjects/Gatos/gatoAngoraObj";
+import GatoPersaObj from "../../../../jsObjects/Gatos/gatoPersaObj";
 
-export const Angora = ( ) =>{
+export const Persa = ( ) =>{
     return(
         <div>
             <SpeciePageComponent
-            specieObject = {GatoAngoraObj}/>
+            specieObject = {GatoPersaObj}/>
         </div>
     )
 }
 
-export default Angora;
+export default Persa;
