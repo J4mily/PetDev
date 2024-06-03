@@ -1,7 +1,5 @@
-import getImage from "../../utilities/getImageLink";
-
 const GatoPersaObj = {
-    imgIntro: getImage("https://drive.google.com/file/d/1f694WIfW-wgjxtxaJgev81Sqg99Ah9Jk/view?usp=drive_link"),
+    imgIntro: "/images/pag_persa_intro.png",
     altImgIntro: "Imagem Intro Gato Persa",
     introTitle: "PERSA",
     //Todos os textos que tiverem quebra de linha devem estar entre ` ` para não dar erro no código
@@ -20,7 +18,7 @@ const GatoPersaObj = {
     seus tutores - eles não exigem atenção, mas gostam de recebê-la. Para famílias mais agitadas, o gato Persa
     pode ser considerado muito “quieto”. De olhos redondos e grandes e focinho pequeno e achatado, eles
     receberam esse nome por causa da região da onde vieram: a Pérsia, onde atualmente fica o Irã.`,
-    imgYouNeedToKnow: getImage("https://drive.google.com/file/d/151mpH1eLLCFmiEM_3nMrW2By4ru6OX4k/view?usp=drive_link"),
+    imgYouNeedToKnow:"/images/pag_persa_info.png", 
     altImgYouNeedToKnow: "Imagem gato persa info",
     lifetimeText: `Em média de 10 a 15 anos.`,
     estimatedPrice: `Varia de R$ 1.500 a R$ 5.000, dependendo do
@@ -48,13 +46,13 @@ const GatoPersaObj = {
     Entre os riscos que Gato Persa pode desenvolver estão problemas de visão, respiratórios
     e odontológicos. Sem falar em casos de dermatites, doenças cardíacas e renais e
     displasia de quadril.`,
-    imgProduct1: getImage("https://drive.google.com/file/d/1sIQOHZT1hFM5BIPPRtLLUsiWNr-R6Jtv/view?usp=drive_link"),
+    imgProduct1: "/images/racao_royal_persa_alimentacao.png",
     altImgProduct1: "Ração Royal Canin Kitten Persian para Gatos Filhotes da Raça Persa",
     textImageProduct1: `Ração Royal Canin Kitten Persian para Gatos Filhotes da Raça Persa`,
-    imgProduct2: getImage("https://drive.google.com/file/d/1hK2Sj3pYq7Ws_FkS9k6nWJZRFiA3jLSJ/view?usp=drive_link"),
+    imgProduct2: "/images/racao_premier_persa_alimentacao.png",
     altImgProduct2: "Ração Premier Ambientes Internos Pelos Longos para Gatos Adultos Sabor Salmão",
     textImageProduct2: `Ração Premier Ambientes Internos Pelos Longos para Gatos Adultos Sabor Salmão`,
-    imgProduct3: getImage("https://drive.google.com/file/d/1lMcxDZJKrDHdtHzGbvj7rR3hhG2O2Vkf/view?usp=drive_link"),
+    imgProduct3: "/images/racao_formula_persa_alimentacao.png",
     altImgProduct3: "Ração Fórmula Natural FreshMeat para Gatos com Pelos Longos Sabor Salmão",
     textImageProduct3: `Ração Fórmula Natural FreshMeat para Gatos com Pelos Longos Sabor Salmão`,
     curiosityTittle1: `ANTIGO EGITO`,
