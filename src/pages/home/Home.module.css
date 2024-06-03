@@ -1,7 +1,7 @@
 .container {
   display: grid;
   background-color: black;
-  height: 20em;
+  height: 22vw;
   max-width: 100%;
 }
 
@@ -30,8 +30,8 @@
   height: 100%;
   width: 30%;
   position: relative;
-  bottom: 19em;
-  left: 55em;
+  bottom: 20vw;
+  left: 60vw;
 }
 
 .pets {
@@ -39,9 +39,9 @@
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  height: 5em;
-  margin: 8em;
-  margin-top: 12em;
+  height: 5vw;
+  margin: 10vw;
+  margin-top: 12vw;
 }
 
 .lista {
@@ -104,7 +104,7 @@
 
 .clientes {
   background-color: white;
-  height: 30em;
+  height: 30vw;
 }
 
 .clientes h1 {
@@ -122,7 +122,7 @@
   font-family: "Roboto";
   font-size: 20px;
   text-align: left;
-  margin-left: 30em;
+  margin-left: 50vw;
   padding-top: 20px;
 }
 
@@ -131,13 +131,13 @@
   height: 389px;
   width: 320px;
   position: relative;
-  bottom: 16em;
-  left: 8em;
+  bottom: 18vw;
+  left: 7vw;
 }
 
 .clientes h2 {
   font-family: "Roboto";
   font-size: 24px;
-  margin-left: 25em;
+  margin-left: 50vw;
   padding-top: 20px;
 }
