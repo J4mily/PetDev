@@ -3,16 +3,16 @@ import getImage from "../utilities/getImageLink";
 const categoriesData = {
     dogs: {
         nameCategory: "Cachorros",
-        imgCategory: getImage("https://drive.google.com/file/d/1Dr7MwlS9CtNBJMUCsUvK3WhxyrEbWbTn/view?usp=drive_link"),
+        imgCategory:"/images/categorias_cachorros.png",
         dogSpecies:[
             {
                 name:"Pitbull",
-                img: getImage("https://drive.google.com/file/d/1KGCJ0v1_uvjnAW3sCXS9SiNqR8jwoKen/view?usp=drive_link"),
-                link_to: "/GermanSheperd"
+                img: "/images/pitbull_cachorros_racas_medias.png",
+                link_to: "/Pitbull"
             },
             {
                 name: "Border Collie",
-                img: getImage("https://drive.google.com/file/d/1Ccei3lUis9fxrl8D9PVpz5AvsyoRAeI7/view?usp=drive_link"),
+                img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"
             }
         ]
@@ -20,33 +20,33 @@ const categoriesData = {
 
     cats: {
         nameCategory: "Gatos",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        imgCategory: "/images/categorias_gatos.png",
         catSpecies:[
             {
                 name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
+                img: "/images/siames_categorias_gatos.png",
                 link_to:"/Siames"
             },
             {
                 name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
+                img: "/images/angora_categorias_gatos.png",
                 link_to:"/Angora"
             },
             {
                 name: "Persa",
-                img: getImage("https://drive.google.com/file/d/1AhvmF1sKbQE_mGEQoChby0T2Lre3h-mY/view?usp=drive_link"),
+                img: "/images/persa_categorias_gatos.png",
                 link_to:"/Persa"
             }
         ]
     },
 
     birds: {
-        nameCategory: "Passaros",
-        imgCategory: getImage("https://drive.google.com/file/d/1QyI--PluQTS2CmtG-w-Nz95O666p95b4/view?usp=drive_link"),
+        nameCategory: "Pássaros",
+        imgCategory: "/images/categorias_passaros.png",
         birdSpecies:[
             {
                 name: "Canário Belga",
-                img: getImage("https://drive.google.com/file/d/1r_Z_fnYH7vSitlI8rlZFowlI5PhZPy_6/view?usp=drive_link"),
+                img: "/images/canario_belga_categorias_passaros.png",
                 link_to:"/CanarioBelga"
             }
         ]
@@ -54,7 +54,7 @@ const categoriesData = {
     },
 
     rodents: {
-        nameCategory: "Gatos",
+        nameCategory: "Roedores",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
         rodentSpecies:[
             {
@@ -71,7 +71,7 @@ const categoriesData = {
     },
 
     monkeys: {
-        nameCategory: "Gatos",
+        nameCategory: "Macacos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
         monkeySpecies:[
             {
@@ -88,7 +88,7 @@ const categoriesData = {
     },
 
     snakes: {
-        nameCategory: "Gatos",
+        nameCategory: "Cobras",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
         snakeSpecies:[
             {
@@ -105,7 +105,7 @@ const categoriesData = {
     },
 
     fish: {
-        nameCategory: "Gatos",
+        nameCategory: "Peixes",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
         fishSpecies:[
             {

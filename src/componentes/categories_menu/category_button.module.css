@@ -7,14 +7,14 @@
 }
 
 .image {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    min-width: 300px; /* Define o tamanho mínimo da largura da imagem */
+    width: 15vw;
 }
 
 .button {
     cursor: pointer;
     transition: transform 0.3s ease;
+    display: grid;
+    justify-content: center;
 }
 
 .button:hover {
@@ -25,11 +25,13 @@
     margin: 10%;
 }
 
-/* category_button.module.css */
 .speciesContainer {
     /* Adiciona uma transição suave para a altura e opacidade */
     opacity: 1;
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 .slideEnter {

@@ -34,26 +34,26 @@ function SpeciePageComponent({specieObject}){
               <div className={styles.contentItem}>
                 <div className={styles.characteristics}>
                   <img src={getImage("https://drive.google.com/file/d/1otRHLtid0LaxJqQkeF4A3ZWP4IxVJDvB/view?usp=drive_link")} alt="Icon tempo estimado de vida"></img>
-                  <span className={styles.text}>{specieObject.lifetimeText}</span>
+                  <span className={`${styles.text} ${styles.contentItem}`}>{specieObject.lifetimeText}</span>
                 </div>
 
                 <div className={styles.characteristics}>
                   <img src={getImage("https://drive.google.com/file/d/1Rn7Kn1aEZREgOoD47JKxGJguUt_e2gjX/view?usp=drive_link")} alt="Icon valor"></img>
-                  <span className={styles.text}>{specieObject.estimatedPrice}</span>
+                  <span className={`${styles.text} ${styles.contentItem}`}>{specieObject.estimatedPrice}</span>
                 </div>
                 
                 <div className={styles.characteristics}>
                   <img src={getImage("https://drive.google.com/file/d/1gqKe2DYCYFk-CjiYrA94j8OiixepDzgb/view?usp=drive_link")} alt="Icon personalidade"></img>
-                  <span className={styles.text}>{specieObject.personality}</span>
+                  <span className={`${styles.text} ${styles.contentItem}`}>{specieObject.personality}</span>
                 </div>
                   
                 <div className={styles.characteristics}>
                   <img src={getImage("https://drive.google.com/file/d/1F4-jJ3sU_UFnSnjDTmrwl09h_TWmroFi/view?usp=drive_link")} alt="Icon adaptacao com os humanos"></img>
-                  <span className={styles.text}>{specieObject.adaptationWithHumans}</span>
+                  <span className={`${styles.text} ${styles.contentItem}`}>{specieObject.adaptationWithHumans}</span>
                 </div>
                 <div className={styles.characteristics}>
                   <img src={getImage("https://drive.google.com/file/d/1qE-Q-4PtERI7_isj4xmzmS3XSVAUU6ir/view?usp=drive_link")} alt="Icon características fisicas"></img>
-                  <span className={styles.text}>{specieObject.physicalCharacteristics}</span>
+                  <span className={`${styles.text} ${styles.contentItem}`}>{specieObject.physicalCharacteristics}</span>
 
                 </div>
               </div>
