@@ -11,6 +11,11 @@ const categoriesData = {
                 link_to: "/Pitbull"
             },
             {
+                name:"Rottweiler",
+                img: "/images/rotweiller_cachorros_racas_grandes.png.png",
+                link_to: "/Rottweiler"
+            },
+            {
                 name: "Border Collie",
                 img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"

@@ -18,6 +18,7 @@ import ScrollTop from "./componentes/scrollTop/ScrollTop";
 import QuizBetta from "./pages/quiz/QuizBetta";
 import QuizHamster from "./pages/quiz/QuizHamster";
 import QuizSagui from "./pages/quiz/QuizSagui";
+import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
+        <Route path="/Animais/Rottweiler" element={<Rottweiler/>} />
 
       </Routes>
     
