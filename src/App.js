@@ -19,6 +19,8 @@ import QuizBetta from "./pages/quiz/QuizBetta";
 import QuizHamster from "./pages/quiz/QuizHamster";
 import QuizSagui from "./pages/quiz/QuizSagui";
 import Rottweiler from "./pages/animais/Cachorros/rottweiler";
+import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
+import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
         <Route path="/Animais/Rottweiler" element={<Rottweiler/>} />
+        <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
+        <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />
 
       </Routes>
     

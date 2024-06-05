@@ -16,6 +16,16 @@ const categoriesData = {
                 link_to: "/Rottweiler"
             },
             {
+                name:"Golden Retriever",
+                img: "/images/golden_cachorros_racas_grandes.png",
+                link_to: "/GoldenRetriever"
+            },
+            {
+                name:"Pastor Alemão",
+                img: "/images/pastor_cachorros_racas_grandes.png",
+                link_to: "/PastorAlemao"
+            },
+            {
                 name: "Border Collie",
                 img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"
