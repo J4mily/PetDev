@@ -4,8 +4,8 @@ import styles from "./footer.module.css";
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.conteiner}>
-        <div className={styles.conteinerItem}>
+      <div className={styles.container}>
+        <div className={styles.containerItem}>
           <Link to="/">
             <img
             src="/images/logo_pet_dev.png"
@@ -17,7 +17,7 @@ export const Footer = () => {
 
             </Link>
         </div>
-        <div className={styles.conteinerItem}>
+        <div className={styles.containerItem}>
           <span className={`${styles.contact} ${styles.text}`}>
             Contato
             <br />
@@ -26,7 +26,7 @@ export const Footer = () => {
             contato@petdev.com
           </span>
         </div>
-        <ul className={styles.conteinerItem}>
+        <ul className={styles.containerItem}>
           <li className={styles.listItem}>
             <Link to="/Animais">Animais</Link>
           </li>
