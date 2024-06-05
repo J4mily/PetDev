@@ -21,6 +21,16 @@
     font-size: clamp(10px, 1.2vw, 30px);
 }
 
+.item, .logo {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.item:hover, .logo:hover{
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+
 .item a {
     text-decoration: none;
     color: #fff;

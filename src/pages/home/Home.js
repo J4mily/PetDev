@@ -21,7 +21,7 @@ export const Home = () => {
           mais detalhes sobre a vida do seu pet.
         </p>
         <div>
-          <Button texto="SAIBA MAIS" />
+          <Button texto="SAIBA MAIS" link_to="/Animais" />
         </div>
 
         <img
@@ -108,27 +108,18 @@ export const Home = () => {
           quatro patas. Prepare-se para se surpreender e se encantar com o que
           você aprenderá sobre o seu pet!
         </p>
-        <Link to="/Quiz">
-          <h2>Vamos lá?</h2>
-        </Link>
+        <Button texto="Vamos lá?" link_to="/Quiz"/>
       </section>
 
       <section className={styles.clientes}>
-        <h1>CLIENTES</h1>
+        <h1>DEPOIMENTO</h1>
         <p className={styles.textoCliente}>
           “Gostaria imensamente de expressar minha gratidão pelo
-          <br />
-          valioso conteúdo
-          <br />
-          encontrado neste portal sobre cuidados com cachorros.
-          <br />
-          Desde que comecei a seguir as dicas e orientações aqui
-          <br />
-          compartilhadas,
-          <br />
-          tenho visto uma melhoria significativa na saúde e felicidade
-          <br />
-          do meu querido amigo de quatro patas.”
+          <br /> valioso conteúdo encontrado neste portal sobre cuidados <br />com cachorros.
+          
+          Desde que comecei a seguir as dicas <br />e orientações aqui compartilhadas,
+          tenho visto uma <br /> melhoria significativa na saúde e felicidade
+          do meu <br />querido amigo de quatro patas.”
         </p>
         <h2>Ryan Mill</h2>
         <p className={styles.textoCliente}>Engenheiro de dados</p>
