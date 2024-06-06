@@ -22,6 +22,7 @@ import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
 import cachorroChowChow from "./pages/animais/Cachorros/chowchow";
+import cachorroPoodle from "./pages/animais/Cachorros/poodle";
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
         <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
         <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />
         <Route path="/Animais/ChowChow" element={<cachorroChowChow/>} />
-
+        <Route path="/Animais/Poodle" element={<cachorroPoodle/>} />
+           
       </Routes>
     
       <Footer />
