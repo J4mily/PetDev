@@ -11,9 +11,29 @@ const categoriesData = {
                 link_to: "/Pitbull"
             },
             {
+                name:"Rottweiler",
+                img: "/images/rotweiller_cachorros_racas_grandes.png.png",
+                link_to: "/Rottweiler"
+            },
+            {
+                name:"Golden Retriever",
+                img: "/images/golden_cachorros_racas_grandes.png",
+                link_to: "/GoldenRetriever"
+            },
+            {
+                name:"Pastor Alemão",
+                img: "/images/pastor_cachorros_racas_grandes.png",
+                link_to: "/PastorAlemao"
+            },
+            {
                 name: "Border Collie",
                 img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"
+            },
+            {
+                name:"ChowChow",
+                img: "/images/chowchow_cachorros_racas_medias.png",
+                link_to: "/ChowChow"
             }
         ]
     },

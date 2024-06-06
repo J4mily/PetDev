@@ -1,5 +1,3 @@
-import getImage from "../utilities/getImageLink";
-
 const animal = {
     imgIntro: "",
     altImgIntro: "",

@@ -1,5 +1,5 @@
 /* Container principal */
-.conteiner {
+.container {
     background-color: #000;
     padding: 10px;
     display: flex;
@@ -8,11 +8,12 @@
   }
   
   .logo {
-    width: clamp(50px, 10vw, 120px); 
+    width: clamp(50px, 10vw, 120px);
+    margin-left: 5%;
     margin-bottom:20%;
   }
   
-  .conteinerItem {
+  .containerItem {
     flex: 1 1 33.33%; /* Cada item ocupa um terço da largura */
     margin-top: 5%;
   }
@@ -46,3 +47,12 @@
   }
   
   
+  .listItem, .logo{
+    transition: transform 0.3s ease;
+    
+  }
+
+  .listItem:hover, .logo:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
