@@ -29,6 +29,11 @@ const categoriesData = {
                 name: "Border Collie",
                 img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"
+            },
+            {
+                name:"ChowChow",
+                img: "/images/chowchow_cachorros_racas_medias.png",
+                link_to: "/ChowChow"
             }
         ]
     },
