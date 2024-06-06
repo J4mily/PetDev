@@ -44,6 +44,11 @@ const categoriesData = {
                 name:"Pinscher",
                 img: "/images/pinscher_cachorros_racas_pequenas.png",
                 link_to: "/Pinscher"
+            },
+            {
+                name: "ShihTzu",
+                img: "/images/shii_tzu_cachorros_racas_pequenas.png",
+                link_to: "/ShihTzu"
             }
         ]
     },
