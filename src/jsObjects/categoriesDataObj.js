@@ -39,6 +39,11 @@ const categoriesData = {
                 name: "Poodle",
                 img: "/images/poodle_cachorros_racas_pequenas.png",
                 link_to: "/Poodle"
+            },
+            {
+                name:"Pinscher",
+                img: "/images/pinscher_cachorros_racas_pequenas.png",
+                link_to: "/Pinscher"
             }
         ]
     },
