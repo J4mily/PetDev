@@ -1,2 +1,3 @@
-import cachorroChowChow from "./chowchow";
-export default cachorroChowChow;
+import ChowChow from "./chowchow";
+
+export default ChowChow;
