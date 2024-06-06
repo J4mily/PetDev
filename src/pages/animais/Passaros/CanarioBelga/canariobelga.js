@@ -1,5 +1,5 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import CanarioBelgaObj from "../../../../jsObjects/passaroCanarioBelgaObj";
+import CanarioBelgaObj from "../../../../jsObjects/Passaros/passaroCanarioBelgaObj";
 
 export const CanarioBelga = ( ) =>{
     return(

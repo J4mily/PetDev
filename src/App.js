@@ -14,6 +14,7 @@ import Persa from "./pages/animais/Gatos/persa";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
+import CornSnake from "./pages/animais/Cobras/CornSnake";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
 import QuizBetta from "./pages/quiz/QuizBetta";
 import QuizHamster from "./pages/quiz/QuizHamster";
@@ -21,8 +22,8 @@ import QuizSagui from "./pages/quiz/QuizSagui";
 import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
-import cachorroChowChow from "./pages/animais/Cachorros/chowchow";
-import cachorroPoodle from "./pages/animais/Cachorros/poodle";
+import ChowChow from "./pages/animais/Cachorros/chowchow";
+
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
+        <Route path="/Animais/CornSnake" element={<CornSnake/>} />
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
@@ -52,8 +54,7 @@ function App() {
         <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
         <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />
         <Route path="/Animais/ChowChow" element={<cachorroChowChow/>} />
-        <Route path="/Animais/Poodle" element={<cachorroPoodle/>} />
-           
+
       </Routes>
     
       <Footer />
@@ -61,3 +62,4 @@ function App() {
   );
 }
 export default App;
+

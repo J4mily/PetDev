@@ -1,12 +1,13 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
 import cachorroChowChowObj from "../../../../jsObjects/Cachorros/cachorroChowChowObj";
 
-const cachorroChowChow = () =>{
+const ChowChow = () => {
     return (
-
-        <SpeciePageComponent
-        specieObject={cachorroChowChowObj}/>
+        <div>
+            <SpeciePageComponent
+            specieObject={cachorroChowChowObj}/>
+        </div>
     )
 
 }
-export default cachorroChowChow;
+export default ChowChow;
