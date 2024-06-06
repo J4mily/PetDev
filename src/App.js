@@ -23,7 +23,7 @@ import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
 import ChowChow from "./pages/animais/Cachorros/chowchow";
-
+import Poodle from "./pages/animais/Cachorros/poodle";
 
 function App() {
   return (
@@ -53,7 +53,8 @@ function App() {
         <Route path="/Animais/Rottweiler" element={<Rottweiler/>} />
         <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
         <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />
-        <Route path="/Animais/ChowChow" element={<cachorroChowChow/>} />
+        <Route path="/Animais/ChowChow" element={<ChowChow/>} />
+        <Route path="/Animais/Poodle" element={<Poodle/>} />
 
       </Routes>
     

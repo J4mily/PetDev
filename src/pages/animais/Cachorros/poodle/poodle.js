@@ -1,7 +1,7 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
 import cachorroPoodleObj from "../../../../jsObjects/Cachorros/cachorroPoodleObj";
 
-const cachorroPoodle = () =>{
+const Poodle = () =>{
     return (
 
         <SpeciePageComponent
@@ -9,4 +9,4 @@ const cachorroPoodle = () =>{
     )
 
 }
-export default cachorroPoodle;
+export default Poodle;

@@ -1,2 +1,2 @@
-import cachorroPoodle from "./poodle";
-export default cachorroPoodle;
+import Poodle from "./poodle";
+export default Poodle;
