@@ -24,6 +24,7 @@ import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
 import ChowChow from "./pages/animais/Cachorros/chowchow";
 
+
 function App() {
   return (
     <Router>
