@@ -1,3 +1,5 @@
+import getImage from "../../utilities/getImageLink";
+
 const cachorroPoodleObj = {
     imgIntro: getImage("https://drive.google.com/file/d/1G1-DMSYW3ITONH6fJZ9cU8zP6vDxno5I/view?usp=drive_link"),
     altImgIntro: "Imagem cachorro poodle",
