@@ -29,6 +29,26 @@ const categoriesData = {
                 name: "Border Collie",
                 img: "/images/border_cachorros_racas_medias.png",
                 link_to: "/BorderCollie"
+            },
+            {
+                name:"ChowChow",
+                img: "/images/chowchow_cachorros_racas_medias.png",
+                link_to: "/ChowChow"
+            },
+            {
+                name: "Poodle",
+                img: "/images/poodle_cachorros_racas_pequenas.png",
+                link_to: "/Poodle"
+            },
+            {
+                name:"Pinscher",
+                img: "/images/pinscher_cachorros_racas_pequenas.png",
+                link_to: "/Pinscher"
+            },
+            {
+                name: "ShihTzu",
+                img: "/images/shii_tzu_cachorros_racas_pequenas.png",
+                link_to: "/ShihTzu"
             }
         ]
     },
@@ -104,17 +124,22 @@ const categoriesData = {
 
     snakes: {
         nameCategory: "Cobras",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        imgCategory: getImage("https://drive.google.com/file/d/1__ApZuuTnr1_MIApLk78xmatOB4FQ-nu/view?usp=drive_link"),
         snakeSpecies:[
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
+                name: "CornSnake",
+                img: getImage("https://drive.google.com/file/d/1N_F7zoKh-9k-XMTScEUqsLEChut2koyN/view?usp=drive_link"),
+                link_to:"/CornSnake"
             },
             {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
+                name: "Gopher",
+                img: getImage("https://drive.google.com/file/d/1nyxJg0LyRSyWFcHc6hBmAv7hUXk0U4Iu/view?usp=drive_link"),
+                link_to:"/Gopher"
+            },
+            {
+                name: "Jiboia",
+                img: getImage("https://drive.google.com/file/d/1z7vDxFQWofuXyTZe5Vl-COETLHoEQuY-/view?usp=drive_link"),
+                link_to:"/Jiboia"
             }
         ]
     },

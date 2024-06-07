@@ -1,4 +1,4 @@
-import getImage from "../utilities/getImageLink";
+import getImage from "../../utilities/getImageLink";
 
 const CanarioBelgaObj = {
     imgIntro: getImage("https://drive.google.com/file/d/1SrMK37KdsRF0XYzUT7-izGG6qHHrJT8c/view?usp=drive_link"),
