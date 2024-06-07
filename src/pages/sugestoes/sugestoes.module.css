@@ -1,6 +1,6 @@
 /* sugestoes.css */
 
-form {
+.Sugestoes form {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
@@ -10,30 +10,30 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.Sugestoes h1 {
   text-align: center;
-  font-family: "Poppins", regular;
+  font-family: "Poppins", sans-serif;
   color: #000000;
 }
 
-div {
+.Sugestoes div {
   margin-bottom: 15px;
 }
 
-label {
+.Sugestoes label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
   color: #ffffff;
 }
 
-textarea {
+.Sugestoes textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  font-family: "Poppins", regular;
+  font-family: "Poppins", sans-serif;
   height: 200px;
 }
 
@@ -45,7 +45,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  font-family: "Poppins", regular;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="submit"] {
@@ -58,7 +58,7 @@ input[type="submit"] {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  font-family: "Poppins", regular;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="submit"]:hover {

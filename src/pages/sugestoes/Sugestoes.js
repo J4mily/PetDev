@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./sugestoes.css";
+import style from "./sugestoes.module.css";
 
 export default function Sugestoes() {
   const [formData, setFormData] = useState({
@@ -30,7 +30,7 @@ export default function Sugestoes() {
   };
 
   return (
-    <div>
+    <div className={style.Sugestoes}>
       <h1>DEIXE SUA SUGESTÃO</h1>
       <form onSubmit={handleSubmit}>
         <div>
