@@ -1,7 +1,7 @@
-import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import GopherObj from "../../../../jsObjects/Cobras/cobrasCornSnake.js";
+import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent.js";
+import GopherObj from "../../../../jsObjects/Cobras/cobrasGopher.js";
 
-export const Gopher = ( ) =>{
+export const Gopher = () =>{
     return(
         <div>
             <SpeciePageComponent
