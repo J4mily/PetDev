@@ -1,0 +1,66 @@
+/* sugestoes.css */
+
+.Sugestoes form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Sugestoes h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+.Sugestoes div {
+  margin-bottom: 15px;
+}
+
+.Sugestoes label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.Sugestoes textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  height: 200px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #664400;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #a66e00;
+}

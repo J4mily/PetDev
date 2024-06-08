@@ -1,3 +1,5 @@
-import {Sugestoes} from "./Sugestoes";
+import Sugestoes from "./Sugestoes";
 
-export default Sugestoes;
+export default function SugestoesPage() {
+  return <Sugestoes />;
+}

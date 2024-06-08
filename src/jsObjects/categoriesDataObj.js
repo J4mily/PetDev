@@ -34,6 +34,21 @@ const categoriesData = {
                 name:"ChowChow",
                 img: "/images/chowchow_cachorros_racas_medias.png",
                 link_to: "/ChowChow"
+            },
+            {
+                name: "Poodle",
+                img: "/images/poodle_cachorros_racas_pequenas.png",
+                link_to: "/Poodle"
+            },
+            {
+                name:"Pinscher",
+                img: "/images/pinscher_cachorros_racas_pequenas.png",
+                link_to: "/Pinscher"
+            },
+            {
+                name: "ShihTzu",
+                img: "/images/shii_tzu_cachorros_racas_pequenas.png",
+                link_to: "/ShihTzu"
             }
         ]
     },

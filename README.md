@@ -62,11 +62,13 @@ npm install react-transition-group
 ```bash
 npm install prettier
 ```
+
 - Instale o Swiper
 
 ```bash
 npm install swiper
 ```
+
 ## Extensões
 
 - Prettier - Code formatter
@@ -84,12 +86,6 @@ npm run lint: check
 
 ```bash
 npm run lint:fix
-```
-
-- O comando npm run dev é uma forma de executar um script definido no arquivo package.json de um projeto Node.js. Geralmente, este comando é usado em projetos que utilizam ferramentas de construção (build) ou servidores de desenvolvimento.
-
-```bash
-npm run dev
 ```
 
 ## Licença
