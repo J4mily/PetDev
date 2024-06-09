@@ -1,5 +1,3 @@
-import getImage from "../../utilities/getImageLink";
-
 const CornSnakeObj = {
     imgIntro: "/images/pag_corn_snake_intro.png",
     altImgIntro: "Imagem Corn Snake Intro",

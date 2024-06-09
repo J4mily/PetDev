@@ -1,13 +1,13 @@
 import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import GopherObj from "../../../../jsObjects/Cobras/cobrasGopher.js";
+import JiboiaObj from "../../../../jsObjects/Cobras/cobrasJiboia.js";
 
-export const Gopher = ( ) =>{
+export const Jiboia = ( ) =>{
     return(
         <div>
             <SpeciePageComponent
-            specieObject = {GopherObj}/>
+            specieObject = {JiboiaObj}/>
         </div>
     )
 }
 
-export default Gopher;
+export default Jiboia;

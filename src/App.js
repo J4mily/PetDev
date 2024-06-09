@@ -16,6 +16,7 @@ import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
 import CornSnake from "./pages/animais/Cobras/CornSnake";
 import Gopher from "./pages/animais/Cobras/Gopher";
+import Jiboia from "./jsObjects/Cobras/cobrasJiboia";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
 import QuizBetta from "./pages/quiz/QuizBetta";
 import QuizHamster from "./pages/quiz/QuizHamster";
@@ -50,7 +51,8 @@ function App() {
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
         <Route path="/Animais/CornSnake" element={<CornSnake/>} />
-        <Route parth="/Animais/Gopher" element={<Gopher/>} />
+        <Route path="/Animais/Gopher" element={<Gopher/>} />
+        <Route path="/Animais/Jiboia" element={Jiboia}>
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
