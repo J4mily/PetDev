@@ -27,43 +27,47 @@ import ChowChow from "./pages/animais/Cachorros/chowchow";
 import Poodle from "./pages/animais/Cachorros/poodle";
 import Pinscher from "./pages/animais/Cachorros/pinscher";
 import ShihTzu from "./pages/animais/Cachorros/shihtzu";
+import Calopsita from "./pages/animais/Passaros/Calopsita/calopsita";
+import Periquito from "./pages/animais/Passaros/Periquito/periquito";
 
 function App() {
   return (
     <Router>
       <ScrollTop />
       <Navbar />
-      
+
       <Breadcrumb />
       <Routes>
-      
+
         <Route path="/" element={<Home />} />
         <Route path="/Animais" element={<Animais />} />
         <Route path="/Quiz" element={<Quiz />} />
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Sugestoes" element={<Sugestao />} />
         <Route path="/Depoimentos" element={<Depoimentos />} />
-        <Route path="/Animais/Siames" element={<Siames/>} />
-        <Route path="/Animais/Angora" element={<Angora/>} />
-        <Route path="/Animais/Persa" element={<Persa/>} />
-        <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
-        <Route path="/Animais/Pitbull" element={<Pitbull/>} />
-        <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
-        <Route path="/Animais/CornSnake" element={<CornSnake/>} />
-        <Route path="/Animais/Gopher" element={<Gopher/>} />
-        <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
-        <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
-        <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
-        <Route path="/Animais/Rottweiler" element={<Rottweiler/>} />
-        <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
-        <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />
-        <Route path="/Animais/ChowChow" element={<ChowChow/>} />
-        <Route path="/Animais/Poodle" element={<Poodle/>} />
-        <Route path="/Animais/Pinscher" element={<Pinscher/>} />
-        <Route path="/Animais/ShihTzu" element={<ShihTzu/>} />
-       
+        <Route path="/Animais/Siames" element={<Siames />} />
+        <Route path="/Animais/Angora" element={<Angora />} />
+        <Route path="/Animais/Persa" element={<Persa />} />
+        <Route path="/Animais/BorderCollie" element={<BorderCollie />} />
+        <Route path="/Animais/Pitbull" element={<Pitbull />} />
+        <Route path="/Animais/CanarioBelga" element={<CanarioBelga />} />
+        <Route path="/Animais/CornSnake" element={<CornSnake />} />
+        <Route path="/Animais/Gopher" element={<Gopher />} />
+        <Route path="/Animais/Calopsita" element={<Calopsita />} />
+        <Route path="/Animais/Periquito" element={<Periquito />} />
+        <Route path="/Quiz/QuizBetta" element={<QuizBetta />} />
+        <Route path="/Quiz/QuizHamster" element={<QuizHamster />} />
+        <Route path="/Quiz/QuizSagui" element={<QuizSagui />} />
+        <Route path="/Animais/Rottweiler" element={<Rottweiler />} />
+        <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever />} />
+        <Route path="/Animais/PastorAlemao" element={<PastorAlemao />} />
+        <Route path="/Animais/ChowChow" element={<ChowChow />} />
+        <Route path="/Animais/Poodle" element={<Poodle />} />
+        <Route path="/Animais/Pinscher" element={<Pinscher />} />
+        <Route path="/Animais/ShihTzu" element={<ShihTzu />} />
+
       </Routes>
-    
+
       <Footer />
     </Router>
   );
