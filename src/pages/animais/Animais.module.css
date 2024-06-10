@@ -1,12 +1,17 @@
 .mainConteiner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .category {
-    width: calc(25% - 10px); /* 25% do espaço menos 10px de margem entre os componentes */
-    margin-bottom: 20px; /* Espaçamento inferior entre os componentes */
-  }
-  
-  /* Estilos adicionais conforme necessário para o seu componente */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  width: calc(25% - 10px); /* 25% do espaço menos 10px de margem entre os componentes */
+  margin-bottom: 20px; /* Espaçamento inferior entre os componentes */
+}
+
+/* Novo estilo para garantir que todas as imagens tenham o mesmo tamanho */
+.category img {
+  width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Garante que a imagem cobre todo o contêiner, cortando se necessário */
+}

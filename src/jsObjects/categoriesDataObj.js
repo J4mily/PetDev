@@ -105,23 +105,16 @@ const categoriesData = {
     },
 
     fish: {
-        nameCategory: "Gatos",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        nameCategory: "Peixes",
+        imgCategory: "./images/quais-peixes-podem-viver-juntos-no-aquario3-1.jpg",
         fishSpecies:[
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
+                name: "Betta",
+                img: "./images/betta_categorias_peixes.png",
+                link_to:"/betta"
             },
-            {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
-            }
         ]
     },
-
-    
 }
 
 export default categoriesData;

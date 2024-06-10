@@ -41,30 +41,24 @@ export const Animais = () =>{
                         category_name={monkeys.nameCategory}
                         speciesList={monkeys.monkeySpecies}/>
                     </div>
-
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={fish.imgCategory}
                         category_name={fish.nameCategory}
                         speciesList={fish.fishSpecies}/>
                     </div>
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={snakes.imgCategory}
                         category_name={snakes.nameCategory}
                         speciesList={snakes.snakeSpecies}/>
                     </div>
-
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={rodents.imgCategory}
                         category_name={rodents.nameCategory}
                         speciesList={rodents.rodentSpecies}/>
                     </div>
-
             </div>
         </section>
 
