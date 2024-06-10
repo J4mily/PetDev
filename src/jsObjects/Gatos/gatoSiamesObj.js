@@ -1,7 +1,5 @@
-import { getImage } from "../../utilities/getImageLink";
-
 const siamesObj = {
-    imgIntro: getImage("https://drive.google.com/file/d/1bydbPx_i-myAF4_QYk0LWV-M2UyvNt5W/view?usp=drive_link"),
+    imgIntro: "/images/pag_siames_intro.png",
     altImgIntro: "Imagem Intro Gato Siamês",
     introTitle: "Siamês",
     introText: `O gato Siamês, conhecido por suas características únicas e
@@ -13,7 +11,7 @@ const siamesObj = {
     proporcionam momentos de diversão, tornando-se companheiros
     inseparáveis para suas famílias humanas`,
     generalInformationText: "O gato Siamês é um animal ativo e brincalhão, raramente ficando parado. Ele se diverte por horas com seus brinquedos favoritos e é um excelente saltador, pronto para buscar objetos durante as brincadeiras. Sua personalidade inclui um porte elegante e altivo, com pernas longas, patinhas delicadas e uma cauda em forma de chicote, criando uma aparência distinta.",
-    imgYouNeedToKnow: getImage("https://drive.google.com/file/d/1nez72ENbcThlVSpC9VoPPVmD12MoU707/view?usp=drive_link"),
+    imgYouNeedToKnow: "/images/pag_siames_info.png",
     altImgYouNeedToKnow: "Imagem gato siamês",
     lifetimeText: "Em média de 15 a 20 anos.",
     estimatedPrice: "Varia de R$ 1.500 a R$ 4.000, dependendo do criador, linhagem e pedigree.",
@@ -27,15 +25,15 @@ const siamesObj = {
     A higiene é uma responsabilidade crucial dos tutores, incluindo a oferta de banhos regulares, apesar do mito de que gatos não gostam de água. Introduzir o hábito desde cedo pode facilitar a adaptação do gato à água. 
   
     Aproveite a fase de filhote para começar a habituá-lo ao banho e à limpeza de orelhas, olhos e patas. Além disso, é importante levar o gato regularmente ao veterinário para tratamentos estéticos que promovam seu bem-estar.`,
-    imgProduct1: getImage("https://drive.google.com/file/d/1RpGh2G0hOq2LoySK5aOsTTZ0eV6Ky3kB/view?usp=drive_link"),
+    imgProduct1: "/images/racao_premier_siames_alimentacao.png",
     altImgProduct1: "Ração premier gato siamês",
     textImageProduct1: "Ração Premier Ambientes Internos para Gatos Filhotes Sabor Frango",
-    imgProduct2: getImage("https://drive.google.com/file/d/1RubbExZsS6WHgTQDyFlC4FYxWHavhIpq/view?usp=drive_link"),
+    imgProduct2: "/images/racao_umida_siames_alimentacao.png",
     altImgProduct2: "Imagem Ração Umida para Gato",
     textImageProduct2: "Ração Úmida N&D Lata Para Gatos Adultos Sabor Atum e Salmão - 70g",
-    imgProduct3: getImage("https://drive.google.com/file/d/1DrrGvaOKL4nTBdecQEINtPmnwxes_xRX/view?usp=drive_link"),
+    imgProduct3: "/images/digestive_grass_siames_alimentacao.png",
     altImgProduct3: "Graminha Ipet para Gatos Siamês",
-    textImageProduct3: "Ração Premier Ambientes Internos para Gatos Filhotes Sabor Frango",
+    textImageProduct3: "Graminha Ipet para Gatos Adultos Digestive Grass",
     curiosityTittle1: `Segurança`,
     curiosityText1: `Bastante valorizados pelo rei de Sião (atual Tailândia), o gato Siamês era utilizado como vigia nos palácios. O imperador contava com o bichano posicionado em colunas ao lado do trono dele. Assim, quando alguma pessoa ameaçasse o monarca, o gato pularia em cima dela para imobilizá-lo.`,
     curiosityTittle2: `Segurança`,

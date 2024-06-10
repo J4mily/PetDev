@@ -1,26 +1,34 @@
 .animal {
     display: flex;
-    height: 18%;
     background-color: black;
-    /*padding: 1em;*/
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
     
 }
 
 .list {
-    display: flex;
+    
     list-style: none;
     text-decoration: none;  
-    margin-right: 10em;  
+    margin-right: 1%;  
 }
 
 .item {
-    margin-right: 1em;
-    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5%px;
     color: #fff;
-    list-style: none;
+    font-size: clamp(10px, 1.2vw, 30px);
+}
+
+.item, .logo {
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.item:hover, .logo:hover{
+    transform: scale(1.15);
+    opacity: 0.8;
 }
 
 .item a {
@@ -34,6 +42,6 @@
 }
 
 .logo {
-    margin-left: 6em; 
+    margin-left: 40%;
+    width: clamp(50px,10vw, 120px); 
 }
-

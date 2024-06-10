@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Button = (props) => {
   return (
-    <Link to="/Animais">
+    <Link to={props.link_to}>
       <button className={styles.button}>{props.texto}</button>
     </Link>
   );
