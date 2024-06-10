@@ -52,7 +52,7 @@ function App() {
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
         <Route path="/Animais/CornSnake" element={<CornSnake/>} />
         <Route path="/Animais/Gopher" element={<Gopher/>} />
-        <Route path="/Animais/Jiboia" element={Jiboia}>
+        <Route path="/Animais/Jiboia" element={Jiboia}></Route>
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
