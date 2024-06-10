@@ -108,7 +108,7 @@ export const Home = () => {
           quatro patas. Prepare-se para se surpreender e se encantar com o que
           você aprenderá sobre o seu pet!
         </p>
-        <Button texto="Vamos lá?" link_to="/Quiz"/>
+        <Button texto="Vamos lá?" link_to="/quiz"/>
       </section>
 
       <section className={styles.clientes}>

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Animais from "./pages/animais";
-import Quiz from "./pages/quiz";
+import Quiz from "./pages/quiz/quiz";
 import Sobre from "./pages/sobre";
 import Sugestao from "./pages/sugestoes";
 import Depoimentos from "./pages/depoimentos";
@@ -12,15 +12,16 @@ import Siames from "./pages/animais/Gatos/siames";
 import Angora from "./pages/animais/Gatos/angora";
 import Persa from "./pages/animais/Gatos/persa";
 import BorderCollie from "./pages/animais/Cachorros/bordercollie";
+import Betta from "./pages/animais/Peixes/betta";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
 import CornSnake from "./pages/animais/Cobras/CornSnake";
 import Gopher from "./pages/animais/Cobras/Gopher";
 import Jiboia from "./jsObjects/Cobras/cobrasJiboia";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
-import QuizBetta from "./pages/quiz/QuizBetta";
-import QuizHamster from "./pages/quiz/QuizHamster";
-import QuizSagui from "./pages/quiz/QuizSagui";
+import QuizBetta from "./pages/quiz/quizBetta";
+import QuizHamster from "./pages/quiz/quizHamster";
+import QuizSagui from "./pages/quiz/quizSagui";
 import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
@@ -28,19 +29,20 @@ import ChowChow from "./pages/animais/Cachorros/chowchow";
 import Poodle from "./pages/animais/Cachorros/poodle";
 import Pinscher from "./pages/animais/Cachorros/pinscher";
 import ShihTzu from "./pages/animais/Cachorros/shihtzu";
+import Calopsita from "./pages/animais/Passaros/Calopsita/calopsita";
+import Periquito from "./pages/animais/Passaros/Periquito/periquito";
 
 function App() {
   return (
     <Router>
       <ScrollTop />
       <Navbar />
-      
+
       <Breadcrumb />
       <Routes>
-      
         <Route path="/" element={<Home />} />
         <Route path="/Animais" element={<Animais />} />
-        <Route path="/Quiz" element={<Quiz />} />
+        <Route path="/quiz" element={<Quiz />} />
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Sugestoes" element={<Sugestao />} />
         <Route path="/Depoimentos" element={<Depoimentos />} />
@@ -52,7 +54,6 @@ function App() {
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
         <Route path="/Animais/CornSnake" element={<CornSnake/>} />
         <Route path="/Animais/Gopher" element={<Gopher/>} />
-        <Route path="/Animais/Jiboia" element={Jiboia}></Route>
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
         <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
         <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
@@ -65,7 +66,6 @@ function App() {
         <Route path="/Animais/ShihTzu" element={<ShihTzu/>} />
        
       </Routes>
-    
       <Footer />
     </Router>
   );

@@ -25,7 +25,7 @@ export const Navbar = () => {
             <Link to="/Animais">Animais</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/Quiz">Quiz</Link>
+            <Link to="/quiz">Quiz</Link>
           </li>
           <li className={styles.item}>
             <Link to="/Sobre">Sobre</Link>

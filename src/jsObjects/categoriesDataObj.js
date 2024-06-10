@@ -3,25 +3,25 @@ import getImage from "../utilities/getImageLink";
 const categoriesData = {
     dogs: {
         nameCategory: "Cachorros",
-        imgCategory:"/images/categorias_cachorros.png",
-        dogSpecies:[
+        imgCategory: "/images/categorias_cachorros.png",
+        dogSpecies: [
             {
-                name:"Pitbull",
+                name: "Pitbull",
                 img: "/images/pitbull_cachorros_racas_medias.png",
                 link_to: "/Pitbull"
             },
             {
-                name:"Rottweiler",
+                name: "Rottweiler",
                 img: "/images/rotweiller_cachorros_racas_grandes.png.png",
                 link_to: "/Rottweiler"
             },
             {
-                name:"Golden Retriever",
+                name: "Golden Retriever",
                 img: "/images/golden_cachorros_racas_grandes.png",
                 link_to: "/GoldenRetriever"
             },
             {
-                name:"Pastor Alemão",
+                name: "Pastor Alemão",
                 img: "/images/pastor_cachorros_racas_grandes.png",
                 link_to: "/PastorAlemao"
             },
@@ -31,7 +31,7 @@ const categoriesData = {
                 link_to: "/BorderCollie"
             },
             {
-                name:"ChowChow",
+                name: "ChowChow",
                 img: "/images/chowchow_cachorros_racas_medias.png",
                 link_to: "/ChowChow"
             },
@@ -41,7 +41,7 @@ const categoriesData = {
                 link_to: "/Poodle"
             },
             {
-                name:"Pinscher",
+                name: "Pinscher",
                 img: "/images/pinscher_cachorros_racas_pequenas.png",
                 link_to: "/Pinscher"
             },
@@ -56,21 +56,21 @@ const categoriesData = {
     cats: {
         nameCategory: "Gatos",
         imgCategory: "/images/categorias_gatos.png",
-        catSpecies:[
+        catSpecies: [
             {
                 name: "Siamês",
                 img: "/images/siames_categorias_gatos.png",
-                link_to:"/Siames"
+                link_to: "/Siames"
             },
             {
                 name: "Angorá",
                 img: "/images/angora_categorias_gatos.png",
-                link_to:"/Angora"
+                link_to: "/Angora"
             },
             {
                 name: "Persa",
                 img: "/images/persa_categorias_gatos.png",
-                link_to:"/Persa"
+                link_to: "/Persa"
             }
         ]
     },
@@ -78,11 +78,21 @@ const categoriesData = {
     birds: {
         nameCategory: "Pássaros",
         imgCategory: "/images/categorias_passaros.png",
-        birdSpecies:[
+        birdSpecies: [
             {
                 name: "Canário Belga",
                 img: "/images/canario_belga_categorias_passaros.png",
-                link_to:"/CanarioBelga"
+                link_to: "/CanarioBelga"
+            },
+            {
+                name: "Calopsita",
+                img: "/images/calopsita_categorias_passaros.png ",
+                link_to: "/Calopsita"
+            },
+            {
+                name: "Periquito",
+                img: "/images/periquito_categorias_passaros.png",
+                link_to: "/Periquito"
             }
         ]
 
@@ -91,16 +101,16 @@ const categoriesData = {
     rodents: {
         nameCategory: "Roedores",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        rodentSpecies:[
+        rodentSpecies: [
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
+                link_to: "/Siames"
             },
             {
                 name: "Angorá",
                 img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
+                link_to: "/Angora"
             }
         ]
     },
@@ -108,16 +118,16 @@ const categoriesData = {
     monkeys: {
         nameCategory: "Macacos",
         imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
-        monkeySpecies:[
+        monkeySpecies: [
             {
                 name: "Siamês",
                 img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
+                link_to: "/Siames"
             },
             {
                 name: "Angorá",
                 img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
+                link_to: "/Angora"
             }
         ]
     },
@@ -125,43 +135,36 @@ const categoriesData = {
     snakes: {
         nameCategory: "Cobras",
         imgCategory: getImage("https://drive.google.com/file/d/1__ApZuuTnr1_MIApLk78xmatOB4FQ-nu/view?usp=drive_link"),
-        snakeSpecies:[
+        snakeSpecies: [
             {
                 name: "CornSnake",
                 img: getImage("https://drive.google.com/file/d/1N_F7zoKh-9k-XMTScEUqsLEChut2koyN/view?usp=drive_link"),
-                link_to:"/CornSnake"
+                link_to: "/CornSnake"
             },
             {
                 name: "Gopher",
                 img: getImage("https://drive.google.com/file/d/1nyxJg0LyRSyWFcHc6hBmAv7hUXk0U4Iu/view?usp=drive_link"),
-                link_to:"/Gopher"
+                link_to: "/Gopher"
             },
             {
                 name: "Jiboia",
                 img: getImage("https://drive.google.com/file/d/1z7vDxFQWofuXyTZe5Vl-COETLHoEQuY-/view?usp=drive_link"),
-                link_to:"/Jiboia"
+                link_to: "/Jiboia"
             }
         ]
     },
 
     fish: {
         nameCategory: "Peixes",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        imgCategory: "./images/quais-peixes-podem-viver-juntos-no-aquario3-1.jpg",
         fishSpecies:[
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to:"/Siames"
+                name: "Betta",
+                img: "./images/betta_categorias_peixes.png",
+                link_to:"/betta"
             },
-            {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to:"/Angora"
-            }
         ]
     },
-
-    
 }
 
 export default categoriesData;

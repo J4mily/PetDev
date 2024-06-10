@@ -13,8 +13,6 @@ export const Footer = () => {
             data-testid="navbar-item-logo"
             className={styles.logo}
             />           
-
-
             </Link>
         </div>
         <div className={styles.containerItem}>
@@ -31,7 +29,7 @@ export const Footer = () => {
             <Link to="/Animais">Animais</Link>
           </li>
           <li className={styles.listItem}>
-            <Link to="/Quiz">Quiz</Link>
+            <Link to="/quiz">Quiz</Link>
           </li>
           <li className={styles.listItem}>
             <Link to="/Sobre">Sobre</Link>

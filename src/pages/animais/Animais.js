@@ -50,8 +50,6 @@ export const Animais = () =>{
                         isActive={activeButton === categoriesData.monkeys.nameCategory}
                         updateButtonState={updateButtonState}/>
                     </div>
-
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={categoriesData.fish.imgCategory}
@@ -60,7 +58,6 @@ export const Animais = () =>{
                         isActive={activeButton === categoriesData.fish.nameCategory}
                         updateButtonState={updateButtonState}/>
                     </div>
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={categoriesData.snakes.imgCategory}
@@ -69,8 +66,6 @@ export const Animais = () =>{
                         isActive={activeButton === categoriesData.snakes.nameCategory}
                         updateButtonState={updateButtonState}/>
                     </div>
-
-
                     <div className={styles.category}>
                         <CategoryButton
                         category_image_link={categoriesData.rodents.imgCategory}
@@ -79,7 +74,6 @@ export const Animais = () =>{
                         isActive={activeButton === categoriesData.rodents.nameCategory}
                         updateButtonState={updateButtonState}/>
                     </div>
-
             </div>
         </section>
 

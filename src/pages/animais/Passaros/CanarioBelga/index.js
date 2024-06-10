@@ -1,3 +1,3 @@
-import {CanarioBelga} from "./canariobelga";
+import { CanarioBelga } from "./canariobelga";
 
 export default CanarioBelga;
