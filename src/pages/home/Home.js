@@ -17,7 +17,6 @@ export const Home = () => {
           Explore exatamente o que você deseja saber!
           <br />
           Clique no botão "Saiba Mais" para descobrir
-          <br />
           mais detalhes sobre a vida do seu pet.
         </p>
         <div>
@@ -100,12 +99,12 @@ export const Home = () => {
         <h3>Quiz da amizade</h3>
         <h1>Explore seus conhecimentos</h1>
         <p>
-          Descubra agora mesmo quão bem você conhece o seu pet! Nosso quiz
-          exclusivo é a oportunidade perfeita para testar seus conhecimentos
-          sobre seu animalzinho. De perguntas simples sobre suas preferências
+          Descubra agora mesmo quão bem você conhece o seu pet! <br />
+          Nosso quiz exclusivo é a oportunidade perfeita para testar seus conhecimentos
+          sobre seu animalzinho. <br /> De perguntas simples sobre suas preferências
           alimentares a detalhes curiosos sobre seu comportamento, este desafio
           promete revelar o quanto você está sintonizado com seu fiel amigo de
-          quatro patas. Prepare-se para se surpreender e se encantar com o que
+          quatro patas. <br />  Prepare-se para se surpreender e se encantar com o que
           você aprenderá sobre o seu pet!
         </p>
         <Button texto="Vamos lá?" link_to="/quiz"/>
@@ -114,12 +113,11 @@ export const Home = () => {
       <section className={styles.clientes}>
         <h1>DEPOIMENTO</h1>
         <p className={styles.textoCliente}>
-          “Gostaria imensamente de expressar minha gratidão pelo
-          <br /> valioso conteúdo encontrado neste portal sobre cuidados <br />com cachorros.
-          
-          Desde que comecei a seguir as dicas <br />e orientações aqui compartilhadas,
-          tenho visto uma <br /> melhoria significativa na saúde e felicidade
-          do meu <br />querido amigo de quatro patas.”
+          “Gostaria imensamente de expressar minha gratidão pelo valioso conteúdo encontrado neste portal sobre cuidados com cachorros.
+          <br />
+          Desde que comecei a seguir as dicas e orientações aqui compartilhadas,
+          tenho visto uma  melhoria significativa na saúde e felicidade
+          do meu querido amigo de quatro patas.”
         </p>
         <h2>Ryan Mill</h2>
         <p className={styles.textoCliente}>Engenheiro de dados</p>

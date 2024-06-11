@@ -13,10 +13,9 @@
   .breadcrumb {
     display: flex;
     max-width: 1200px;
-    margin-left: 130px;
+    margin-left: 10%;
     color:#000;
     font-weight: 400;
-    
 }
 
 .heading {

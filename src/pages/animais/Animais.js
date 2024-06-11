@@ -15,8 +15,8 @@ export const Animais = () =>{
     };
 
     return(
-        <section >
-            <h1>Animais</h1>
+        <section className={styles.section}>
+            <h1 className={styles.tittle}>Animais</h1>
                 <div className={styles.mainConteiner}>
                     <div className={styles.category}>
                         <CategoryButton
