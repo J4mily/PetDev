@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./QuestionsQuiz.module.css";
-import Resolucao from "../../pages/quiz/resolucao";
+import Resolucao from "../../pages/quiz/Resolucao";
 
 const RadioButton = ({ name, value, label, onChange }) => {
   return (
