@@ -15,6 +15,8 @@ import BorderCollie from "./pages/animais/Cachorros/bordercollie";
 import Betta from "./pages/animais/Peixes/betta";
 import Pitbull from "./pages/animais/Cachorros/pitbull";
 import CanarioBelga from "./pages/animais/Passaros/CanarioBelga";
+import Prego from "./pages/animais/Macacos/Prego";
+import Sagui from "./pages/animais/Macacos/Sagui";
 import CornSnake from "./pages/animais/Cobras/CornSnake";
 import Gopher from "./pages/animais/Cobras/Gopher";
 import Jiboia from "./jsObjects/Cobras/cobrasJiboia";
@@ -52,6 +54,8 @@ function App() {
         <Route path="/Animais/BorderCollie" element={<BorderCollie/>} />
         <Route path="/Animais/Pitbull" element={<Pitbull/>} />
         <Route path="/Animais/CanarioBelga" element={<CanarioBelga/>} />
+        <Route path="/Animais/Prego" element={<Prego/>} />
+        <Route path="/Animais/Sagui" element={<Sagui/>} />
         <Route path="/Animais/CornSnake" element={<CornSnake/>} />
         <Route path="/Animais/Gopher" element={<Gopher/>} />
         <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
