@@ -100,17 +100,17 @@ const categoriesData = {
 
     rodents: {
         nameCategory: "Roedores",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        imgCategory: "/images/categorias_roedores.png",
         rodentSpecies: [
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to: "/Siames"
+                name: "Porquinho-da-India",
+                img: "/images/porquinho_da_india_categorias_roedores.png",
+                link_to: "/Porquinho-Da-India"
             },
             {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to: "/Angora"
+                name: "Hamster",
+                img: "/images/hamster_categorias_roedores.png",
+                link_to: "/Hamster"
             }
         ]
     },

@@ -1,11 +1,11 @@
-const Jiboia = {
-    imgIntro: "IMAGEM PENDENTE",
+const JiboiaObj = {
+    imgIntro: "/images/pag_jiboia_intro.png",
     altImgIntro: "Imagem cobra Jiboia Intro",
     introTitle: "JIBOIA",
     //Todos os textos que tiverem quebra de linha devem estar entre ` ` para não dar erro no código
     introText: "A Jiboia (Boa Constrictor), é uma serpente do grupo das constritoras que se destaca pelo seu grande porte. Ela é a segunda maior espécie do Brasil, é da família Boidae, onde se encontram as maiores serpentes do mundo.",
     generalInformationText: `As Jiboias possuem um corpo comprido e cilíndrico, podendo chegar a medir quatro metros. As fêmeas destacam-se por serem maiores. Sua coloração varia conforme as subespécies, alguns indivíduos apresentam a cor cinza como predominante, outros já apresentam a marrom, e existem ainda, alguns exemplares que são bem escuros, quase no tom de preto. Suas escamas são pequenas e irregulares. Sua cabeça de destaca do restante do corpo, apresentando um formato retangular. Seus olhos tem pupilas verticais. Apresentam uma musculatura bem desenvolvida, sendo ela fundamental para sua caça.`,
-    imgYouNeedToKnow: "IMAGEM PENDENTE",
+    imgYouNeedToKnow: "/images/pag_jiboia_info.png",
     altImgYouNeedToKnow: "Imagem cobra Jiboia Info",
     lifetimeText: `Em média de 25 a 30 anos.`,
     estimatedPrice: `A partir de R$2.900,00.`,
@@ -38,4 +38,4 @@ Consultas veterinárias regulares são fundamentais para monitorar sua saúde e 
     curiosityText4: `Geralmente são dóceis e tolerantes ao manuseio, mas é importante fazê-lo com cuidado e respeito, segurando-as suavemente, apoiando o corpo adequadamente para evitar que se sintam inseguras.`,
 }
 
-export default Jiboia;
+export default JiboiaObj;

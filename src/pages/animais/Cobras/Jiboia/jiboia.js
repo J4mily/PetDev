@@ -1,4 +1,4 @@
-import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
+import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent.js";
 import JiboiaObj from "../../../../jsObjects/Cobras/cobrasJiboia.js";
 
 export const Jiboia = ( ) =>{
