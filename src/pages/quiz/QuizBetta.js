@@ -20,7 +20,7 @@ function QuestionsQuiz() {
 return (
   <div>
   <QuestionsQuizItems
-    imageUrl="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY_DO6ngRD3UYfyeWMoULKlnjLcApR74HgXLNcgIUiaIZjb1XwYWS1UKYU9P61DYtFWmRkTu6Wva5W4yXttnBhCsH0EeZzD5gE=w1920-h868"
+    imageUrl="/images/BettaTitle.png"
     imageStyle={imageStyle}
     text1="QUIZBETTA: SERÁ QUE ENTENDO DE PEIXE BETTA?"
     text2="Betta"

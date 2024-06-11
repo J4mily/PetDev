@@ -156,7 +156,7 @@ const categoriesData = {
 
     fish: {
         nameCategory: "Peixes",
-        imgCategory: "./images/quais-peixes-podem-viver-juntos-no-aquario3-1.jpg",
+        imgCategory: "./images/image.png",
         fishSpecies:[
             {
                 name: "Betta",

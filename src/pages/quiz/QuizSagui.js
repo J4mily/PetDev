@@ -19,7 +19,7 @@ function QuestionsQuiz() {
   return (
     <div>
   <QuestionsQuizItems
-    imageUrl="https://lh3.google.com/u/0/d/1KrDvjf5Fci0yBCwktq0xhMEj7SzZPk0x=w1920-h868-iv1"
+    imageUrl="\images\TitleSagui.png"
     imageStyle={imageStyle}
     text1="SAGUIS: UM QUIZ SOBRE OS PEQUENOS PRIMATAS"
     text2="Saguis"

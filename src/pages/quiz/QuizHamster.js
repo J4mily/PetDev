@@ -15,7 +15,7 @@ function QuestionsQuiz() {
   return (
     <div>
   <QuestionsQuizItems
-    imageUrl="https://lh3.google.com/u/0/d/1Ex4BmRvDPpvyuX6I_ifu36xUgMFa-KIy=w1920-h868-iv2"
+    imageUrl="\images\ricky-kharawala-adK3Vu70DEQ-unsplash-removebg-preview 1.png"
     text1="QUIZHAMSTER: VOCÊ CONHECE BEM OS HAMSTERS?"
     text2="Hamster"
     questions={[
