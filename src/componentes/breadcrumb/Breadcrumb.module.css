@@ -10,14 +10,11 @@
 .crumb:after {
     content: '>';
     margin-left: 10px;
-    margin-right: 5px;
-    
-    
+    margin-right: 5px;   
   }
 
   .crumb:last-child:after {
-    content: none;
-    
+    content: none; 
   }
 
 
