@@ -1,5 +1,5 @@
-import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent";
-import SaguiObj from "../../../../jsObjects/Macacos/sagui.js";
+import SpeciePageComponent from "../../../../componentes/speciePageComponent/speciePageComponent.js";
+import SaguiObj from "../../../../jsObjects/Macacos/macacosSagui.js";
 
 export const Sagui = ( ) =>{
     return(
