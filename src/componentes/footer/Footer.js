@@ -29,7 +29,7 @@ export const Footer = () => {
             <Link to="/Animais">Animais</Link>
           </li>
           <li className={styles.listItem}>
-            <Link to="/quiz">Quiz</Link>
+            <Link to="/Quiz">Quiz</Link>
           </li>
           <li className={styles.listItem}>
             <Link to="/Sobre">Sobre</Link>
