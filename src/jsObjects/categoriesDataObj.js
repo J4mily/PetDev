@@ -117,17 +117,17 @@ const categoriesData = {
 
     monkeys: {
         nameCategory: "Macacos",
-        imgCategory: getImage("https://drive.google.com/file/d/1YIYXcFfGcbOZcWE-_wrdZTyGcGQujJ40/view?usp=sharing"),
+        imgCategory: "/images/categorias_macacos.png",
         monkeySpecies: [
             {
-                name: "Siamês",
-                img: getImage("https://drive.google.com/file/d/1WFhZ0YJZvWfTkP8o1VzYNws6Eamz1EgY/view?usp=drive_link"),
-                link_to: "/Siames"
+                name: "Macaco Prego",
+                img: "/images/prego_categorias_macacos.png",
+                link_to: "/Prego"
             },
             {
-                name: "Angorá",
-                img: getImage("https://drive.google.com/file/d/15snj5JPB2xzMEzIRBpd_hkS2_omujhyc/view?usp=drive_link"),
-                link_to: "/Angora"
+                name: "Sagui",
+                img: "images/sagui_categorias_macacos.png",
+                link_to: "/Sagui"
             }
         ]
     },
