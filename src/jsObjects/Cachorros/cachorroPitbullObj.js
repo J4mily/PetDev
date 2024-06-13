@@ -1,5 +1,5 @@
 const cachorroPitbullObj = {
-    imgIntro: "https://lh3.google.com/u/0/d/1xeR7JkNC6r07Yuj8Ll55xbiHgRyligWX=w1365-h911-iv2",
+    imgIntro: "/images/pag_pitbull_intro.png",
     altImgIntro: "imagem cachorro pitbull",
     introTitle: "Pitbull",
     //Todos os textos que tiverem quebra de linha devem estar entre ` ` para não dar erro no código
