@@ -88,5 +88,4 @@ function QuestionsQuiz() {
     </div>
   );
 }
-
 export default QuestionsQuiz;

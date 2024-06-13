@@ -1,6 +1,6 @@
 .pagQuiz {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 .spaceQuestionsQuiz {
@@ -102,6 +102,12 @@
     max-width: calc(100% - 4%);
     font-size: 50%;
   }
+
+  .button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
 } 
 
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Quiz.module.css";
-import Button from "./Button";
+import Button from "../../componentes/botao/Button.js";
 
 const NQuiz = ({ imageUrl, text1, text2, text3 }) => {
   const [hovered, setHovered] = useState(false);
@@ -43,9 +43,7 @@ const NQuiz = ({ imageUrl, text1, text2, text3 }) => {
       >
         <h1>{text1}</h1>
         <p>{text2}</p>
-        <Button texto="COMEÇAR" />
-                 
-        
+        <Button texto="COMEÇAR" />              
       </div>
     </div>
   );

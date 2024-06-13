@@ -24,5 +24,4 @@ export const quiz = () => {
     </div>
   );
 };
-
 export default quiz;
