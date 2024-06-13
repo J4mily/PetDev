@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./QuestionsQuiz.module.css";
-import Resolucao from "../../pages/quiz/Resolucao";
+import Resolucao from "../../pages/quiz/resolucao";
 
 const RadioButton = ({ name, value, label, onChange }) => {
   return (
@@ -73,7 +73,12 @@ const PerguntasQuiz = ({ imageUrl, imageStyle, text1, text2, questions, correctA
     <div className={styles.pagQuiz}>
       <div className={styles.titleQuiz}>
         <h1>{text1}</h1>
-        <img src={imageUrl} alt={`Imagem quiz ${text2}`} style={imageStyle} />
+        <img
+          src={imageUrl}
+          alt={`Imagem quiz ${text2}`}
+          style={imageStyle}
+          className={hovered ? styles.hovered : ""}
+        />
       </div>
       <div className={styles.spaceQuestionsQuiz}>
         <div className={styles.questionsQuiz}>

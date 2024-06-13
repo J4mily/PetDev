@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Animais from "./pages/animais";
-import Quiz from "./pages/quiz/Quiz";
+import Quiz from "./pages/quiz/quiz";
 import Sobre from "./pages/sobre";
 import Sugestao from "./pages/sugestoes";
 import Depoimentos from "./pages/depoimentos";
@@ -20,9 +20,9 @@ import CornSnake from "./pages/animais/Cobras/CornSnake";
 import Gopher from "./pages/animais/Cobras/Gopher";
 import Jiboia from "./pages/animais/Cobras/Jiboia/jiboia";
 import ScrollTop from "./componentes/scrollTop/ScrollTop";
-import QuizBetta from "./pages/quiz/QuizBetta";
-import QuizHamster from "./pages/quiz/QuizHamster";
-import QuizSagui from "./pages/quiz/QuizSagui";
+import QuizBetta from "./pages/quiz/quizBetta";
+import QuizHamster from "./pages/quiz/quizHamster";
+import QuizSagui from "./pages/quiz/quizSagui";
 import Rottweiler from "./pages/animais/Cachorros/rottweiler";
 import GoldenRetriever from "./pages/animais/Cachorros/goldenretriever";
 import PastorAlemao from "./pages/animais/Cachorros/pastoralemao";
@@ -47,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Animais" element={<Animais />} />
-        <Route path="/Quiz" element={<Quiz />} />
+        <Route path="/quiz" element={<Quiz />} />
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Sugestoes" element={<Sugestao />} />
         <Route path="/Depoimentos" element={<Depoimentos />} />
@@ -62,9 +62,9 @@ function App() {
         <Route path="/Animais/CornSnake" element={<CornSnake/>} />
         <Route path="/Animais/Gopher" element={<Gopher/>} />
         <Route path="/Animais/Jiboia" element={<Jiboia/>} />
-        <Route path="/Quiz/QuizBetta" element={<QuizBetta/>} />
-        <Route path="/Quiz/QuizHamster" element={<QuizHamster/>} />
-        <Route path="/Quiz/QuizSagui" element={<QuizSagui/>} />
+        <Route path="/quiz/quizBetta" element={<QuizBetta/>} />
+        <Route path="/quiz/quizHamster" element={<QuizHamster/>} />
+        <Route path="/quiz/quizSagui" element={<QuizSagui/>} />
         <Route path="/Animais/Rottweiler" element={<Rottweiler/>} />
         <Route path="/Animais/GoldenRetriever" element={<GoldenRetriever/>} />
         <Route path="/Animais/PastorAlemao" element={<PastorAlemao/>} />

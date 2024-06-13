@@ -1,3 +1,3 @@
-import Sagui from "./Sagui";
+import Sagui from "./sagui";
 
 export default Sagui;

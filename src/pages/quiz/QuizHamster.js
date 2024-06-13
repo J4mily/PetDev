@@ -6,7 +6,7 @@ function QuestionsQuiz() {
   const correctAnswersHamster = [
     "2-3 anos",
     "Russo, Sírio e Chinês",
-    "Sim",
+    "Noturnos",
     "Pouching",
     "Errado",
     "Bochechas expansíveis"
@@ -43,8 +43,8 @@ function QuestionsQuiz() {
         questionText: "Q3 - Os hamsters são animais noturnos ou diurnos?",
         name: "q3",
         options: [
-          { value: "Sim", label: "Sim" },
-          { value: "Não", label: "Não" },
+          { value: "Noturnos", label: "Noturnos" },
+          { value: "Diurnos", label: "Diurnos" },
         ],
       },
       {
