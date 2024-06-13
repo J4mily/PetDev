@@ -88,7 +88,7 @@ return (
     ]}
     correctAnswers={correctAnswersBetta}
   />
-);
+;
   </div>
 );
 }
