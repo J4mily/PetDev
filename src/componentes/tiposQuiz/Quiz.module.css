@@ -37,4 +37,13 @@
   padding: 1rem;
 }
 
+@media (max-width: 600px) {
+  .text {
+    padding-right: 10px;
+  }
+
+  .nQuizContainer {
+    flex-direction: column;
+  }
+}
 

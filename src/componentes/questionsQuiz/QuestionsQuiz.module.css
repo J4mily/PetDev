@@ -6,8 +6,8 @@
 .spaceQuestionsQuiz {
   background-color: #EDEDED;
   color: black;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
   align-items: center;
   justify-content: center;
   height: auto;
@@ -50,8 +50,8 @@
   color: black;
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .questionsQuiz > div {
@@ -72,12 +72,36 @@
 .titleQuiz {
   background-color: black;
   color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: calc(100% - 100px);
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: calc(100% - 10%);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 150px;
   font-size: 20px;
 }
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+  .spaceQuestionsQuiz {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 110%;
+  }
+
+  .questionsQuiz {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .titleQuiz {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 5%;
+    max-width: calc(100% - 4%);
+    font-size: 50%;
+  }
+} 
+
+
