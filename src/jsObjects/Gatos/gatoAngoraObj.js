@@ -29,7 +29,7 @@ const GatoAngoraObj = {
     imgProduct3: "/images/racao_golden_salmao_angora_alimentacao.png",
     altImgProduct3: "Ração Golden para Gatos Adultos Sabor Salmão",
     textImageProduct3: `Ração Golden para Gatos Adultos Sabor Salmão`,
-    curiosityTittle1: `Angorá branco`,
+    curiosityTittle1: `ANGORÁ BRANCO`,
     curiosityText1: `Os Angorás brancos podem nascer surdos, não é uma regra, mas é muito comum entre eles. Geralmente, esses gatinhos terão os olhos azuis. No caso de olhos de cores diferentes, o gatinho poderá não ter a audição de apenas um ouvido.`,
     curiosityTittle2: `FAMOSO`,
     curiosityText2: `Um Angorá muito conhecido, especialmente entre as crianças, é o lindo gatinho branco da Magali da série de quadrinhos Turma da Mônica. Muito travesso e carinhoso, o bichano pensa que é o dono da casa, característica marcante da raça.`,

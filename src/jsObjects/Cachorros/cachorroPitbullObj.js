@@ -5,7 +5,7 @@ const cachorroPitbullObj = {
     //Todos os textos que tiverem quebra de linha devem estar entre ` ` para não dar erro no código
     introText: "Historicamente, os Pitbulls foram criados para o trabalho, incluindo pastoreio de gado, caça, guarda e, infelizmente, também foram usados em atividades como lutas de cães. No entanto, quando criados e socializados adequadamente, os Pitbulls podem ser cães extremamente leais, afetuosos e obedientes. Eles são conhecidos por sua coragem, força e determinação.",
     generalInformationText: `Os Pitbulls exigem socialização adequada, treinamento consistente e cuidados veterinários regulares. Infelizmente, devido a sua aparência e histórico, os Pitbulls muitas vezes enfrentam estigmas e preconceitos injustos. No entanto, muitos defensores dos animais argumentam que a criação responsável e a educação adequada dos donos podem ajudar a desfazer esses estereótipos negativos e permitir que os Pitbulls sejam vistos como os cães amorosos e leais que frequentemente são.`,
-    imgYouNeedToKnow: "https://lh3.google.com/u/0/d/1V9V9a2Kq0H8oHLAmyCjLdcTcd3lB-_cQ=w1365-h911-iv2",
+    imgYouNeedToKnow: "/images/pag_pitbull_info.png",
     altImgYouNeedToKnow: "imagem pitbull info",
     lifetimeText: `Em média de 12 a 14 anos.`,
     estimatedPrice: `Pode variar entre 900$ até 10.000,00R$ .`,
@@ -19,13 +19,13 @@ const cachorroPitbullObj = {
     ofereça ao seu Pitbull muito amor, carinho e paciência. Como qualquer cão, ele é um membro da família e merece ser tratado com respeito e cuidado.
     
     É crucial socializar seu Pitbull desde filhote. Exponha-o a uma variedade de pessoas, animais, ambientes e situações para que ele aprenda a se comportar adequadamente em diferentes contextos.`,
-    imgProduct1: "https://lh3.google.com/u/0/d/1FhC7dNrWt3IOBL3WM_JBxcDeFsJMMdag=w1365-h911-iv2",
-    altImgProduct1: "Origens Raças espcíficas",
+    imgProduct1: "/images/racao_origens_pitbull_alimentacao.png",
+    altImgProduct1: "Origens Raças específicas",
     textImageProduct1: `Origens Raças específicas`,
-    imgProduct2: "https://lh3.google.com/u/0/d/1uHgc_uygJ13bt03Z73fzPrK8HbRx4l4B=w1365-h911-iv2",
+    imgProduct2: "/images/racao_golden_pitbull_alimentacao.png",
     altImgProduct2: "Golden Power Training",
     textImageProduct2: `Golden Power Training`,
-    imgProduct3: "https://lh3.google.com/u/0/d/13iQceIyiPu74HOzfW2jhchvHxqozFlbs=w1365-h911-iv2",
+    imgProduct3: "/images/racao_premiere_pitbull_alimentacao.png",
     altImgProduct3: "Premier pet raças especificas",
     textImageProduct3: `Premier pet raças especificas`,
     curiosityTittle1: `Tolerância ao desconforto`,

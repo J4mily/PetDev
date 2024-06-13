@@ -34,14 +34,14 @@ const siamesObj = {
     imgProduct3: "/images/digestive_grass_siames_alimentacao.png",
     altImgProduct3: "Graminha Ipet para Gatos Siamês",
     textImageProduct3: "Graminha Ipet para Gatos Adultos Digestive Grass",
-    curiosityTittle1: `Segurança`,
+    curiosityTittle1: `SEGURANÇA`,
     curiosityText1: `Bastante valorizados pelo rei de Sião (atual Tailândia), o gato Siamês era utilizado como vigia nos palácios. O imperador contava com o bichano posicionado em colunas ao lado do trono dele. Assim, quando alguma pessoa ameaçasse o monarca, o gato pularia em cima dela para imobilizá-lo.`,
-    curiosityTittle2: `Segurança`,
-    curiosityText2: `Bastante valorizados pelo rei de Sião (atual Tailândia), o gato Siamês era utilizado como vigia nos palácios. O imperador contava com o bichano posicionado em colunas ao lado do trono dele. Assim, quando alguma pessoa ameaçasse o monarca, o gato pularia em cima dela para imobilizá-lo.`,
-    curiosityTittle3: `Segurança`,
-    curiosityText3: `Bastante valorizados pelo rei de Sião (atual Tailândia), o gato Siamês era utilizado como vigia nos palácios. O imperador contava com o bichano posicionado em colunas ao lado do trono dele. Assim, quando alguma pessoa ameaçasse o monarca, o gato pularia em cima dela para imobilizá-lo.`,
-    curiosityTittle4: `Segurança`,
-    curiosityText4: `Bastante valorizados pelo rei de Sião (atual Tailândia), o gato Siamês era utilizado como vigia nos palácios. O imperador contava com o bichano posicionado em colunas ao lado do trono dele. Assim, quando alguma pessoa ameaçasse o monarca, o gato pularia em cima dela para imobilizá-lo.`,
+    curiosityTittle2: `ASTRO DE CINEMA`,
+    curiosityText2: `Famosos como só eles, os gatos siameses já estiverem representados em clássicos, como em A Dama e o Vagabundo. Na trama, a cadela Lady sofre alguns perrengues ao passar alguns dias na casa de dois felinos da raça. No filme, os nomes deles são Si e Am, como uma referência à origem dos bichanos`,
+    curiosityTittle3: `PELAGEM`,
+    curiosityText3: `A pelagem dos siameses costuma ser bastante conhecida, geralmente eles são brancos ou beges, tendo as extremidades do corpo, como rabo, patas, cauda e focinho, na cor marrom ou preto.`,
+    curiosityTittle4: `RARIDADE`,
+    curiosityText4: `Mesmo tendo ficado famoso entre a realeza inglesa, era muito difícil ver gatos siameses entre os apaixonados por felinos naquela época. Entretanto, após a Segunda Guerra Mundial, o gatinho acabou se popularizando no mundo inteiro, principalmente na Europa.`,
 }
 
 export default siamesObj;

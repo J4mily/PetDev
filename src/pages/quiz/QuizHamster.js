@@ -8,7 +8,7 @@ function QuestionsQuiz() {
     "Russo, Sírio e Chinês",
     "Noturnos",
     "Pouching",
-    "Errado",
+    "Certo",
     "Bochechas expansíveis"
   ];
 

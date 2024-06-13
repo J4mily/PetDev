@@ -35,7 +35,7 @@ const cachorroGoldenRetrieverObj = {
     curiosityTittle2: `OBEDIÊNCIA`,
     curiosityText2: ` Os primeiros três cachorros a alcançarem o título de campeões de obediência do American Kennel Club (AKC) eram golden retrievers.`,
     curiosityTittle3: `RANKING`,
-    curiosityText3: `o golden retriever é a 8ª raça mais popular no Brasil
+    curiosityText3: `O golden retriever é a 8ª raça mais popular no Brasil
     `,
     curiosityTittle4: `NOMES MAIS COMUNS`,
     curiosityText4: `Os nomes mais populares de golden retriviers são Mel e Zeus!`,

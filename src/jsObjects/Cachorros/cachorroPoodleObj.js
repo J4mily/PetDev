@@ -1,13 +1,13 @@
 import getImage from "../../utilities/getImageLink";
 
 const cachorroPoodleObj = {
-    imgIntro: getImage("https://drive.google.com/file/d/1G1-DMSYW3ITONH6fJZ9cU8zP6vDxno5I/view?usp=drive_link"),
+    imgIntro: "/images/pag_poodle_intro.png",
     altImgIntro: "Imagem cachorro poodle",
     introTitle: "POODLE",
     //Todos os textos que tiverem quebra de linha devem estar entre ` ` para não dar erro no código
     introText: "Com sua pelagem encaracolada, o Poodle é uma das raças de cachorro mais reconhecíveis a distância. A raça também se destaca por sua inteligência - o Poodle está em segundo lugar no rank das raças mais inteligentes, sendo muito popular no Brasil e no mundo.",
     generalInformationText: `O Poodle pode ser encontrado em quatro portes: toy, anão, médio e grande, podendo pesar de 2kg à 23kg. A coloração da pelagem varia entre branco, preto, marrom, cinza, abricó e fulvo avermelhado. São animais muito fiéis  e obedientes, sendo um dos motivos que os fazem ser tão queridos pelos tutores. Sua origem  é incerta, sendo popularmente apontada à França; porém há relatos da Alemanha ser a terra natal do cãozinho.`,
-    imgYouNeedToKnow: getImage("https://drive.google.com/file/d/1WjEQkI_j6_pizivjIytuIOZfUDpgkT8b/view?usp=drive_link"),
+    imgYouNeedToKnow: "/images/pag_poodle_info.png",
     altImgYouNeedToKnow: "Imagem poodle info",
     lifetimeText: `Em média 18 anos.`,
     estimatedPrice: `De R$ 600,00 à R$ 6.000,00 de acordo com o porte.`,
@@ -21,13 +21,13 @@ Recomenda-se para os Poodles cerca de dois banhos por mês para manter a pelagem
 Por possuirem uma expectativa de vida alta, algumas doenças podem afetar o cãozinho ao longo dos anos, tais como a luxação patelar nos de menor porte, que dificulta a caminhada do animal e a possibilidade de desenvolver catarata durante a fase sênior, doença que afeta a visão. Faça visitas frequentes ao médico veterinário para realizar check-ups para prevenção de doenças.
 
 Por ser um cão muito ativo, mantenha uma rotina com brincadeiras e exercícios.`,
-    imgProduct1: getImage("https://drive.google.com/file/d/1TFM93p053MZPJMpoGlcvD28dOXn727Y-/view?usp=drive_link"),
+    imgProduct1: "/images/racao_royal_poodle_alimentacao.png",
     altImgProduct1: "Ração Royan Canin Poodle - Cães adultos",
     textImageProduct1: `Ração Royan Canin Poodle - Cães adultos`,
-    imgProduct2: getImage("https://drive.google.com/file/d/1JVZm8ok-Ktu9FfolEpgdwnXM3XgxkuUB/view?usp=drive_link"),
+    imgProduct2: "/images/racao_premiere_adulto_poodle_alimentacao.png",
     altImgProduct2: "Ração Premier raças específicas Poodle para cães adultos",
     textImageProduct2: `Ração Premier raças específicas Poodle para cães adultos`,
-    imgProduct3: getImage("https://drive.google.com/file/d/1Q7r7d9tsCl7ibabMYFnKFoDl8G8xVnXh/view?usp=drive_link"),
+    imgProduct3: "/images/racao_premiere_filhotes_poodle_alimentacao.png",
     altImgProduct3: "Ração Premier raças específicas Poodle para cães filhotes",
     textImageProduct3: `Ração Premier raças específicas Poodle para cães filhotes`,
     curiosityTittle1: `PELAGEM`,

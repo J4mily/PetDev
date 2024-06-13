@@ -134,21 +134,21 @@ const categoriesData = {
 
     snakes: {
         nameCategory: "Cobras",
-        imgCategory: getImage("https://drive.google.com/file/d/1__ApZuuTnr1_MIApLk78xmatOB4FQ-nu/view?usp=drive_link"),
+        imgCategory: "/images/categorias_cobras.png",
         snakeSpecies: [
             {
                 name: "CornSnake",
-                img: getImage("https://drive.google.com/file/d/1N_F7zoKh-9k-XMTScEUqsLEChut2koyN/view?usp=drive_link"),
+                img: "/images/corn_snake_categorias_cobras.png",
                 link_to: "/CornSnake"
             },
             {
                 name: "Gopher",
-                img: getImage("https://drive.google.com/file/d/1nyxJg0LyRSyWFcHc6hBmAv7hUXk0U4Iu/view?usp=drive_link"),
+                img: "/images/gopher_categorias_cobras.png",
                 link_to: "/Gopher"
             },
             {
                 name: "Jiboia",
-                img: getImage("https://drive.google.com/file/d/1z7vDxFQWofuXyTZe5Vl-COETLHoEQuY-/view?usp=drive_link"),
+                img: "images/jiboia_categorias_cobras.png",
                 link_to: "/Jiboia"
             }
         ]
@@ -161,7 +161,7 @@ const categoriesData = {
             {
                 name: "Betta",
                 img: "./images/betta_categorias_peixes.png",
-                link_to:"/betta"
+                link_to:"/Betta"
             },
         ]
     },

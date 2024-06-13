@@ -27,7 +27,7 @@ Consultas veterinárias regulares são recomendadas para monitorar a saúde do a
     imgProduct3: "/images/racao_megazoo_prego_alimentacao.png",
     altImgProduct3: "Imagem Ração Primatas Super Premium Megazoo 600 gramas",
     textImageProduct3: `Primatas Super Premium Megazoo 600g`,
-    curiosityTittle1: `Comunicação`,
+    curiosityTittle1: `COMUNICAÇÃO`,
     curiosityText1: `Os Macacos-pregos se comunicam através de uma variedade de vocalizações e gestos. Eles emitem sons para expressar diferentes emoções, alertar para perigos ou coordenar atividades dentro do grupo.`,
     curiosityTittle2: `SOCIAL`,
     curiosityText2: `Os macacos-prego vivem em grupos sociais complexos com hierarquias dominantes. Eles formam laços fortes com seus familiares e amigos, demonstrando afeto através do contato físico, brincadeiras e vocalizações.`,
