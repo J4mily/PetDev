@@ -37,7 +37,16 @@
   padding: 1rem;
 }
 
+
+
 @media (max-width: 600px) {
+  .quizImg {
+    width: 100%;  
+    max-width: 549px; 
+    padding-right: 30%;
+    margin-left: 5%;
+  }
+
   .text {
     padding-right: 10px;
   }
