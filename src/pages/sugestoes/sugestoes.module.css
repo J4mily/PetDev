@@ -8,6 +8,7 @@
   border-radius: 10px;
   background-color: #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1vw;
 }
 
 .Sugestoes h1 {
@@ -59,6 +60,7 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
+
 }
 
 input[type="submit"]:hover {

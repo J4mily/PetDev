@@ -1,4 +1,3 @@
-import getImage from "../../utilities/getImageLink";
 
 const cachorroPoodleObj = {
     imgIntro: "/images/pag_poodle_intro.png",

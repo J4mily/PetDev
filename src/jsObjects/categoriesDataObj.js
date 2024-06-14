@@ -1,5 +1,3 @@
-import getImage from "../utilities/getImageLink";
-
 const categoriesData = {
     dogs: {
         nameCategory: "Cachorros",

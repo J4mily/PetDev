@@ -15,9 +15,15 @@ export default function Sugestoes() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (formData.name.trim() === "" || formData.email.trim() === "" || formData.message.trim() === "") {
+      alert("Por favor, preencha todos os campos (Nome, Email e Mensagem são obrigatórios).");
+      return;
+    }
+
     // Exibe a caixa de confirmação
     const isConfirmed = window.confirm(
-      "Sua sugestão foi aceita com sucesso. Deseja continuar?",
+      "Sua sugestão foi aceita com sucesso. Deseja continuar?"
     );
     if (isConfirmed) {
       // Limpa o formulário após a confirmação
@@ -26,6 +32,7 @@ export default function Sugestoes() {
         email: "",
         message: "",
       });
+      alert("Sua sugestão foi enviada com sucesso!");
     }
   };
 

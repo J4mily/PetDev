@@ -1,5 +1,3 @@
-import getImage from "../../utilities/getImageLink";
-
 const PeriquitoObj = {
   imgIntro: "/images/pag_periquito_intro.png",
   altImgIntro: "Imagem periquito Intro",
