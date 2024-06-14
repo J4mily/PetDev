@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/xY1T-uligWl02Xcj-U9xB/_buildManifest.js",
-    "static/xY1T-uligWl02Xcj-U9xB/_ssgManifest.js"
+    "static/tZievLUWnU-LWKw6asPGD/_buildManifest.js",
+    "static/tZievLUWnU-LWKw6asPGD/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -491,8 +491,8 @@
       "static/chunks/framework-8b1df264b84fb164.js",
       "static/chunks/3b1baa31-6253edda4a8e7cdd.js",
       "static/chunks/2660-37b3b8e35bb0fc27.js",
-      "static/css/2a3a8ee781f8e519.css",
-      "static/chunks/pages/quiz/quizOptions-c595cb3cb006816c.js"
+      "static/chunks/pages/quiz/quizOptions-c595cb3cb006816c.js",
+      "static/css/2a3a8ee781f8e519.css"
     ],
     "/quiz/quizSagui": [
       "static/chunks/webpack-10311436baca1d61.js",
