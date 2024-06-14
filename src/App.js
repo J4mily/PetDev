@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Animais from "./pages/animais";
-import Quiz from "./pages/quiz/quiz";
+import Quiz from "./pages/quiz/quizOptions";
 import Sobre from "./pages/sobre";
 import Sugestao from "./pages/sugestoes";
 import Depoimentos from "./pages/depoimentos";

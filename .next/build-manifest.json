@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/u0XOuY3NzWANCksCXm3VZ/_buildManifest.js",
-    "static/u0XOuY3NzWANCksCXm3VZ/_ssgManifest.js"
+    "static/xY1T-uligWl02Xcj-U9xB/_buildManifest.js",
+    "static/xY1T-uligWl02Xcj-U9xB/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -451,16 +451,7 @@
       "static/chunks/3b1baa31-6253edda4a8e7cdd.js",
       "static/chunks/2660-37b3b8e35bb0fc27.js",
       "static/css/2a3a8ee781f8e519.css",
-      "static/chunks/pages/quiz-b193be6baa4ea554.js"
-    ],
-    "/quiz/quiz": [
-      "static/chunks/webpack-10311436baca1d61.js",
-      "static/chunks/main-7446e7fbdd01b215.js",
-      "static/chunks/framework-8b1df264b84fb164.js",
-      "static/chunks/3b1baa31-6253edda4a8e7cdd.js",
-      "static/chunks/2660-37b3b8e35bb0fc27.js",
-      "static/css/2a3a8ee781f8e519.css",
-      "static/chunks/pages/quiz/quiz-e55fc6c078d39978.js"
+      "static/chunks/pages/quiz-e6e30dcb1cea3330.js"
     ],
     "/quiz/quizBetta": [
       "static/chunks/webpack-10311436baca1d61.js",
@@ -468,7 +459,7 @@
       "static/chunks/framework-8b1df264b84fb164.js",
       "static/chunks/3253-0f4f2a169ce6c82c.js",
       "static/css/e96201a1c4135a0a.css",
-      "static/chunks/pages/quiz/quizBetta-4a46bf78fcb933d6.js"
+      "static/chunks/pages/quiz/quizBetta-b13e768faf754dd9.js"
     ],
     "/quiz/quizBetta/quizBetta": [
       "static/chunks/webpack-10311436baca1d61.js",
@@ -493,6 +484,15 @@
       "static/chunks/3253-0f4f2a169ce6c82c.js",
       "static/css/e96201a1c4135a0a.css",
       "static/chunks/pages/quiz/quizHamster/quizHamster-5513ec902144fc01.js"
+    ],
+    "/quiz/quizOptions": [
+      "static/chunks/webpack-10311436baca1d61.js",
+      "static/chunks/main-7446e7fbdd01b215.js",
+      "static/chunks/framework-8b1df264b84fb164.js",
+      "static/chunks/3b1baa31-6253edda4a8e7cdd.js",
+      "static/chunks/2660-37b3b8e35bb0fc27.js",
+      "static/css/2a3a8ee781f8e519.css",
+      "static/chunks/pages/quiz/quizOptions-c595cb3cb006816c.js"
     ],
     "/quiz/quizSagui": [
       "static/chunks/webpack-10311436baca1d61.js",

@@ -1,3 +1,3 @@
-import { Quiz } from "./quiz";
+import { Quiz } from "./quizOptions";
 
 export default Quiz;    
