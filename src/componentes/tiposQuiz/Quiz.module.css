@@ -1,8 +1,8 @@
 .quizImg {
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 40vw;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 45vw;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -27,13 +27,14 @@
 }
 
 .text p {
-  font-size: 20px;
+  font-size: 2vw;
   font-family: 'Roboto', sans-serif;
 }
 
 .text h1 {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
 }
 
 .nQuizContainer {
@@ -46,8 +47,8 @@
 @media (max-width: 600px) {
   .quizImg {
     width: 100%;  
-    max-width:40vw; 
-    padding: 20px 30% 20px 5%;
+    max-width:70vw; 
+    padding: 2%;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -55,22 +56,30 @@
 
   .quizImg button {
     width: 80%; 
-    padding: 10px;
+    padding: 3%;
     font-size: 1.2em; 
   }
 
   .text {
-    padding-right: 10px;
-    text-align: center; 
+  padding-right: 0vw;
+  text-align: center;
+  margin: 3%;
+  }
+  .text p {
+    font-size: 3.5vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text h1 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5vw;
   }
 
-  .text button {
-    display: block; 
-    margin: 0 auto; 
-  }
 
   .nQuizContainer {
     flex-direction: column;
     align-items: center;
   }
+
 }
