@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Oukj5QnBXdL6VWpc7_SRM/_buildManifest.js",
-    "static/Oukj5QnBXdL6VWpc7_SRM/_ssgManifest.js"
+    "static/AnfSjlRLAEA5En7DxDB3V/_buildManifest.js",
+    "static/AnfSjlRLAEA5En7DxDB3V/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -414,7 +414,7 @@
       "static/chunks/framework-8b1df264b84fb164.js",
       "static/css/f7a4a67672afaf9e.css",
       "static/chunks/1695-93be93234332eec5.js",
-      "static/css/029542b05ff931e6.css",
+      "static/css/13812ac220bc3311.css",
       "static/chunks/pages/depoimentos-a13127743ecaf3ca.js"
     ],
     "/depoimentos/Depoimentos": [
@@ -423,7 +423,7 @@
       "static/chunks/framework-8b1df264b84fb164.js",
       "static/css/f7a4a67672afaf9e.css",
       "static/chunks/1695-93be93234332eec5.js",
-      "static/css/029542b05ff931e6.css",
+      "static/css/13812ac220bc3311.css",
       "static/chunks/pages/depoimentos/Depoimentos-69b3a624ec659960.js"
     ],
     "/home": [
