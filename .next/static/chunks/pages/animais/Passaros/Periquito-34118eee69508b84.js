@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2982],{1941:function(n,u,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Passaros/Periquito",function(){return i(4557)}])},4557:function(n,u,i){"use strict";i.r(u);var t=i(9750);u.default=t.Periquito}},function(n){n.O(0,[9774,9750,2888,179],function(){return n(n.s=1941)}),_N_E=n.O()}]);

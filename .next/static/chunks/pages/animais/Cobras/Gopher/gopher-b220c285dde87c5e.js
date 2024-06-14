@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4937],{473:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cobras/Gopher/gopher",function(){return u(6286)}])}},function(n){n.O(0,[9774,6286,2888,179],function(){return n(n.s=473)}),_N_E=n.O()}]);

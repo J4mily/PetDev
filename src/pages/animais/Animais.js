@@ -3,9 +3,6 @@ import styles from "./Animais.module.css"
 import categoriesData from "../../jsObjects/categoriesDataObj"
 import React, { useState } from "react";
 
-
-
-
 export const Animais = () =>{
     
     const [activeButton, setActiveButton] = useState(null);
@@ -80,4 +77,4 @@ export const Animais = () =>{
     )
 }
 
-
+export default Animais;

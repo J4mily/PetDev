@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7795],{744:function(n,e,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/rottweiler/rottweiler",function(){return _(8e3)}])}},function(n){n.O(0,[9774,8e3,2888,179],function(){return n(n.s=744)}),_N_E=n.O()}]);

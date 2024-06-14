@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7528],{6494:function(n,u,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/goldenretriever",function(){return e(1158)}])},1158:function(n,u,e){"use strict";e.r(u);var r=e(8208);u.default=r.default}},function(n){n.O(0,[9774,8208,2888,179],function(){return n(n.s=6494)}),_N_E=n.O()}]);

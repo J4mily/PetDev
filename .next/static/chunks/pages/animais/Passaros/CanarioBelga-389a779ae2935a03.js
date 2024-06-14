@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5898],{7330:function(n,a,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Passaros/CanarioBelga",function(){return u(8278)}])},8278:function(n,a,u){"use strict";u.r(a);var i=u(4066);a.default=i.CanarioBelga}},function(n){n.O(0,[9774,4066,2888,179],function(){return n(n.s=7330)}),_N_E=n.O()}]);

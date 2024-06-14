@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3370],{6011:function(n,u,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/shihtzu",function(){return t(2830)}])},2830:function(n,u,t){"use strict";t.r(u);var _=t(7731);u.default=_.default}},function(n){n.O(0,[9774,7731,2888,179],function(){return n(n.s=6011)}),_N_E=n.O()}]);

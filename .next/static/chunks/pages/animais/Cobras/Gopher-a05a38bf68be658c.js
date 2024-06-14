@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9055],{7623:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cobras/Gopher",function(){return _(8597)}])},8597:function(n,u,_){"use strict";_.r(u);var t=_(6286);u.default=t.default}},function(n){n.O(0,[9774,6286,2888,179],function(){return n(n.s=7623)}),_N_E=n.O()}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9607],{4245:function(n,o,r){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/bordercollie",function(){return r(326)}])},326:function(n,o,r){"use strict";r.r(o);var u=r(3822);o.default=u.BorderCollie}},function(n){n.O(0,[9774,3822,2888,179],function(){return n(n.s=4245)}),_N_E=n.O()}]);

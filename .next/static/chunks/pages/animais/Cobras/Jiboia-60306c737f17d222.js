@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4605],{1407:function(n,u,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cobras/Jiboia",function(){return i(9318)}])},9318:function(n,u,i){"use strict";i.r(u);var _=i(4734);u.default=_.default}},function(n){n.O(0,[9774,4734,2888,179],function(){return n(n.s=1407)}),_N_E=n.O()}]);

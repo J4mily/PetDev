@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4517],{4712:function(n,_,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Roedores/Hamster/Hamster",function(){return e(3178)}])}},function(n){n.O(0,[9774,3178,2888,179],function(){return n(n.s=4712)}),_N_E=n.O()}]);

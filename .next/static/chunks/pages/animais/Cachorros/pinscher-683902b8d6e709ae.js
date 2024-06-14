@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9636],{9972:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/pinscher",function(){return _(9328)}])},9328:function(n,u,_){"use strict";_.r(u);var i=_(3538);u.default=i.default}},function(n){n.O(0,[9774,3538,2888,179],function(){return n(n.s=9972)}),_N_E=n.O()}]);

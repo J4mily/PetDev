@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[832],{6738:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Macacos/Sagui/sagui",function(){return _(5858)}])}},function(n){n.O(0,[9774,5858,2888,179],function(){return n(n.s=6738)}),_N_E=n.O()}]);

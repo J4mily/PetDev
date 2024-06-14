@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6023],{7752:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Gatos/persa/persa",function(){return u(4522)}])}},function(n){n.O(0,[9774,4522,2888,179],function(){return n(n.s=7752)}),_N_E=n.O()}]);

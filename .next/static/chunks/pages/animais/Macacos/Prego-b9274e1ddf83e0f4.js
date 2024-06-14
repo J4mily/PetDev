@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5352],{9651:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Macacos/Prego",function(){return _(7922)}])},7922:function(n,u,_){"use strict";_.r(u);var t=_(2962);u.default=t.default}},function(n){n.O(0,[9774,2962,2888,179],function(){return n(n.s=9651)}),_N_E=n.O()}]);

@@ -1,6 +1,6 @@
 import NQuiz from "../../componentes/tiposQuiz/Quiz";
 
-export const quiz = () => {
+export const Quiz = () => {
   return (
     <div>
       <NQuiz
@@ -24,4 +24,4 @@ export const quiz = () => {
     </div>
   );
 };
-export default quiz;
+export default Quiz;

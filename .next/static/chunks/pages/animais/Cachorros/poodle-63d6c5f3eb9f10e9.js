@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3061],{3964:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/poodle",function(){return _(6010)}])},6010:function(n,u,_){"use strict";_.r(u);var o=_(1880);u.default=o.default}},function(n){n.O(0,[9774,1880,2888,179],function(){return n(n.s=3964)}),_N_E=n.O()}]);

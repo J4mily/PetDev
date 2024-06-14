@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8416],{776:function(n,u,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Roedores/PorquinhoDaIndia",function(){return i(510)}])},510:function(n,u,i){"use strict";i.r(u);var o=i(401);u.default=o.PorquinhoDaIndia}},function(n){n.O(0,[9774,401,2888,179],function(){return n(n.s=776)}),_N_E=n.O()}]);

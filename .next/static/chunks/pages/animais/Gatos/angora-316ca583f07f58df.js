@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7660],{8325:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Gatos/angora",function(){return _(6276)}])},6276:function(n,u,_){"use strict";_.r(u);var t=_(5807);u.default=t.Angora}},function(n){n.O(0,[9774,5807,2888,179],function(){return n(n.s=8325)}),_N_E=n.O()}]);

@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[848],{5409:function(n,o,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/animais/Cachorros/pastoralemao/pastoralemao",function(){return _(8897)}])}},function(n){n.O(0,[9774,8897,2888,179],function(){return n(n.s=5409)}),_N_E=n.O()}]);
