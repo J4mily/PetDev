@@ -31,3 +31,24 @@
 .lista_parceiros {
   padding: 10px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    height: auto; /* Ajusta a altura para auto */
+  }
+
+  .container h1 {
+    font-size: 2rem; /* Diminui o tamanho da fonte */
+  }
+
+  .carrossel img {
+    width: 100%; /* Ajusta a largura da imagem para 100% */
+    left: 0; /* Remove o deslocamento à esquerda */
+  }
+
+  .parceiros {
+    flex-direction: column; /* Muda a direção do flex para coluna */
+    margin-left: 0; /* Remove a margem esquerda */
+    min-width: 0; /* Remove a largura mínima */
+  }
+}
