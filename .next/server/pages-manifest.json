@@ -34,7 +34,7 @@
   "/animais": "pages/animais.js",
   "/depoimentos": "pages/depoimentos.js",
   "/home": "pages/home.js",
-  "/quiz": "pages/quiz.js",
+  "/quiz": "pages/quiz/quiz.js",
   "/quiz/quizBetta": "pages/quiz/quizBetta.js",
   "/quiz/quizHamster": "pages/quiz/quizHamster.js",
   "/quiz/quizSagui": "pages/quiz/quizSagui.js",
