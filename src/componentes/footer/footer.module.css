@@ -11,6 +11,14 @@
     width: clamp(300px, 15vw, 15000px); 
     margin-top: -10%;
   }
+
+  @media (max-width: 600px) {
+    .logo {
+      width: clamp(100px, 10vw, 300px);
+      margin-left: 5%;
+      margin-bottom:20%;
+    }
+  }
   
   .containerItem {
     flex: 1 1 33.33%; /* Cada item ocupa um terço da largura */
