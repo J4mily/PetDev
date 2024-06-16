@@ -17,9 +17,9 @@ export const Footer = () => {
         </div>
         <div className={styles.containerItem}>
           <span className={`${styles.contact} ${styles.text}`}>
-            Contato
+            Contato:
             <br />
-            contato@petdev.com
+            ctpetdev@gmail.com
             <br />
             
           </span>

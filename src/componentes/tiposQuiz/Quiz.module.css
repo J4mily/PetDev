@@ -12,7 +12,7 @@
 }
 
 .text {
-  padding-right: 10vw;
+  padding-right: 1vw;
   cursor: pointer;
 }
 
@@ -65,6 +65,7 @@
   text-align: center;
   margin: 3%;
   }
+  
   .text p {
     font-size: 3.5vw;
     font-family: 'Roboto', sans-serif;

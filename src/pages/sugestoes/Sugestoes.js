@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "./sugestoes.module.css";
+import emailjs from "@emailjs/browser";
 
 export default function Sugestoes() {
   const [formData, setFormData] = useState({
@@ -21,18 +22,29 @@ export default function Sugestoes() {
       return;
     }
 
-    // Exibe a caixa de confirmação
     const isConfirmed = window.confirm(
       "Sua sugestão foi aceita com sucesso. Deseja continuar?"
     );
     if (isConfirmed) {
-      // Limpa o formulário após a confirmação
-      setFormData({
-        name: "",
-        email: "",
-        message: "",
-      });
-      alert("Sua sugestão foi enviada com sucesso!");
+      const templateParams = {
+        from_name: formData.name.trim(),
+        email: formData.email.trim(),
+        message: formData.message.trim(),
+      };
+
+      emailjs.send("service_qz6qdpf", "template_n62zvjh", templateParams, "OSFS2ByfAUBmrEhqR")
+        .then((response) => {
+          alert("Sua sugestão foi enviada com sucesso!");
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+        })
+        .catch((error) => {
+          alert("Ocorreu um erro ao enviar sua sugestão. Tente novamente.");
+          console.error("FAILED...", error);
+        });
     }
   };
 
